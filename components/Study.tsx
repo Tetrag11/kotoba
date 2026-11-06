@@ -11,7 +11,7 @@ import {
   type Progress,
   type Session,
 } from "@/lib/session";
-import type { Word } from "@/lib/words";
+import { decks, type Card, type DeckId } from "@/lib/decks";
 import { Quiz } from "./Quiz";
 import { WordGrid } from "./WordGrid";
 
@@ -37,22 +37,33 @@ async function postAttempt(attempt: Attempt): Promise<boolean> {
   return false;
 }
 
+const DECK_IDS: DeckId[] = ["words", "kanji"];
+
 export function Study({
-  words,
+  initialDeck,
   initialProgress,
   storage,
 }: {
-  words: Word[];
+  initialDeck: DeckId;
   initialProgress: Progress;
   storage: Storage;
 }) {
+  const [deckId, setDeckId] = useState(initialDeck);
   const [progress, setProgress] = useState(initialProgress);
   const [size, setSize] = useState(20);
   const [session, setSession] = useState<Session | null>(null);
   const [finished, setFinished] = useState<Session | null>(null);
   const [unsaved, setUnsaved] = useState(0);
   const pending = useRef(new Set<Promise<boolean>>());
-  const byId = new Map(words.map((w) => [w.id, w]));
+  const deck = decks[deckId];
+  const byId = new Map(deck.cards.map((c) => [c.id, c]));
+
+  function chooseDeck(next: DeckId) {
+    setDeckId(next);
+    setFinished(null);
+    // Keeps the chosen deck across a refresh.
+    window.history.replaceState(null, "", next === "kanji" ? "/?deck=kanji" : "/");
+  }
 
   function save(attempt: Attempt) {
     if (storage === "none") return;
@@ -67,7 +78,7 @@ export function Study({
   function start() {
     setFinished(null);
     setUnsaved(0);
-    setSession(startSession(pickWords(words, progress, size)));
+    setSession(startSession(pickWords(deck.cards, progress, size)));
   }
 
   async function finish(result: Session) {
@@ -90,6 +101,8 @@ export function Study({
         key={session.turn}
         session={session}
         byId={byId}
+        singular={deck.singular}
+        showReading={deckId === "words"}
         onChange={setSession}
         onFinish={finish}
         onSave={save}
@@ -98,14 +111,31 @@ export function Study({
   }
 
   const counts = { new: 0, learning: 0, learned: 0 };
-  for (const w of words) counts[statusOf(progress[w.id])]++;
-  const sessionSize = Math.min(size, words.length);
+  for (const c of deck.cards) counts[statusOf(progress[c.id])]++;
+  const sessionSize = Math.min(size, deck.cards.length);
 
   return (
     <main className="sheet">
       <header className="masthead">
-        <h1 lang="ja">ことば</h1>
-        <p>JLPT N5 vocabulary, pages 1 to 11</p>
+        <div className="masthead-row">
+          <h1 lang="ja">ことば</h1>
+          <fieldset className="choice">
+            <legend className="visually-hidden">What to study</legend>
+            {DECK_IDS.map((id) => (
+              <label key={id}>
+                <input
+                  type="radio"
+                  name="deck"
+                  value={id}
+                  checked={deckId === id}
+                  onChange={() => chooseDeck(id)}
+                />
+                <span>{decks[id].label}</span>
+              </label>
+            ))}
+          </fieldset>
+        </div>
+        <p>{deck.description}</p>
       </header>
 
       {storage === "none" && (
@@ -123,8 +153,8 @@ export function Study({
       {finished && <Summary session={finished} byId={byId} unsaved={unsaved} />}
 
       <section className="start" aria-label="Start studying">
-        <fieldset className="sizes">
-          <legend>Words per session</legend>
+        <fieldset className="choice">
+          <legend>{deck.label} per session</legend>
           {SIZES.map((n) => (
             <label key={n}>
               <input
@@ -139,12 +169,12 @@ export function Study({
           ))}
         </fieldset>
         <button className="primary" onClick={start}>
-          Start {sessionSize} words
+          Start {sessionSize} {sessionSize === 1 ? deck.singular : deck.plural}
         </button>
       </section>
 
       <section aria-label="Your progress">
-        <WordGrid words={words} progress={progress} />
+        <WordGrid cards={deck.cards} plural={deck.plural} progress={progress} />
         <ul className="legend">
           <li>
             <span className="swatch swatch-new" /> {counts.new} new
@@ -156,7 +186,10 @@ export function Study({
             <span className="swatch swatch-learned" /> {counts.learned} learned
           </li>
         </ul>
-        <p className="hint">A word is learned after {LEARNED_STREAK} right answers in a row.</p>
+        <p className="hint">
+          {deckId === "kanji" ? "A kanji" : "A word"} is learned after {LEARNED_STREAK} right answers
+          in a row.
+        </p>
       </section>
     </main>
   );
@@ -168,7 +201,7 @@ function Summary({
   unsaved,
 }: {
   session: Session;
-  byId: Map<string, Word>;
+  byId: Map<string, Card>;
   unsaved: number;
 }) {
   const missed = missedIds(session);
@@ -189,16 +222,16 @@ function Summary({
           <p className="hint">These come back sooner next time.</p>
           <ul className="missed">
             {missed.map((id) => {
-              const word = byId.get(id)!;
+              const card = byId.get(id)!;
               return (
                 <li key={id}>
                   <span lang="ja" className="missed-word">
-                    {word.kanji || word.kana}
+                    {card.prompt}
                   </span>
                   <span lang="ja" className="missed-kana">
-                    {word.kanji ? word.kana : ""}
+                    {card.reading}
                   </span>
-                  <span>{word.english}</span>
+                  <span>{card.english}</span>
                 </li>
               );
             })}

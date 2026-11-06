@@ -1,5 +1,3 @@
-import type { Word } from "./words";
-
 export type WordProgress = {
   attempts: number;
   correct: number;
@@ -33,17 +31,17 @@ function shuffle<T>(items: T[], random: () => number): T[] {
  * Picks a session: up to half is words still being learned, weakest first, and
  * the rest is new words. Learned words only fill whatever room is left.
  */
-export function pickWords(
-  words: Word[],
+export function pickWords<T extends { id: string }>(
+  words: T[],
   progress: Progress,
   size: number,
   random: () => number = Math.random,
 ): string[] {
   const byStatus = (status: WordStatus) =>
     shuffle(words, random).filter((w) => statusOf(progress[w.id]) === status);
-  const oldestFirst = (a: Word, b: Word) =>
+  const oldestFirst = (a: T, b: T) =>
     progress[a.id].lastSeen.localeCompare(progress[b.id].lastSeen);
-  const misses = (w: Word) => progress[w.id].attempts - progress[w.id].correct;
+  const misses = (w: T) => progress[w.id].attempts - progress[w.id].correct;
 
   const learning = byStatus("learning").sort(
     (a, b) =>

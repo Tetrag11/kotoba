@@ -7,7 +7,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Kotoba",
-  description: "Practise JLPT N5 vocabulary by typing what each word means.",
+  description: "Practise JLPT N5 words and kanji by typing what they mean.",
 };
 
 export const viewport: Viewport = {
