@@ -1,4 +1,5 @@
-import type { Word } from "./words";
+/** The parts of a card that decide what counts as right. */
+type Gradable = { english: string; accept?: string[] };
 
 export type Grade = "correct" | "close" | "wrong";
 
@@ -16,7 +17,7 @@ export function normalize(text: string): string {
 }
 
 /** Every normalized answer that counts as right for this word. */
-export function acceptedAnswers(word: Word): Set<string> {
+export function acceptedAnswers(word: Gradable): Set<string> {
   const listed = word.english.split(/[,;]/);
   return new Set([...listed, ...(word.accept ?? [])].map(normalize).filter(Boolean));
 }
@@ -50,7 +51,7 @@ function isClose(answer: string, target: string): boolean {
  * slip can be a different word ("night" for "light"); the learner retries instead.
  * Several meanings can be given at once ("foot, leg"), and all of them must be right.
  */
-export function grade(word: Word, answer: string): Grade {
+export function grade(word: Gradable, answer: string): Grade {
   const accepted = acceptedAnswers(word);
   const whole = normalize(answer);
   if (accepted.has(whole)) return "correct";

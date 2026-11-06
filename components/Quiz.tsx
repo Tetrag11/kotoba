@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import { grade } from "@/lib/grade";
 import { overrideWrong, recordAnswer, wordsDone, type Session } from "@/lib/session";
-import type { Word } from "@/lib/words";
+import type { Card } from "@/lib/decks";
 
 type Attempt = { id: string; wordId: string; answer: string; correct: boolean };
 type Result = { correct: boolean; attemptId: string; gaveUp: boolean };
@@ -11,18 +11,23 @@ type Result = { correct: boolean; attemptId: string; gaveUp: boolean };
 export function Quiz({
   session,
   byId,
+  singular,
+  showReading,
   onChange,
   onFinish,
   onSave,
 }: {
   session: Session;
-  byId: Map<string, Word>;
+  byId: Map<string, Card>;
+  singular: string;
+  /** Words show their reading. Kanji show the character alone. */
+  showReading: boolean;
   onChange: (session: Session) => void;
   onFinish: (session: Session) => void;
   onSave: (attempt: Attempt) => void;
 }) {
   // The parent remounts this for every turn, so this state is per answer.
-  const word = byId.get(session.queue[0])!;
+  const card = byId.get(session.queue[0])!;
   const [answer, setAnswer] = useState("");
   const [result, setResult] = useState<Result | null>(null);
   const [closeHint, setCloseHint] = useState(false);
@@ -33,7 +38,7 @@ export function Quiz({
 
   function mark(correct: boolean, typed: string, gaveUp: boolean) {
     const attemptId = crypto.randomUUID();
-    onSave({ id: attemptId, wordId: word.id, answer: typed, correct });
+    onSave({ id: attemptId, wordId: card.id, answer: typed, correct });
     setResult({ correct, attemptId, gaveUp });
     setAfterAnswer(recordAnswer(session, correct));
     setCloseHint(false);
@@ -49,7 +54,7 @@ export function Quiz({
     event.preventDefault();
     if (afterAnswer) return next(afterAnswer);
     if (!answer.trim()) return;
-    const verdict = grade(word, answer);
+    const verdict = grade(card, answer);
     if (verdict === "close" && !closeHint) {
       setCloseHint(true);
       input.current?.select();
@@ -60,15 +65,14 @@ export function Quiz({
 
   function countAsCorrect() {
     if (!result || !afterAnswer) return;
-    onSave({ id: result.attemptId, wordId: word.id, answer: answer.trim(), correct: true });
+    onSave({ id: result.attemptId, wordId: card.id, answer: answer.trim(), correct: true });
     setResult({ ...result, correct: true });
-    setAfterAnswer(overrideWrong(afterAnswer, word.id));
+    setAfterAnswer(overrideWrong(afterAnswer, card.id));
     input.current?.focus();
   }
 
   const done = afterAnswer ? wordsDone(afterAnswer) : wordsDone(session);
-  const title = word.kanji || word.kana;
-  const chars = Array.from(title);
+  const chars = Array.from(card.prompt);
 
   return (
     <main className="sheet quiz">
@@ -82,17 +86,13 @@ export function Quiz({
       </header>
 
       <div className="prompt">
-        {word.kanji ? (
-          <p lang="ja" className="reading">
-            {word.kana}
-          </p>
-        ) : (
-          <p className="reading" aria-hidden="true">
-            &nbsp;
+        {showReading && (
+          <p lang="ja" className="reading" aria-hidden={!card.reading}>
+            {card.reading ?? "\u00a0"}
           </p>
         )}
         <div className="manuscript" style={{ "--n": chars.length } as React.CSSProperties}>
-          <h1 lang="ja" aria-label={title}>
+          <h1 lang="ja" aria-label={card.prompt}>
             {chars.map((char, i) => (
               <span key={i} aria-hidden="true">
                 {char}
@@ -129,8 +129,10 @@ export function Quiz({
               <p className={result.correct ? "verdict right" : "verdict wrong"}>
                 {result.correct ? "Correct" : result.gaveUp ? "Here’s the answer" : "Not quite"}
               </p>
-              <p className="meaning">{word.english}</p>
-              {!result.correct && <p className="hint">This word will come back in a moment.</p>}
+              <p className="meaning">{card.english}</p>
+              {!result.correct && (
+                <p className="hint">This {singular} will come back in a moment.</p>
+              )}
             </>
           )}
         </div>
@@ -141,7 +143,7 @@ export function Quiz({
               ? "Check"
               : afterAnswer?.queue.length === 0
                 ? "See results"
-                : "Next word"}
+                : `Next ${singular}`}
           </button>
           {!result && (
             <button className="quiet" type="button" onClick={() => mark(false, "", true)}>
@@ -155,6 +157,25 @@ export function Quiz({
           )}
         </div>
       </form>
+
+      {result && card.examples && card.examples.length > 0 && (
+        <section aria-label="Words that use this kanji">
+          <p className="hint">In your word list</p>
+          <ul className="missed">
+            {card.examples.map((e) => (
+              <li key={e.word + e.reading}>
+                <span lang="ja" className="missed-word">
+                  {e.word}
+                </span>
+                <span lang="ja" className="missed-kana">
+                  {e.reading}
+                </span>
+                <span>{e.english}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
     </main>
   );
 }
