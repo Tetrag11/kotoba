@@ -1,0 +1,2008 @@
+[
+ {
+  "id": "n5-001",
+  "page": 1,
+  "kanji": "会う",
+  "kana": "あう",
+  "english": "to meet",
+  "accept": [
+   "see"
+  ]
+ },
+ {
+  "id": "n5-002",
+  "page": 1,
+  "kanji": "青",
+  "kana": "あお",
+  "english": "blue"
+ },
+ {
+  "id": "n5-003",
+  "page": 1,
+  "kanji": "青い",
+  "kana": "あおい",
+  "english": "blue"
+ },
+ {
+  "id": "n5-004",
+  "page": 1,
+  "kanji": "赤",
+  "kana": "あか",
+  "english": "red"
+ },
+ {
+  "id": "n5-005",
+  "page": 1,
+  "kanji": "赤い",
+  "kana": "あかい",
+  "english": "red"
+ },
+ {
+  "id": "n5-006",
+  "page": 1,
+  "kanji": "明るい",
+  "kana": "あかるい",
+  "english": "bright",
+  "accept": [
+   "light",
+   "cheerful"
+  ]
+ },
+ {
+  "id": "n5-007",
+  "page": 1,
+  "kanji": "秋",
+  "kana": "あき",
+  "english": "autumn",
+  "accept": [
+   "fall"
+  ]
+ },
+ {
+  "id": "n5-008",
+  "page": 1,
+  "kanji": "開く",
+  "kana": "あく",
+  "english": "to open, to become open"
+ },
+ {
+  "id": "n5-009",
+  "page": 1,
+  "kanji": "開ける",
+  "kana": "あける",
+  "english": "to open"
+ },
+ {
+  "id": "n5-010",
+  "page": 1,
+  "kanji": "上げる",
+  "kana": "あげる",
+  "english": "to give",
+  "accept": [
+   "raise",
+   "lift"
+  ]
+ },
+ {
+  "id": "n5-011",
+  "page": 1,
+  "kanji": "朝",
+  "kana": "あさ",
+  "english": "morning"
+ },
+ {
+  "id": "n5-012",
+  "page": 1,
+  "kanji": "朝御飯",
+  "kana": "あさごはん",
+  "english": "breakfast"
+ },
+ {
+  "id": "n5-013",
+  "page": 1,
+  "kanji": "",
+  "kana": "あさって",
+  "english": "day after tomorrow"
+ },
+ {
+  "id": "n5-014",
+  "page": 1,
+  "kanji": "足",
+  "kana": "あし",
+  "english": "foot, leg",
+  "accept": [
+   "feet",
+   "legs"
+  ]
+ },
+ {
+  "id": "n5-015",
+  "page": 1,
+  "kanji": "明日",
+  "kana": "あした",
+  "english": "tomorrow"
+ },
+ {
+  "id": "n5-016",
+  "page": 1,
+  "kanji": "",
+  "kana": "あそこ",
+  "english": "over there",
+  "accept": [
+   "there",
+   "that place"
+  ]
+ },
+ {
+  "id": "n5-017",
+  "page": 1,
+  "kanji": "遊ぶ",
+  "kana": "あそぶ",
+  "english": "to play, to make a visit",
+  "accept": [
+   "visit",
+   "hang out"
+  ]
+ },
+ {
+  "id": "n5-018",
+  "page": 1,
+  "kanji": "暖かい",
+  "kana": "あたたかい",
+  "english": "warm"
+ },
+ {
+  "id": "n5-019",
+  "page": 2,
+  "kanji": "頭",
+  "kana": "あたま",
+  "english": "head"
+ },
+ {
+  "id": "n5-020",
+  "page": 2,
+  "kanji": "新しい",
+  "kana": "あたらしい",
+  "english": "new"
+ },
+ {
+  "id": "n5-021",
+  "page": 2,
+  "kanji": "",
+  "kana": "あちら",
+  "english": "there",
+  "accept": [
+   "over there",
+   "that way"
+  ]
+ },
+ {
+  "id": "n5-022",
+  "page": 2,
+  "kanji": "暑い",
+  "kana": "あつい",
+  "english": "hot"
+ },
+ {
+  "id": "n5-023",
+  "page": 2,
+  "kanji": "熱い",
+  "kana": "あつい",
+  "english": "hot to the touch",
+  "accept": [
+   "hot"
+  ]
+ },
+ {
+  "id": "n5-024",
+  "page": 2,
+  "kanji": "厚い",
+  "kana": "あつい",
+  "english": "kind, deep, thick"
+ },
+ {
+  "id": "n5-025",
+  "page": 2,
+  "kanji": "",
+  "kana": "あっち",
+  "english": "over there",
+  "accept": [
+   "there",
+   "that way"
+  ]
+ },
+ {
+  "id": "n5-026",
+  "page": 2,
+  "kanji": "後",
+  "kana": "あと",
+  "english": "afterwards",
+  "accept": [
+   "after",
+   "later"
+  ]
+ },
+ {
+  "id": "n5-027",
+  "page": 2,
+  "kanji": "",
+  "kana": "あなた",
+  "english": "you"
+ },
+ {
+  "id": "n5-028",
+  "page": 2,
+  "kanji": "兄",
+  "kana": "あに",
+  "english": "(humble) older brother",
+  "accept": [
+   "big brother",
+   "elder brother"
+  ]
+ },
+ {
+  "id": "n5-029",
+  "page": 2,
+  "kanji": "姉",
+  "kana": "あね",
+  "english": "(humble) older sister",
+  "accept": [
+   "big sister",
+   "elder sister"
+  ]
+ },
+ {
+  "id": "n5-030",
+  "page": 2,
+  "kanji": "",
+  "kana": "あの",
+  "english": "that over there, um...",
+  "accept": [
+   "that",
+   "um",
+   "uh",
+   "er",
+   "umm"
+  ]
+ },
+ {
+  "id": "n5-032",
+  "page": 2,
+  "kanji": "",
+  "kana": "アパート",
+  "english": "apartment",
+  "accept": [
+   "flat"
+  ]
+ },
+ {
+  "id": "n5-033",
+  "page": 2,
+  "kanji": "",
+  "kana": "あびる",
+  "english": "to bathe, to shower",
+  "accept": [
+   "take a shower",
+   "take a bath"
+  ]
+ },
+ {
+  "id": "n5-034",
+  "page": 2,
+  "kanji": "危ない",
+  "kana": "あぶない",
+  "english": "dangerous",
+  "accept": [
+   "unsafe",
+   "danger"
+  ]
+ },
+ {
+  "id": "n5-035",
+  "page": 2,
+  "kanji": "甘い",
+  "kana": "あまい",
+  "english": "sweet"
+ },
+ {
+  "id": "n5-036",
+  "page": 2,
+  "kanji": "",
+  "kana": "あまり",
+  "english": "not very",
+  "accept": [
+   "not much",
+   "not so much"
+  ]
+ },
+ {
+  "id": "n5-037",
+  "page": 2,
+  "kanji": "雨",
+  "kana": "あめ",
+  "english": "rain"
+ },
+ {
+  "id": "n5-038",
+  "page": 2,
+  "kanji": "飴",
+  "kana": "あめ",
+  "english": "candy",
+  "accept": [
+   "sweet",
+   "sweets",
+   "hard candy"
+  ]
+ },
+ {
+  "id": "n5-039",
+  "page": 3,
+  "kanji": "洗う",
+  "kana": "あらう",
+  "english": "to wash"
+ },
+ {
+  "id": "n5-040",
+  "page": 3,
+  "kanji": "",
+  "kana": "ある",
+  "english": "to be, to have (used for inanimate objects)",
+  "accept": [
+   "exist",
+   "there is"
+  ]
+ },
+ {
+  "id": "n5-041",
+  "page": 3,
+  "kanji": "歩く",
+  "kana": "あるく",
+  "english": "to walk"
+ },
+ {
+  "id": "n5-042",
+  "page": 3,
+  "kanji": "",
+  "kana": "あれ",
+  "english": "that",
+  "accept": [
+   "that one",
+   "that over there"
+  ]
+ },
+ {
+  "id": "n5-043",
+  "page": 3,
+  "kanji": "",
+  "kana": "いい/よい",
+  "english": "good",
+  "accept": [
+   "nice",
+   "fine"
+  ]
+ },
+ {
+  "id": "n5-044",
+  "page": 3,
+  "kanji": "",
+  "kana": "いいえ",
+  "english": "no"
+ },
+ {
+  "id": "n5-045",
+  "page": 3,
+  "kanji": "言う",
+  "kana": "いう",
+  "english": "to say",
+  "accept": [
+   "tell"
+  ]
+ },
+ {
+  "id": "n5-046",
+  "page": 3,
+  "kanji": "家",
+  "kana": "いえ",
+  "english": "house",
+  "accept": [
+   "home"
+  ]
+ },
+ {
+  "id": "n5-047",
+  "page": 3,
+  "kanji": "",
+  "kana": "いかが",
+  "english": "how",
+  "accept": [
+   "how about"
+  ]
+ },
+ {
+  "id": "n5-048",
+  "page": 3,
+  "kanji": "行く",
+  "kana": "いく",
+  "english": "to go"
+ },
+ {
+  "id": "n5-049",
+  "page": 3,
+  "kanji": "",
+  "kana": "いくつ",
+  "english": "how many?, how old?"
+ },
+ {
+  "id": "n5-050",
+  "page": 3,
+  "kanji": "",
+  "kana": "いくら",
+  "english": "how much?",
+  "accept": [
+   "how much money"
+  ]
+ },
+ {
+  "id": "n5-051",
+  "page": 3,
+  "kanji": "池",
+  "kana": "いけ",
+  "english": "pond"
+ },
+ {
+  "id": "n5-052",
+  "page": 3,
+  "kanji": "医者",
+  "kana": "いしゃ",
+  "english": "medical doctor",
+  "accept": [
+   "doctor",
+   "physician"
+  ]
+ },
+ {
+  "id": "n5-053",
+  "page": 3,
+  "kanji": "",
+  "kana": "いす",
+  "english": "chair"
+ },
+ {
+  "id": "n5-054",
+  "page": 3,
+  "kanji": "忙しい",
+  "kana": "いそがしい",
+  "english": "busy, irritated"
+ },
+ {
+  "id": "n5-055",
+  "page": 3,
+  "kanji": "痛い",
+  "kana": "いたい",
+  "english": "painful",
+  "accept": [
+   "it hurts",
+   "hurts",
+   "pain",
+   "sore",
+   "ouch"
+  ]
+ },
+ {
+  "id": "n5-056",
+  "page": 3,
+  "kanji": "一",
+  "kana": "いち",
+  "english": "one",
+  "accept": [
+   "1"
+  ]
+ },
+ {
+  "id": "n5-057",
+  "page": 3,
+  "kanji": "一日",
+  "kana": "いちにち",
+  "english": "one day",
+  "accept": [
+   "first of the month",
+   "1 day",
+   "a day"
+  ]
+ },
+ {
+  "id": "n5-058",
+  "page": 3,
+  "kanji": "",
+  "kana": "いちばん",
+  "english": "best, first",
+  "accept": [
+   "number one",
+   "most"
+  ]
+ },
+ {
+  "id": "n5-059",
+  "page": 4,
+  "kanji": "",
+  "kana": "いつ",
+  "english": "when"
+ },
+ {
+  "id": "n5-060",
+  "page": 4,
+  "kanji": "五日",
+  "kana": "いつか",
+  "english": "five days, fifth day",
+  "accept": [
+   "5 days",
+   "5th day",
+   "the fifth",
+   "fifth",
+   "5th",
+   "fifth of the month"
+  ]
+ },
+ {
+  "id": "n5-061",
+  "page": 4,
+  "kanji": "一緒",
+  "kana": "いっしょ",
+  "english": "together"
+ },
+ {
+  "id": "n5-062",
+  "page": 4,
+  "kanji": "五つ",
+  "kana": "いつつ",
+  "english": "five",
+  "accept": [
+   "5",
+   "five things"
+  ]
+ },
+ {
+  "id": "n5-063",
+  "page": 4,
+  "kanji": "",
+  "kana": "いつも",
+  "english": "always"
+ },
+ {
+  "id": "n5-064",
+  "page": 4,
+  "kanji": "犬",
+  "kana": "いぬ",
+  "english": "dog"
+ },
+ {
+  "id": "n5-065",
+  "page": 4,
+  "kanji": "今",
+  "kana": "いま",
+  "english": "now"
+ },
+ {
+  "id": "n5-066",
+  "page": 4,
+  "kanji": "意味",
+  "kana": "いみ",
+  "english": "meaning"
+ },
+ {
+  "id": "n5-067",
+  "page": 4,
+  "kanji": "妹",
+  "kana": "いもうと",
+  "english": "(humble) younger sister",
+  "accept": [
+   "little sister"
+  ]
+ },
+ {
+  "id": "n5-068",
+  "page": 4,
+  "kanji": "嫌",
+  "kana": "いや",
+  "english": "unpleasant",
+  "accept": [
+   "disagreeable",
+   "awful",
+   "disgusting",
+   "no way",
+   "dislike"
+  ]
+ },
+ {
+  "id": "n5-069",
+  "page": 4,
+  "kanji": "入口",
+  "kana": "いりぐち",
+  "english": "entrance",
+  "accept": [
+   "way in"
+  ]
+ },
+ {
+  "id": "n5-070",
+  "page": 4,
+  "kanji": "居る",
+  "kana": "いる",
+  "english": "to be, to have (used for people and animals)",
+  "accept": [
+   "exist",
+   "there is"
+  ]
+ },
+ {
+  "id": "n5-071",
+  "page": 4,
+  "kanji": "要る",
+  "kana": "いる",
+  "english": "to need",
+  "accept": [
+   "require"
+  ]
+ },
+ {
+  "id": "n5-072",
+  "page": 4,
+  "kanji": "入れる",
+  "kana": "いれる",
+  "english": "to put in",
+  "accept": [
+   "insert"
+  ]
+ },
+ {
+  "id": "n5-073",
+  "page": 4,
+  "kanji": "色",
+  "kana": "いろ",
+  "english": "colour",
+  "accept": [
+   "color"
+  ]
+ },
+ {
+  "id": "n5-074",
+  "page": 4,
+  "kanji": "",
+  "kana": "いろいろ",
+  "english": "various",
+  "accept": [
+   "many kinds",
+   "all sorts",
+   "various kinds"
+  ]
+ },
+ {
+  "id": "n5-075",
+  "page": 4,
+  "kanji": "上",
+  "kana": "うえ",
+  "english": "on top of",
+  "accept": [
+   "above",
+   "up",
+   "top",
+   "on",
+   "over"
+  ]
+ },
+ {
+  "id": "n5-076",
+  "page": 4,
+  "kanji": "後ろ",
+  "kana": "うしろ",
+  "english": "behind",
+  "accept": [
+   "back",
+   "rear"
+  ]
+ },
+ {
+  "id": "n5-077",
+  "page": 4,
+  "kanji": "薄い",
+  "kana": "うすい",
+  "english": "thin, weak",
+  "accept": [
+   "pale",
+   "light"
+  ]
+ },
+ {
+  "id": "n5-078",
+  "page": 4,
+  "kanji": "歌",
+  "kana": "うた",
+  "english": "song"
+ },
+ {
+  "id": "n5-079",
+  "page": 5,
+  "kanji": "歌う",
+  "kana": "うたう",
+  "english": "to sing"
+ },
+ {
+  "id": "n5-080",
+  "page": 5,
+  "kanji": "生まれる",
+  "kana": "うまれる",
+  "english": "to be born",
+  "accept": [
+   "born"
+  ]
+ },
+ {
+  "id": "n5-081",
+  "page": 5,
+  "kanji": "海",
+  "kana": "うみ",
+  "english": "sea",
+  "accept": [
+   "ocean"
+  ]
+ },
+ {
+  "id": "n5-082",
+  "page": 5,
+  "kanji": "売る",
+  "kana": "うる",
+  "english": "to sell"
+ },
+ {
+  "id": "n5-083",
+  "page": 5,
+  "kanji": "煩い",
+  "kana": "うるさい",
+  "english": "noisy, annoying",
+  "accept": [
+   "loud"
+  ]
+ },
+ {
+  "id": "n5-084",
+  "page": 5,
+  "kanji": "上着",
+  "kana": "うわぎ",
+  "english": "jacket",
+  "accept": [
+   "coat"
+  ]
+ },
+ {
+  "id": "n5-085",
+  "page": 5,
+  "kanji": "絵",
+  "kana": "え",
+  "english": "picture",
+  "accept": [
+   "painting",
+   "drawing"
+  ]
+ },
+ {
+  "id": "n5-086",
+  "page": 5,
+  "kanji": "映画",
+  "kana": "えいが",
+  "english": "movie",
+  "accept": [
+   "film"
+  ]
+ },
+ {
+  "id": "n5-087",
+  "page": 5,
+  "kanji": "映画館",
+  "kana": "えいがかん",
+  "english": "cinema",
+  "accept": [
+   "movie theater",
+   "movie theatre"
+  ]
+ },
+ {
+  "id": "n5-088",
+  "page": 5,
+  "kanji": "英語",
+  "kana": "えいご",
+  "english": "English language",
+  "accept": [
+   "english"
+  ]
+ },
+ {
+  "id": "n5-089",
+  "page": 5,
+  "kanji": "",
+  "kana": "ええ",
+  "english": "yes"
+ },
+ {
+  "id": "n5-090",
+  "page": 5,
+  "kanji": "駅",
+  "kana": "えき",
+  "english": "station",
+  "accept": [
+   "train station"
+  ]
+ },
+ {
+  "id": "n5-091",
+  "page": 5,
+  "kanji": "",
+  "kana": "エレベーター",
+  "english": "elevator",
+  "accept": [
+   "lift"
+  ]
+ },
+ {
+  "id": "n5-092",
+  "page": 5,
+  "kanji": "鉛筆",
+  "kana": "えんぴつ",
+  "english": "pencil"
+ },
+ {
+  "id": "n5-093",
+  "page": 5,
+  "kanji": "",
+  "kana": "おいしい",
+  "english": "delicious",
+  "accept": [
+   "tasty",
+   "yummy"
+  ]
+ },
+ {
+  "id": "n5-094",
+  "page": 5,
+  "kanji": "多い",
+  "kana": "おおい",
+  "english": "many",
+  "accept": [
+   "a lot",
+   "lots",
+   "numerous",
+   "much"
+  ]
+ },
+ {
+  "id": "n5-095",
+  "page": 5,
+  "kanji": "大きい",
+  "kana": "おおきい",
+  "english": "big",
+  "accept": [
+   "large"
+  ]
+ },
+ {
+  "id": "n5-096",
+  "page": 5,
+  "kanji": "大きな",
+  "kana": "おおきな",
+  "english": "big",
+  "accept": [
+   "large"
+  ]
+ },
+ {
+  "id": "n5-097",
+  "page": 5,
+  "kanji": "大勢",
+  "kana": "おおぜい",
+  "english": "great number of people",
+  "accept": [
+   "many people",
+   "a lot of people",
+   "lots of people",
+   "crowd"
+  ]
+ },
+ {
+  "id": "n5-098",
+  "page": 5,
+  "kanji": "お母さん",
+  "kana": "おかあさん",
+  "english": "(honorable) mother",
+  "accept": [
+   "mom",
+   "mum"
+  ]
+ },
+ {
+  "id": "n5-099",
+  "page": 6,
+  "kanji": "お菓子",
+  "kana": "おかし",
+  "english": "sweets, candy",
+  "accept": [
+   "snack",
+   "snacks",
+   "sweet",
+   "confectionery"
+  ]
+ },
+ {
+  "id": "n5-100",
+  "page": 6,
+  "kanji": "お金",
+  "kana": "おかね",
+  "english": "money"
+ },
+ {
+  "id": "n5-101",
+  "page": 6,
+  "kanji": "起きる",
+  "kana": "おきる",
+  "english": "to get up",
+  "accept": [
+   "wake up"
+  ]
+ },
+ {
+  "id": "n5-102",
+  "page": 6,
+  "kanji": "置く",
+  "kana": "おく",
+  "english": "to put",
+  "accept": [
+   "place"
+  ]
+ },
+ {
+  "id": "n5-103",
+  "page": 6,
+  "kanji": "奥さん",
+  "kana": "おくさん",
+  "english": "(honorable) wife"
+ },
+ {
+  "id": "n5-104",
+  "page": 6,
+  "kanji": "お酒",
+  "kana": "おさけ",
+  "english": "alcohol, rice wine",
+  "accept": [
+   "sake"
+  ]
+ },
+ {
+  "id": "n5-105",
+  "page": 6,
+  "kanji": "お皿",
+  "kana": "おさら",
+  "english": "plate, dish"
+ },
+ {
+  "id": "n5-106",
+  "page": 6,
+  "kanji": "お祖父さん",
+  "kana": "おじいさん",
+  "english": "grandfather, male senior citizen",
+  "accept": [
+   "grandpa",
+   "old man"
+  ]
+ },
+ {
+  "id": "n5-107",
+  "page": 6,
+  "kanji": "教える",
+  "kana": "おしえる",
+  "english": "to teach, to tell",
+  "accept": [
+   "show"
+  ]
+ },
+ {
+  "id": "n5-108",
+  "page": 6,
+  "kanji": "伯父さん/叔父さん",
+  "kana": "おじさん",
+  "english": "uncle, middle aged gentleman",
+  "accept": [
+   "middle aged man"
+  ]
+ },
+ {
+  "id": "n5-109",
+  "page": 6,
+  "kanji": "押す",
+  "kana": "おす",
+  "english": "to push, to stamp something",
+  "accept": [
+   "press",
+   "stamp"
+  ]
+ },
+ {
+  "id": "n5-110",
+  "page": 6,
+  "kanji": "遅い",
+  "kana": "おそい",
+  "english": "late, slow"
+ },
+ {
+  "id": "n5-111",
+  "page": 6,
+  "kanji": "お茶",
+  "kana": "おちゃ",
+  "english": "green tea",
+  "accept": [
+   "tea"
+  ]
+ },
+ {
+  "id": "n5-112",
+  "page": 6,
+  "kanji": "お手洗い",
+  "kana": "おてあらい",
+  "english": "bathroom",
+  "accept": [
+   "toilet",
+   "restroom",
+   "washroom"
+  ]
+ },
+ {
+  "id": "n5-113",
+  "page": 6,
+  "kanji": "お父さん",
+  "kana": "おとうさん",
+  "english": "(honorable) father",
+  "accept": [
+   "dad"
+  ]
+ },
+ {
+  "id": "n5-114",
+  "page": 6,
+  "kanji": "弟",
+  "kana": "おとうと",
+  "english": "younger brother",
+  "accept": [
+   "little brother"
+  ]
+ },
+ {
+  "id": "n5-115",
+  "page": 6,
+  "kanji": "男",
+  "kana": "おとこ",
+  "english": "man",
+  "accept": [
+   "male"
+  ]
+ },
+ {
+  "id": "n5-116",
+  "page": 6,
+  "kanji": "男の子",
+  "kana": "おとこのこ",
+  "english": "boy"
+ },
+ {
+  "id": "n5-117",
+  "page": 6,
+  "kanji": "一昨日",
+  "kana": "おととい",
+  "english": "day before yesterday"
+ },
+ {
+  "id": "n5-118",
+  "page": 6,
+  "kanji": "一昨年",
+  "kana": "おととし",
+  "english": "year before last"
+ },
+ {
+  "id": "n5-119",
+  "page": 7,
+  "kanji": "大人",
+  "kana": "おとな",
+  "english": "adult",
+  "accept": [
+   "grown up"
+  ]
+ },
+ {
+  "id": "n5-120",
+  "page": 7,
+  "kanji": "",
+  "kana": "おなか",
+  "english": "stomach",
+  "accept": [
+   "belly",
+   "tummy"
+  ]
+ },
+ {
+  "id": "n5-121",
+  "page": 7,
+  "kanji": "同じ",
+  "kana": "おなじ",
+  "english": "same"
+ },
+ {
+  "id": "n5-122",
+  "page": 7,
+  "kanji": "お兄さん",
+  "kana": "おにいさん",
+  "english": "(honorable) older brother",
+  "accept": [
+   "big brother",
+   "elder brother"
+  ]
+ },
+ {
+  "id": "n5-123",
+  "page": 7,
+  "kanji": "お姉さん",
+  "kana": "おねえさん",
+  "english": "(honorable) older sister",
+  "accept": [
+   "big sister",
+   "elder sister"
+  ]
+ },
+ {
+  "id": "n5-124",
+  "page": 7,
+  "kanji": "",
+  "kana": "おばあさん",
+  "english": "grandmother, female senior-citizen",
+  "accept": [
+   "grandma",
+   "old woman",
+   "old lady"
+  ]
+ },
+ {
+  "id": "n5-125",
+  "page": 7,
+  "kanji": "伯母さん/叔母さん",
+  "kana": "おばさん",
+  "english": "aunt",
+  "accept": [
+   "auntie",
+   "middle aged woman"
+  ]
+ },
+ {
+  "id": "n5-126",
+  "page": 7,
+  "kanji": "お風呂",
+  "kana": "おふろ",
+  "english": "bath"
+ },
+ {
+  "id": "n5-127",
+  "page": 7,
+  "kanji": "お弁当",
+  "kana": "おべんとう",
+  "english": "boxed lunch",
+  "accept": [
+   "lunch box",
+   "lunchbox",
+   "bento"
+  ]
+ },
+ {
+  "id": "n5-128",
+  "page": 7,
+  "kanji": "覚える",
+  "kana": "おぼえる",
+  "english": "to remember",
+  "accept": [
+   "memorize",
+   "memorise"
+  ]
+ },
+ {
+  "id": "n5-129",
+  "page": 7,
+  "kanji": "",
+  "kana": "おまわりさん",
+  "english": "friendly term for policeman",
+  "accept": [
+   "policeman",
+   "police officer",
+   "cop"
+  ]
+ },
+ {
+  "id": "n5-130",
+  "page": 7,
+  "kanji": "重い",
+  "kana": "おもい",
+  "english": "heavy"
+ },
+ {
+  "id": "n5-131",
+  "page": 7,
+  "kanji": "",
+  "kana": "おもしろい",
+  "english": "interesting",
+  "accept": [
+   "funny",
+   "fun"
+  ]
+ },
+ {
+  "id": "n5-132",
+  "page": 7,
+  "kanji": "泳ぐ",
+  "kana": "およぐ",
+  "english": "to swim"
+ },
+ {
+  "id": "n5-133",
+  "page": 7,
+  "kanji": "降りる",
+  "kana": "おりる",
+  "english": "to get off, to descend",
+  "accept": [
+   "get down"
+  ]
+ },
+ {
+  "id": "n5-134",
+  "page": 7,
+  "kanji": "終わる",
+  "kana": "おわる",
+  "english": "to finish",
+  "accept": [
+   "end"
+  ]
+ },
+ {
+  "id": "n5-135",
+  "page": 7,
+  "kanji": "音楽",
+  "kana": "おんがく",
+  "english": "music"
+ },
+ {
+  "id": "n5-136",
+  "page": 7,
+  "kanji": "女",
+  "kana": "おんな",
+  "english": "woman",
+  "accept": [
+   "female"
+  ]
+ },
+ {
+  "id": "n5-137",
+  "page": 7,
+  "kanji": "女の子",
+  "kana": "おんなのこ",
+  "english": "girl"
+ },
+ {
+  "id": "n5-138",
+  "page": 7,
+  "kanji": "外国",
+  "kana": "がいこく",
+  "english": "foreign country",
+  "accept": [
+   "abroad",
+   "overseas"
+  ]
+ },
+ {
+  "id": "n5-139",
+  "page": 8,
+  "kanji": "外国人",
+  "kana": "がいこくじん",
+  "english": "foreigner"
+ },
+ {
+  "id": "n5-140",
+  "page": 8,
+  "kanji": "会社",
+  "kana": "かいしゃ",
+  "english": "company",
+  "accept": [
+   "firm",
+   "corporation"
+  ]
+ },
+ {
+  "id": "n5-141",
+  "page": 8,
+  "kanji": "階段",
+  "kana": "かいだん",
+  "english": "stairs",
+  "accept": [
+   "staircase",
+   "steps"
+  ]
+ },
+ {
+  "id": "n5-142",
+  "page": 8,
+  "kanji": "買い物",
+  "kana": "かいもの",
+  "english": "shopping"
+ },
+ {
+  "id": "n5-143",
+  "page": 8,
+  "kanji": "買う",
+  "kana": "かう",
+  "english": "to buy",
+  "accept": [
+   "purchase"
+  ]
+ },
+ {
+  "id": "n5-144",
+  "page": 8,
+  "kanji": "返す",
+  "kana": "かえす",
+  "english": "to return something",
+  "accept": [
+   "return",
+   "give back"
+  ]
+ },
+ {
+  "id": "n5-145",
+  "page": 8,
+  "kanji": "帰る",
+  "kana": "かえる",
+  "english": "to go back",
+  "accept": [
+   "return",
+   "go home"
+  ]
+ },
+ {
+  "id": "n5-146",
+  "page": 8,
+  "kanji": "",
+  "kana": "かかる",
+  "english": "to take time or money",
+  "accept": [
+   "take time",
+   "take money",
+   "cost",
+   "take"
+  ]
+ },
+ {
+  "id": "n5-147",
+  "page": 8,
+  "kanji": "",
+  "kana": "かぎ",
+  "english": "key"
+ },
+ {
+  "id": "n5-148",
+  "page": 8,
+  "kanji": "書く",
+  "kana": "かく",
+  "english": "to write"
+ },
+ {
+  "id": "n5-149",
+  "page": 8,
+  "kanji": "学生",
+  "kana": "がくせい",
+  "english": "student"
+ },
+ {
+  "id": "n5-150",
+  "page": 8,
+  "kanji": "",
+  "kana": "かける",
+  "english": "to call by phone",
+  "accept": [
+   "call",
+   "phone",
+   "telephone"
+  ]
+ },
+ {
+  "id": "n5-151",
+  "page": 8,
+  "kanji": "傘",
+  "kana": "かさ",
+  "english": "umbrella"
+ },
+ {
+  "id": "n5-152",
+  "page": 8,
+  "kanji": "貸す",
+  "kana": "かす",
+  "english": "to lend",
+  "accept": [
+   "loan"
+  ]
+ },
+ {
+  "id": "n5-153",
+  "page": 8,
+  "kanji": "風",
+  "kana": "かぜ",
+  "english": "wind",
+  "accept": [
+   "breeze"
+  ]
+ },
+ {
+  "id": "n5-154",
+  "page": 8,
+  "kanji": "風邪",
+  "kana": "かぜ",
+  "english": "a cold"
+ },
+ {
+  "id": "n5-155",
+  "page": 8,
+  "kanji": "家族",
+  "kana": "かぞく",
+  "english": "family"
+ },
+ {
+  "id": "n5-156",
+  "page": 8,
+  "kanji": "方",
+  "kana": "かた",
+  "english": "person, way of doing",
+  "accept": [
+   "way",
+   "method"
+  ]
+ },
+ {
+  "id": "n5-157",
+  "page": 8,
+  "kanji": "学校",
+  "kana": "がっこう",
+  "english": "school"
+ },
+ {
+  "id": "n5-158",
+  "page": 8,
+  "kanji": "",
+  "kana": "カップ",
+  "english": "cup"
+ },
+ {
+  "id": "n5-159",
+  "page": 9,
+  "kanji": "家庭",
+  "kana": "かてい",
+  "english": "household",
+  "accept": [
+   "home",
+   "family"
+  ]
+ },
+ {
+  "id": "n5-160",
+  "page": 9,
+  "kanji": "角",
+  "kana": "かど",
+  "english": "a corner"
+ },
+ {
+  "id": "n5-161",
+  "page": 9,
+  "kanji": "",
+  "kana": "かばん",
+  "english": "bag, basket",
+  "accept": [
+   "briefcase"
+  ]
+ },
+ {
+  "id": "n5-162",
+  "page": 9,
+  "kanji": "花瓶",
+  "kana": "かびん",
+  "english": "a vase"
+ },
+ {
+  "id": "n5-163",
+  "page": 9,
+  "kanji": "紙",
+  "kana": "かみ",
+  "english": "paper"
+ },
+ {
+  "id": "n5-164",
+  "page": 9,
+  "kanji": "",
+  "kana": "カメラ",
+  "english": "camera"
+ },
+ {
+  "id": "n5-165",
+  "page": 9,
+  "kanji": "火曜日",
+  "kana": "かようび",
+  "english": "Tuesday"
+ },
+ {
+  "id": "n5-166",
+  "page": 9,
+  "kanji": "辛い",
+  "kana": "からい",
+  "english": "spicy",
+  "accept": [
+   "hot"
+  ]
+ },
+ {
+  "id": "n5-167",
+  "page": 9,
+  "kanji": "体",
+  "kana": "からだ",
+  "english": "body"
+ },
+ {
+  "id": "n5-168",
+  "page": 9,
+  "kanji": "借りる",
+  "kana": "かりる",
+  "english": "to borrow",
+  "accept": [
+   "rent"
+  ]
+ },
+ {
+  "id": "n5-169",
+  "page": 9,
+  "kanji": "軽い",
+  "kana": "かるい",
+  "english": "light",
+  "accept": [
+   "lightweight"
+  ]
+ },
+ {
+  "id": "n5-170",
+  "page": 9,
+  "kanji": "",
+  "kana": "カレー",
+  "english": "curry"
+ },
+ {
+  "id": "n5-171",
+  "page": 9,
+  "kanji": "",
+  "kana": "カレンダー",
+  "english": "calendar"
+ },
+ {
+  "id": "n5-172",
+  "page": 9,
+  "kanji": "川/河",
+  "kana": "かわ",
+  "english": "river",
+  "accept": [
+   "stream"
+  ]
+ },
+ {
+  "id": "n5-173",
+  "page": 9,
+  "kanji": "",
+  "kana": "かわいい",
+  "english": "cute",
+  "accept": [
+   "adorable",
+   "pretty"
+  ]
+ },
+ {
+  "id": "n5-174",
+  "page": 9,
+  "kanji": "漢字",
+  "kana": "かんじ",
+  "english": "Chinese character",
+  "accept": [
+   "kanji",
+   "chinese characters"
+  ]
+ },
+ {
+  "id": "n5-175",
+  "page": 9,
+  "kanji": "木",
+  "kana": "き",
+  "english": "tree, wood"
+ },
+ {
+  "id": "n5-176",
+  "page": 9,
+  "kanji": "黄色",
+  "kana": "きいろ",
+  "english": "yellow"
+ },
+ {
+  "id": "n5-177",
+  "page": 9,
+  "kanji": "黄色い",
+  "kana": "きいろい",
+  "english": "yellow"
+ },
+ {
+  "id": "n5-178",
+  "page": 9,
+  "kanji": "消える",
+  "kana": "きえる",
+  "english": "to disappear",
+  "accept": [
+   "vanish",
+   "go out",
+   "turn off"
+  ]
+ },
+ {
+  "id": "n5-179",
+  "page": 10,
+  "kanji": "聞く",
+  "kana": "きく",
+  "english": "to hear, to listen to, to ask",
+  "accept": [
+   "listen"
+  ]
+ },
+ {
+  "id": "n5-180",
+  "page": 10,
+  "kanji": "北",
+  "kana": "きた",
+  "english": "north"
+ },
+ {
+  "id": "n5-181",
+  "page": 10,
+  "kanji": "",
+  "kana": "ギター",
+  "english": "guitar"
+ },
+ {
+  "id": "n5-182",
+  "page": 10,
+  "kanji": "汚い",
+  "kana": "きたない",
+  "english": "dirty",
+  "accept": [
+   "filthy"
+  ]
+ },
+ {
+  "id": "n5-183",
+  "page": 10,
+  "kanji": "喫茶店",
+  "kana": "きっさてん",
+  "english": "coffee lounge",
+  "accept": [
+   "coffee shop",
+   "cafe",
+   "coffeehouse",
+   "tea house"
+  ]
+ },
+ {
+  "id": "n5-184",
+  "page": 10,
+  "kanji": "切手",
+  "kana": "きって",
+  "english": "postage stamp",
+  "accept": [
+   "stamp"
+  ]
+ },
+ {
+  "id": "n5-185",
+  "page": 10,
+  "kanji": "切符",
+  "kana": "きっぷ",
+  "english": "ticket"
+ },
+ {
+  "id": "n5-186",
+  "page": 10,
+  "kanji": "昨日",
+  "kana": "きのう",
+  "english": "yesterday"
+ },
+ {
+  "id": "n5-187",
+  "page": 10,
+  "kanji": "九",
+  "kana": "きゅう / く",
+  "english": "nine",
+  "accept": [
+   "9"
+  ]
+ },
+ {
+  "id": "n5-188",
+  "page": 10,
+  "kanji": "牛肉",
+  "kana": "ぎゅうにく",
+  "english": "beef"
+ },
+ {
+  "id": "n5-189",
+  "page": 10,
+  "kanji": "牛乳",
+  "kana": "ぎゅうにゅう",
+  "english": "milk"
+ },
+ {
+  "id": "n5-190",
+  "page": 10,
+  "kanji": "今日",
+  "kana": "きょう",
+  "english": "today"
+ },
+ {
+  "id": "n5-191",
+  "page": 10,
+  "kanji": "教室",
+  "kana": "きょうしつ",
+  "english": "classroom"
+ },
+ {
+  "id": "n5-192",
+  "page": 10,
+  "kanji": "兄弟",
+  "kana": "きょうだい",
+  "english": "(humble) siblings",
+  "accept": [
+   "brothers",
+   "brothers and sisters",
+   "sibling"
+  ]
+ },
+ {
+  "id": "n5-193",
+  "page": 10,
+  "kanji": "去年",
+  "kana": "きょねん",
+  "english": "last year"
+ },
+ {
+  "id": "n5-194",
+  "page": 10,
+  "kanji": "嫌い",
+  "kana": "きらい",
+  "english": "dislike, hate",
+  "accept": [
+   "disliked",
+   "hated"
+  ]
+ },
+ {
+  "id": "n5-195",
+  "page": 10,
+  "kanji": "切る",
+  "kana": "きる",
+  "english": "to cut"
+ },
+ {
+  "id": "n5-196",
+  "page": 10,
+  "kanji": "着る",
+  "kana": "きる",
+  "english": "to put on from the shoulders down",
+  "accept": [
+   "wear",
+   "put on",
+   "dress"
+  ]
+ },
+ {
+  "id": "n5-197",
+  "page": 10,
+  "kanji": "",
+  "kana": "きれい",
+  "english": "pretty, clean",
+  "accept": [
+   "beautiful"
+  ]
+ },
+ {
+  "id": "n5-198",
+  "page": 10,
+  "kanji": "",
+  "kana": "キロ/キログラム",
+  "english": "kilogram",
+  "accept": [
+   "kg",
+   "kilo"
+  ]
+ },
+ {
+  "id": "n5-199",
+  "page": 11,
+  "kanji": "",
+  "kana": "キロ/キロメートル",
+  "english": "kilometer",
+  "accept": [
+   "kilometre",
+   "km",
+   "kilo"
+  ]
+ },
+ {
+  "id": "n5-200",
+  "page": 11,
+  "kanji": "銀行",
+  "kana": "ぎんこう",
+  "english": "bank"
+ },
+ {
+  "id": "n5-201",
+  "page": 11,
+  "kanji": "金曜日",
+  "kana": "きんようび",
+  "english": "Friday"
+ },
+ {
+  "id": "n5-202",
+  "page": 11,
+  "kanji": "薬",
+  "kana": "くすり",
+  "english": "medicine",
+  "accept": [
+   "drug"
+  ]
+ },
+ {
+  "id": "n5-203",
+  "page": 11,
+  "kanji": "",
+  "kana": "ください",
+  "english": "please",
+  "accept": [
+   "please give me",
+   "give me"
+  ]
+ },
+ {
+  "id": "n5-204",
+  "page": 11,
+  "kanji": "果物",
+  "kana": "くだもの",
+  "english": "fruit"
+ },
+ {
+  "id": "n5-205",
+  "page": 11,
+  "kanji": "口",
+  "kana": "くち",
+  "english": "mouth, opening"
+ },
+ {
+  "id": "n5-206",
+  "page": 11,
+  "kanji": "靴",
+  "kana": "くつ",
+  "english": "shoes",
+  "accept": [
+   "shoe"
+  ]
+ },
+ {
+  "id": "n5-207",
+  "page": 11,
+  "kanji": "靴下",
+  "kana": "くつした",
+  "english": "socks",
+  "accept": [
+   "sock"
+  ]
+ },
+ {
+  "id": "n5-208",
+  "page": 11,
+  "kanji": "国",
+  "kana": "くに",
+  "english": "country",
+  "accept": [
+   "nation"
+  ]
+ },
+ {
+  "id": "n5-209",
+  "page": 11,
+  "kanji": "曇り",
+  "kana": "くもり",
+  "english": "cloudy weather",
+  "accept": [
+   "cloudy",
+   "clouds"
+  ]
+ },
+ {
+  "id": "n5-210",
+  "page": 11,
+  "kanji": "曇る",
+  "kana": "くもる",
+  "english": "to become cloudy, to become dim",
+  "accept": [
+   "get cloudy",
+   "cloud over"
+  ]
+ },
+ {
+  "id": "n5-211",
+  "page": 11,
+  "kanji": "暗い",
+  "kana": "くらい",
+  "english": "dark, gloomy"
+ },
+ {
+  "id": "n5-212",
+  "page": 11,
+  "kanji": "",
+  "kana": "クラス",
+  "english": "class"
+ },
+ {
+  "id": "n5-213",
+  "page": 11,
+  "kanji": "",
+  "kana": "グラム",
+  "english": "gram",
+  "accept": [
+   "gramme"
+  ]
+ },
+ {
+  "id": "n5-214",
+  "page": 11,
+  "kanji": "来る",
+  "kana": "くる",
+  "english": "to come"
+ },
+ {
+  "id": "n5-215",
+  "page": 11,
+  "kanji": "車",
+  "kana": "くるま",
+  "english": "car, vehicle"
+ },
+ {
+  "id": "n5-216",
+  "page": 11,
+  "kanji": "黒",
+  "kana": "くろ",
+  "english": "black"
+ },
+ {
+  "id": "n5-217",
+  "page": 11,
+  "kanji": "黒い",
+  "kana": "くろい",
+  "english": "black"
+ },
+ {
+  "id": "n5-218",
+  "page": 11,
+  "kanji": "警官",
+  "kana": "けいかん",
+  "english": "policeman",
+  "accept": [
+   "police officer",
+   "cop"
+  ]
+ }
+]
