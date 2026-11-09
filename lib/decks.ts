@@ -1,4 +1,4 @@
-import { kanji } from "./kanji";
+import { kanji, type Part } from "./kanji";
 import { words } from "./words";
 
 export type Example = { word: string; reading: string; english: string };
@@ -12,6 +12,9 @@ export type Card = {
   accept?: string[];
   /** Words from the vocabulary list that use this kanji. */
   examples?: Example[];
+  parts?: Part[];
+  tip?: string;
+  similar?: string;
 };
 
 export type DeckId = "words" | "kanji";
@@ -60,6 +63,9 @@ export const decks: Record<DeckId, Deck> = {
       english: k.english,
       accept: k.accept,
       examples: examplesFor(k.kanji),
+      parts: k.parts,
+      tip: k.tip,
+      similar: k.similar,
     })),
   },
 };

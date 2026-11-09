@@ -8,7 +8,19 @@
    "association",
    "interview",
    "join"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "人",
+    "meaning": "roof shape"
+   },
+   {
+    "char": "云",
+    "meaning": "cloud"
+   }
+  ],
+  "tip": "People gather under one roof to meet.",
+  "similar": "今 (now) has the same roof, but only a small hook underneath."
  },
  {
   "id": "kanji-青",
@@ -16,12 +28,30 @@
   "english": "blue",
   "accept": [
    "green"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "生",
+    "meaning": "life, squashed"
+   },
+   {
+    "char": "月",
+    "meaning": "moon"
+   }
+  ],
+  "tip": "Fresh young growth (生) above the moon (月). 青 covers blue and green, like new leaves."
  },
  {
   "id": "kanji-赤",
   "kanji": "赤",
-  "english": "red"
+  "english": "red",
+  "parts": [
+   {
+    "char": "土",
+    "meaning": "earth (top)"
+   }
+  ],
+  "tip": "The top is 土 earth and the bottom is a squashed 火 fire: the earth glowing red."
  },
  {
   "id": "kanji-明",
@@ -30,12 +60,35 @@
   "accept": [
    "light",
    "clear"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "日",
+    "meaning": "sun"
+   },
+   {
+    "char": "月",
+    "meaning": "moon"
+   }
+  ],
+  "tip": "Sun and moon side by side: as bright as it gets.",
+  "similar": "朝 (morning) also has 月 on the right, with 十日十 on the left."
  },
  {
   "id": "kanji-秋",
   "kanji": "秋",
-  "english": "autumn"
+  "english": "autumn",
+  "parts": [
+   {
+    "char": "禾",
+    "meaning": "grain"
+   },
+   {
+    "char": "火",
+    "meaning": "fire"
+   }
+  ],
+  "tip": "Grain turns fiery gold at harvest: autumn."
  },
  {
   "id": "kanji-開",
@@ -44,7 +97,19 @@
   "accept": [
    "unfold",
    "unseal"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "門",
+    "meaning": "gate"
+   },
+   {
+    "char": "廾",
+    "meaning": "two hands"
+   }
+  ],
+  "tip": "Hands lift the bar across the gate, and it opens.",
+  "similar": "聞 (to hear) is the same gate with 耳 ear inside."
  },
  {
   "id": "kanji-上",
@@ -55,7 +120,9 @@
    "top",
    "over",
    "on top"
-  ]
+  ],
+  "tip": "A mark sitting above the line: up.",
+  "similar": "下 (down) is its mirror, with the mark below the line."
  },
  {
   "id": "kanji-朝",
@@ -67,7 +134,19 @@
    "epoch",
    "period",
    "Korea"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "十日十",
+    "meaning": "sun rising through grass"
+   },
+   {
+    "char": "月",
+    "meaning": "moon"
+   }
+  ],
+  "tip": "The sun comes up through the grass while the moon is still out: morning.",
+  "similar": "明 (bright) has 日 and 月 side by side."
  },
  {
   "id": "kanji-御",
@@ -77,7 +156,19 @@
    "honorable",
    "manipulate",
    "govern"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "彳",
+    "meaning": "step"
+   },
+   {
+    "char": "卸",
+    "meaning": "unload"
+   }
+  ],
+  "tip": "You'll mostly meet it as the polite お/ご prefix, as in 朝御飯 (breakfast).",
+  "similar": "後 (after) also starts with 彳."
  },
  {
   "id": "kanji-飯",
@@ -87,7 +178,19 @@
    "rice",
    "food",
    "boiled rice"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "飠",
+    "meaning": "eating"
+   },
+   {
+    "char": "反",
+    "meaning": "turn over"
+   }
+  ],
+  "tip": "The food radical on the left says it's something to eat. 反 gives the sound はん.",
+  "similar": "飴 (candy) and 館 (hall) also have 飠 food on the left."
  },
  {
   "id": "kanji-足",
@@ -97,7 +200,18 @@
    "enough",
    "be sufficient",
    "counter for pairs of footwear"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "口",
+    "meaning": "kneecap"
+   },
+   {
+    "char": "止",
+    "meaning": "stop"
+   }
+  ],
+  "tip": "A kneecap above a foot planted on the ground."
  },
  {
   "id": "kanji-日",
@@ -106,7 +220,9 @@
   "accept": [
    "Japan",
    "counter for days"
-  ]
+  ],
+  "tip": "A picture of the sun. A day is one sun.",
+  "similar": "目 (eye) is taller, with two lines inside instead of one."
  },
  {
   "id": "kanji-遊",
@@ -114,7 +230,23 @@
   "english": "to play",
   "accept": [
    "have fun"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "辶",
+    "meaning": "road"
+   },
+   {
+    "char": "方",
+    "meaning": "flag"
+   },
+   {
+    "char": "子",
+    "meaning": "child"
+   }
+  ],
+  "tip": "A child (子) runs off down the road (辶) waving a flag: out to play.",
+  "similar": "族 (tribe) has the same flag shape, without the road."
  },
  {
   "id": "kanji-暖",
@@ -122,7 +254,19 @@
   "english": "warm",
   "accept": [
    "warmth"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "日",
+    "meaning": "sun"
+   },
+   {
+    "char": "爰",
+    "meaning": "pull"
+   }
+  ],
+  "tip": "The sun (日) on the left brings warmth.",
+  "similar": "暗 (dark) also has 日 on the left, with 音 sound on the right."
  },
  {
   "id": "kanji-頭",
@@ -130,12 +274,38 @@
   "english": "head",
   "accept": [
    "counter for large animals"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "豆",
+    "meaning": "bean"
+   },
+   {
+    "char": "頁",
+    "meaning": "page"
+   }
+  ],
+  "tip": "頁 on the right is the radical for heads. Picture a bean-shaped (豆) head."
  },
  {
   "id": "kanji-新",
   "kanji": "新",
-  "english": "new"
+  "english": "new",
+  "parts": [
+   {
+    "char": "立",
+    "meaning": "stand"
+   },
+   {
+    "char": "木",
+    "meaning": "tree"
+   },
+   {
+    "char": "斤",
+    "meaning": "axe"
+   }
+  ],
+  "tip": "Stand (立) by a tree (木) and cut it with an axe (斤): fresh new wood."
  },
  {
   "id": "kanji-暑",
@@ -145,7 +315,19 @@
    "heat",
    "sultry",
    "summer heat"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "日",
+    "meaning": "sun"
+   },
+   {
+    "char": "者",
+    "meaning": "person"
+   }
+  ],
+  "tip": "The sun (日) beating down on a person (者): hot weather.",
+  "similar": "熱 (hot to touch) and 厚 (thick) are also read あつい. Only 暑 has the sun on top."
  },
  {
   "id": "kanji-熱",
@@ -156,7 +338,19 @@
    "temperature",
    "mania",
    "passion"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "埶",
+    "meaning": "plant in hand"
+   },
+   {
+    "char": "灬",
+    "meaning": "fire"
+   }
+  ],
+  "tip": "Fire (灬) along the bottom: hot to the touch.",
+  "similar": "暑 (hot weather) has the sun on top instead. 勢 (force) has the same top with 力 power below."
  },
  {
   "id": "kanji-厚",
@@ -169,7 +363,22 @@
    "cordial",
    "brazen",
    "shameless"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "厂",
+    "meaning": "cliff"
+   },
+   {
+    "char": "日",
+    "meaning": "sun"
+   },
+   {
+    "char": "子",
+    "meaning": "child"
+   }
+  ],
+  "tip": "Layer on layer piled under a cliff (厂): thick."
  },
  {
   "id": "kanji-後",
@@ -178,7 +387,23 @@
   "accept": [
    "later",
    "back"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "彳",
+    "meaning": "step"
+   },
+   {
+    "char": "幺",
+    "meaning": "thread"
+   },
+   {
+    "char": "夂",
+    "meaning": "dragging feet"
+   }
+  ],
+  "tip": "Walking (彳) with your feet tied by thread (幺): you fall behind.",
+  "similar": "御 also starts with 彳."
  },
  {
   "id": "kanji-兄",
@@ -187,7 +412,18 @@
   "accept": [
    "elder brother",
    "big brother"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "口",
+    "meaning": "mouth"
+   },
+   {
+    "char": "儿",
+    "meaning": "legs"
+   }
+  ],
+  "tip": "A big mouth on legs: the older brother who does all the talking."
  },
  {
   "id": "kanji-姉",
@@ -195,7 +431,19 @@
   "english": "older sister",
   "accept": [
    "elder sister"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "女",
+    "meaning": "woman"
+   },
+   {
+    "char": "市",
+    "meaning": "market"
+   }
+  ],
+  "tip": "A woman (女) old enough to go to the market (市) alone: older sister.",
+  "similar": "妹 (younger sister) has 未 \"not yet\" on the right instead."
  },
  {
   "id": "kanji-危",
@@ -205,7 +453,23 @@
    "danger",
    "fear",
    "uneasy"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "勹",
+    "meaning": "bending person"
+   },
+   {
+    "char": "厂",
+    "meaning": "cliff"
+   },
+   {
+    "char": "卩",
+    "meaning": "kneeling person"
+   }
+  ],
+  "tip": "Someone on the cliff top, someone crouching below it: danger.",
+  "similar": "色 (colour) has the same bent shape on top."
  },
  {
   "id": "kanji-甘",
@@ -216,12 +480,15 @@
    "pamper",
    "be content",
    "sugary"
-  ]
+  ],
+  "tip": "A mouth holding a sweet on the tongue (the line inside)."
  },
  {
   "id": "kanji-雨",
   "kanji": "雨",
-  "english": "rain"
+  "english": "rain",
+  "tip": "Raindrops falling under the sky.",
+  "similar": "It sits on top of 雲 (cloud), which you'll find in 曇 (cloudy)."
  },
  {
   "id": "kanji-飴",
@@ -231,7 +498,19 @@
    "sweet",
    "sweets",
    "rice jelly"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "飠",
+    "meaning": "food"
+   },
+   {
+    "char": "台",
+    "meaning": "stand"
+   }
+  ],
+  "tip": "Food (飠) set out on a stand (台): candy.",
+  "similar": "飯 (meal) and 館 (hall) also have 飠 food on the left."
  },
  {
   "id": "kanji-洗",
@@ -241,7 +520,19 @@
    "clean",
    "inquire into",
    "probe"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "氵",
+    "meaning": "water"
+   },
+   {
+    "char": "先",
+    "meaning": "ahead"
+   }
+  ],
+  "tip": "Water (氵) first (先): you wash before anything else.",
+  "similar": "氵 on the left means water, as in 池, 海, 酒 and 泳."
  },
  {
   "id": "kanji-歩",
@@ -249,7 +540,18 @@
   "english": "to walk",
   "accept": [
    "counter for steps"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "止",
+    "meaning": "foot"
+   },
+   {
+    "char": "少",
+    "meaning": "a little"
+   }
+  ],
+  "tip": "One foot (止), then a little (少) further: walking."
  },
  {
   "id": "kanji-言",
@@ -257,7 +559,9 @@
   "english": "to say",
   "accept": [
    "word"
-  ]
+  ],
+  "tip": "Lines of speech coming out of a mouth (口).",
+  "similar": "On the left side of another kanji it shrinks to 訁, as in 語."
  },
  {
   "id": "kanji-家",
@@ -269,7 +573,19 @@
    "professional",
    "expert",
    "performer"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "宀",
+    "meaning": "roof"
+   },
+   {
+    "char": "豕",
+    "meaning": "pig"
+   }
+  ],
+  "tip": "A pig (豕) under a roof (宀): a farmhouse home.",
+  "similar": "字 (character) and 室 (room) also have the 宀 roof."
  },
  {
   "id": "kanji-行",
@@ -285,7 +601,18 @@
    "line",
    "row",
    "bank"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "彳",
+    "meaning": "left step"
+   },
+   {
+    "char": "亍",
+    "meaning": "right step"
+   }
+  ],
+  "tip": "A crossroads seen from above: go."
  },
  {
   "id": "kanji-池",
@@ -295,7 +622,18 @@
    "cistern",
    "pool",
    "reservoir"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "氵",
+    "meaning": "water"
+   },
+   {
+    "char": "也",
+    "meaning": "also"
+   }
+  ],
+  "tip": "Water (氵) collected in one spot: a pond."
  },
  {
   "id": "kanji-医",
@@ -303,7 +641,18 @@
   "english": "doctor, medicine",
   "accept": [
    "medical"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "匚",
+    "meaning": "box"
+   },
+   {
+    "char": "矢",
+    "meaning": "arrow"
+   }
+  ],
+  "tip": "An arrow (矢) stuck in a box (匚): call the doctor."
  },
  {
   "id": "kanji-者",
@@ -311,7 +660,19 @@
   "english": "person",
   "accept": [
    "someone"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "耂",
+    "meaning": "old"
+   },
+   {
+    "char": "日",
+    "meaning": "sun"
+   }
+  ],
+  "tip": "Someone who does something: 医者 is a \"medicine person\".",
+  "similar": "It's the bottom half of 暑 (hot weather)."
  },
  {
   "id": "kanji-忙",
@@ -320,7 +681,18 @@
   "accept": [
    "occupied",
    "restless"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "忄",
+    "meaning": "heart"
+   },
+   {
+    "char": "亡",
+    "meaning": "lose"
+   }
+  ],
+  "tip": "When you're busy, your heart (忄) gets lost (亡)."
  },
  {
   "id": "kanji-痛",
@@ -332,7 +704,18 @@
    "ache",
    "damage",
    "bruise"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "疒",
+    "meaning": "sickbed"
+   },
+   {
+    "char": "甬",
+    "meaning": "path"
+   }
+  ],
+  "tip": "疒 is the sickness radical: something hurts."
  },
  {
   "id": "kanji-一",
@@ -340,12 +723,14 @@
   "english": "one",
   "accept": [
    "one radical"
-  ]
+  ],
+  "tip": "One stroke for one."
  },
  {
   "id": "kanji-五",
   "kanji": "五",
-  "english": "five"
+  "english": "five",
+  "tip": "Like a 5 with a lid on top."
  },
  {
   "id": "kanji-緒",
@@ -358,17 +743,53 @@
    "inception",
    "end",
    "mental or emotional state"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "糸",
+    "meaning": "thread"
+   },
+   {
+    "char": "者",
+    "meaning": "person"
+   }
+  ],
+  "tip": "Threads (糸) tying people (者) together, as in 一緒 (together).",
+  "similar": "終, 紙 and 絵 also have 糸 thread on the left."
  },
  {
   "id": "kanji-犬",
   "kanji": "犬",
-  "english": "dog"
+  "english": "dog",
+  "parts": [
+   {
+    "char": "大",
+    "meaning": "big"
+   },
+   {
+    "char": "丶",
+    "meaning": "ear"
+   }
+  ],
+  "tip": "A big (大) animal with a dot for its ear: dog.",
+  "similar": "大 (big) has no dot."
  },
  {
   "id": "kanji-今",
   "kanji": "今",
-  "english": "now"
+  "english": "now",
+  "parts": [
+   {
+    "char": "人",
+    "meaning": "roof shape"
+   },
+   {
+    "char": "一",
+    "meaning": "one"
+   }
+  ],
+  "tip": "Under the roof, right at this moment: now.",
+  "similar": "会 (to meet) has the same roof, with 二 and 厶 underneath."
  },
  {
   "id": "kanji-意",
@@ -378,13 +799,24 @@
    "meaning",
    "intention",
    "will",
-   "heart",
    "taste",
    "thought",
    "desire",
    "care",
    "liking"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "音",
+    "meaning": "sound"
+   },
+   {
+    "char": "心",
+    "meaning": "heart"
+   }
+  ],
+  "tip": "The sound (音) of your heart (心): what you mean.",
+  "similar": "音 (sound) is its top half. 暗 (dark) contains 音 too."
  },
  {
   "id": "kanji-味",
@@ -393,12 +825,36 @@
   "accept": [
    "flavor",
    "flavour"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "口",
+    "meaning": "mouth"
+   },
+   {
+    "char": "未",
+    "meaning": "not yet"
+   }
+  ],
+  "tip": "A mouth (口) tasting something that's not yet (未) ready.",
+  "similar": "妹 (younger sister) has the same 未, with 女 woman."
  },
  {
   "id": "kanji-妹",
   "kanji": "妹",
-  "english": "younger sister"
+  "english": "younger sister",
+  "parts": [
+   {
+    "char": "女",
+    "meaning": "woman"
+   },
+   {
+    "char": "未",
+    "meaning": "not yet"
+   }
+  ],
+  "tip": "A woman (女) who's not yet (未) grown up: younger sister.",
+  "similar": "姉 (older sister) has 市 market instead. 味 (taste) has 口 instead of 女."
  },
  {
   "id": "kanji-嫌",
@@ -408,7 +864,18 @@
    "hate",
    "unpleasant",
    "detest"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "女",
+    "meaning": "woman"
+   },
+   {
+    "char": "兼",
+    "meaning": "combine"
+   }
+  ],
+  "tip": "A woman (女) made to combine (兼) two jobs: she hates it."
  },
  {
   "id": "kanji-入",
@@ -416,7 +883,9 @@
   "english": "to enter",
   "accept": [
    "insert"
-  ]
+  ],
+  "tip": "An arrow pointing in: enter.",
+  "similar": "人 (person) is the reverse: in 人 the left stroke is the long one."
  },
  {
   "id": "kanji-口",
@@ -424,7 +893,9 @@
   "english": "mouth",
   "accept": [
    "opening"
-  ]
+  ],
+  "tip": "A picture of an open mouth.",
+  "similar": "The bigger box 囗 wraps around other parts, as in 国 (country)."
  },
  {
   "id": "kanji-居",
@@ -435,7 +906,18 @@
    "reside",
    "stay",
    "live with"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "尸",
+    "meaning": "body"
+   },
+   {
+    "char": "古",
+    "meaning": "old"
+   }
+  ],
+  "tip": "A body (尸) that's sat there a long time (古): staying, living."
  },
  {
   "id": "kanji-要",
@@ -448,7 +930,18 @@
    "essence",
    "pivot",
    "key to"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "覀",
+    "meaning": "cover"
+   },
+   {
+    "char": "女",
+    "meaning": "woman"
+   }
+  ],
+  "tip": "Something important resting on a woman (女): what's needed."
  },
  {
   "id": "kanji-色",
@@ -456,7 +949,19 @@
   "english": "colour",
   "accept": [
    "color"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "勹",
+    "meaning": "bending person"
+   },
+   {
+    "char": "巴",
+    "meaning": "coiled snake"
+   }
+  ],
+  "tip": "A person bending over (勹) a coiled snake (巴), admiring its colours.",
+  "similar": "危 (dangerous) has the same bent shape on top."
  },
  {
   "id": "kanji-薄",
@@ -467,7 +972,19 @@
    "pale",
    "dilute",
    "pampas grass"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "艹",
+    "meaning": "grass"
+   },
+   {
+    "char": "氵",
+    "meaning": "water"
+   }
+  ],
+  "tip": "Grass (艹) spread over water (氵): a thin layer.",
+  "similar": "薬 (medicine) also has 艹 on top."
  },
  {
   "id": "kanji-歌",
@@ -475,7 +992,18 @@
   "english": "song",
   "accept": [
    "sing"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "哥",
+    "meaning": "elder brother"
+   },
+   {
+    "char": "欠",
+    "meaning": "open mouth"
+   }
+  ],
+  "tip": "欠 is a person with an open mouth. 可可 is the \"la-la\" being sung."
  },
  {
   "id": "kanji-生",
@@ -483,7 +1011,9 @@
   "english": "life, birth",
   "accept": [
    "genuine"
-  ]
+  ],
+  "tip": "A plant pushing up out of the ground: life, birth.",
+  "similar": "青 (blue) starts with a squashed form of it."
  },
  {
   "id": "kanji-海",
@@ -491,12 +1021,40 @@
   "english": "sea",
   "accept": [
    "ocean"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "氵",
+    "meaning": "water"
+   },
+   {
+    "char": "毎",
+    "meaning": "every"
+   }
+  ],
+  "tip": "Water (氵) everywhere (毎): the sea.",
+  "similar": "毎 looks like 母 (mother) wearing a hat."
  },
  {
   "id": "kanji-売",
   "kanji": "売",
-  "english": "to sell"
+  "english": "to sell",
+  "parts": [
+   {
+    "char": "士",
+    "meaning": "samurai"
+   },
+   {
+    "char": "冖",
+    "meaning": "cover"
+   },
+   {
+    "char": "儿",
+    "meaning": "legs"
+   }
+  ],
+  "tip": "A samurai (士) on his legs (儿), holding out goods to sell.",
+  "similar": "買 (to buy) has 貝 money at the bottom: you need money to buy."
  },
  {
   "id": "kanji-煩",
@@ -511,7 +1069,18 @@
    "annoy",
    "nuisance",
    "irksome"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "火",
+    "meaning": "fire"
+   },
+   {
+    "char": "頁",
+    "meaning": "page"
+   }
+  ],
+  "tip": "Fire (火) next to the head radical (頁): fuming, annoyed."
  },
  {
   "id": "kanji-着",
@@ -522,7 +1091,18 @@
    "clothes",
    "don",
    "counter for suits of clothing"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "羊",
+    "meaning": "sheep"
+   },
+   {
+    "char": "目",
+    "meaning": "eye"
+   }
+  ],
+  "tip": "Wool from a sheep (羊) right before your eyes (目): put it on."
  },
  {
   "id": "kanji-絵",
@@ -532,7 +1112,19 @@
    "drawing",
    "painting",
    "sketch"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "糸",
+    "meaning": "thread"
+   },
+   {
+    "char": "会",
+    "meaning": "meet"
+   }
+  ],
+  "tip": "Threads (糸) meeting (会) in embroidery: a picture.",
+  "similar": "画 also means picture."
  },
  {
   "id": "kanji-映",
@@ -543,7 +1135,19 @@
    "film",
    "reflection",
    "projection"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "日",
+    "meaning": "sun"
+   },
+   {
+    "char": "央",
+    "meaning": "centre"
+   }
+  ],
+  "tip": "Light (日) in the centre (央) of the screen, as in 映画 (movie).",
+  "similar": "英 (English) also has 央."
  },
  {
   "id": "kanji-画",
@@ -553,7 +1157,22 @@
    "drawing",
    "movie",
    "painting"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "一",
+    "meaning": "one"
+   },
+   {
+    "char": "田",
+    "meaning": "field"
+   },
+   {
+    "char": "凵",
+    "meaning": "frame"
+   }
+  ],
+  "tip": "A field (田) drawn inside a frame: a picture."
  },
  {
   "id": "kanji-館",
@@ -563,7 +1182,19 @@
    "building",
    "mansion",
    "palace"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "飠",
+    "meaning": "food"
+   },
+   {
+    "char": "官",
+    "meaning": "official"
+   }
+  ],
+  "tip": "An official (官) building that serves food (飠): a big hall.",
+  "similar": "官 (official) is its right half. 飯 and 飴 also have 飠."
  },
  {
   "id": "kanji-英",
@@ -574,7 +1205,19 @@
    "hero",
    "outstanding",
    "calyx"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "艹",
+    "meaning": "grass"
+   },
+   {
+    "char": "央",
+    "meaning": "centre"
+   }
+  ],
+  "tip": "A flower (艹) in the centre (央): England's rose.",
+  "similar": "映 also has 央."
  },
  {
   "id": "kanji-語",
@@ -584,12 +1227,39 @@
    "speak",
    "tell",
    "speech"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "訁",
+    "meaning": "words"
+   },
+   {
+    "char": "五",
+    "meaning": "five"
+   },
+   {
+    "char": "口",
+    "meaning": "mouth"
+   }
+  ],
+  "tip": "Words (訁) from five (五) mouths (口): a language.",
+  "similar": "訁 is 言 (to say) squashed onto the left."
  },
  {
   "id": "kanji-駅",
   "kanji": "駅",
-  "english": "station"
+  "english": "station",
+  "parts": [
+   {
+    "char": "馬",
+    "meaning": "horse"
+   },
+   {
+    "char": "尺",
+    "meaning": "measure"
+   }
+  ],
+  "tip": "Horse (馬) on the left: stations were once where you changed horses."
  },
  {
   "id": "kanji-鉛",
@@ -597,7 +1267,15 @@
   "english": "lead (the metal)",
   "accept": [
    "pencil"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "金",
+    "meaning": "metal"
+   }
+  ],
+  "tip": "金 on the left marks a metal. 鉛筆 (pencil) is literally \"lead brush\".",
+  "similar": "銀 (silver) also has 金 on the left."
  },
  {
   "id": "kanji-筆",
@@ -608,7 +1286,19 @@
    "writing",
    "painting brush",
    "handwriting"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "⺮",
+    "meaning": "bamboo"
+   },
+   {
+    "char": "聿",
+    "meaning": "brush"
+   }
+  ],
+  "tip": "A brush (聿) with a bamboo (⺮) handle.",
+  "similar": "書 (to write) has the same 聿 brush. 符 also has ⺮ bamboo."
  },
  {
   "id": "kanji-多",
@@ -617,7 +1307,19 @@
   "accept": [
    "frequent",
    "much"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "夕",
+    "meaning": "evening"
+   },
+   {
+    "char": "夕",
+    "meaning": "evening"
+   }
+  ],
+  "tip": "Evening after evening: many.",
+  "similar": "外 (outside) has a single 夕."
  },
  {
   "id": "kanji-大",
@@ -625,7 +1327,9 @@
   "english": "big",
   "accept": [
    "large"
-  ]
+  ],
+  "tip": "A person stretching their arms out wide: big.",
+  "similar": "犬 (dog) adds a dot. 人 (person) has no crossbar."
  },
  {
   "id": "kanji-勢",
@@ -635,12 +1339,26 @@
    "energy",
    "forces",
    "military strength"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "埶",
+    "meaning": "plant in hand"
+   },
+   {
+    "char": "力",
+    "meaning": "strength"
+   }
+  ],
+  "tip": "力 strength at the bottom, as in 大勢 (a great crowd of people).",
+  "similar": "熱 (heat) has the same top, with 灬 fire below."
  },
  {
   "id": "kanji-母",
   "kanji": "母",
-  "english": "mother"
+  "english": "mother",
+  "tip": "A woman with two dots inside: mother.",
+  "similar": "毎 (in 海, sea) looks like 母 with a hat."
  },
  {
   "id": "kanji-菓",
@@ -650,9 +1368,20 @@
    "candy",
    "confectionery",
    "sweet",
-   "cakes",
-   "fruit"
-  ]
+   "cakes"
+  ],
+  "parts": [
+   {
+    "char": "艹",
+    "meaning": "plant"
+   },
+   {
+    "char": "果",
+    "meaning": "fruit"
+   }
+  ],
+  "tip": "Plants (艹) and fruit (果) cooked into sweets.",
+  "similar": "果 (fruit) is its bottom half."
  },
  {
   "id": "kanji-子",
@@ -664,7 +1393,9 @@
    "sign of the rat",
    "11PM-1AM",
    "first sign of Chinese zodiac"
-  ]
+  ],
+  "tip": "A baby with its arms out and legs wrapped up.",
+  "similar": "字 (character) is 子 under a roof."
  },
  {
   "id": "kanji-金",
@@ -672,7 +1403,9 @@
   "english": "gold, money",
   "accept": [
    "metal"
-  ]
+  ],
+  "tip": "Two nuggets buried in the earth (土) under a roof: gold.",
+  "similar": "On the left of another kanji it marks a metal, as in 銀 and 鉛."
  },
  {
   "id": "kanji-起",
@@ -682,7 +1415,18 @@
    "get up",
    "rise",
    "rouse"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "走",
+    "meaning": "run"
+   },
+   {
+    "char": "己",
+    "meaning": "self"
+   }
+  ],
+  "tip": "You (己) start running (走): you're up."
  },
  {
   "id": "kanji-置",
@@ -696,7 +1440,19 @@
    "keep",
    "employ",
    "pawn"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "罒",
+    "meaning": "net"
+   },
+   {
+    "char": "直",
+    "meaning": "straight"
+   }
+  ],
+  "tip": "Put things down straight (直) under the net (罒).",
+  "similar": "買 (to buy) also has 罒 on top."
  },
  {
   "id": "kanji-奥",
@@ -706,7 +1462,22 @@
    "wife",
    "deep",
    "heart"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "冂",
+    "meaning": "enclosure"
+   },
+   {
+    "char": "米",
+    "meaning": "rice"
+   },
+   {
+    "char": "大",
+    "meaning": "big"
+   }
+  ],
+  "tip": "Rice (米) stored deep inside the house: the inner part. 奥さん is the wife."
  },
  {
   "id": "kanji-酒",
@@ -715,7 +1486,18 @@
   "accept": [
    "wine",
    "liquor"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "氵",
+    "meaning": "water"
+   },
+   {
+    "char": "酉",
+    "meaning": "jar"
+   }
+  ],
+  "tip": "Liquid (氵) in a jar (酉)."
  },
  {
   "id": "kanji-皿",
@@ -724,7 +1506,8 @@
   "accept": [
    "dish",
    "a helping"
-  ]
+  ],
+  "tip": "A picture of a dish on a stand."
  },
  {
   "id": "kanji-祖",
@@ -734,12 +1517,25 @@
    "grandparent",
    "pioneer",
    "founder"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "礻",
+    "meaning": "altar"
+   },
+   {
+    "char": "且",
+    "meaning": "stacked tablet"
+   }
+  ],
+  "tip": "An altar (礻) with a stacked memorial tablet (且): honouring ancestors.",
+  "similar": "社 (shrine) also has 礻 altar."
  },
  {
   "id": "kanji-父",
   "kanji": "父",
-  "english": "father"
+  "english": "father",
+  "tip": "Two crossed strokes, like a father's hand holding a tool."
  },
  {
   "id": "kanji-教",
@@ -748,7 +1544,18 @@
   "accept": [
    "faith",
    "doctrine"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "孝",
+    "meaning": "respect for elders"
+   },
+   {
+    "char": "攵",
+    "meaning": "hand with a stick"
+   }
+  ],
+  "tip": "A child (子) under a teacher holding a stick (攵): teaching."
  },
  {
   "id": "kanji-伯",
@@ -758,7 +1565,19 @@
    "count",
    "earl",
    "Brazil"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "亻",
+    "meaning": "person"
+   },
+   {
+    "char": "白",
+    "meaning": "white"
+   }
+  ],
+  "tip": "The white-haired (白) person (亻): the elder uncle in 伯父.",
+  "similar": "叔 is the younger uncle, as in 叔父."
  },
  {
   "id": "kanji-叔",
@@ -767,7 +1586,19 @@
   "accept": [
    "younger uncle",
    "youth"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "小",
+    "meaning": "small"
+   },
+   {
+    "char": "又",
+    "meaning": "hand"
+   }
+  ],
+  "tip": "The one with 小 small in it is the younger uncle (叔父).",
+  "similar": "伯 is the elder uncle (伯父)."
  },
  {
   "id": "kanji-押",
@@ -784,7 +1615,18 @@
    "shove",
    "seal",
    "do in spite of"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "扌",
+    "meaning": "hand"
+   },
+   {
+    "char": "甲",
+    "meaning": "armour"
+   }
+  ],
+  "tip": "A hand (扌) pressing down hard: push."
  },
  {
   "id": "kanji-遅",
@@ -793,17 +1635,46 @@
   "accept": [
    "back",
    "later"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "辶",
+    "meaning": "road"
+   },
+   {
+    "char": "犀",
+    "meaning": "rhinoceros"
+   }
+  ],
+  "tip": "A heavy rhino (犀) plodding down the road (辶): slow, late.",
+  "similar": "遊 and 返 also have the 辶 road."
  },
  {
   "id": "kanji-茶",
   "kanji": "茶",
-  "english": "tea"
+  "english": "tea",
+  "parts": [
+   {
+    "char": "艹",
+    "meaning": "grass"
+   },
+   {
+    "char": "人",
+    "meaning": "person"
+   },
+   {
+    "char": "木",
+    "meaning": "tree"
+   }
+  ],
+  "tip": "A person (人) between the leaves (艹) and the tree (木), picking tea."
  },
  {
   "id": "kanji-手",
   "kanji": "手",
-  "english": "hand"
+  "english": "hand",
+  "tip": "A hand with its fingers spread.",
+  "similar": "On the left of another kanji it shrinks to 扌, as in 押."
  },
  {
   "id": "kanji-弟",
@@ -811,7 +1682,18 @@
   "english": "younger brother",
   "accept": [
    "faithful service to elders"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "丷",
+    "meaning": "horns"
+   },
+   {
+    "char": "弓",
+    "meaning": "bow"
+   }
+  ],
+  "tip": "A cord wound round a stick, turn by turn: next in line, the younger brother."
  },
  {
   "id": "kanji-男",
@@ -820,7 +1702,18 @@
   "accept": [
    "male",
    "boy"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "田",
+    "meaning": "field"
+   },
+   {
+    "char": "力",
+    "meaning": "power"
+   }
+  ],
+  "tip": "Power (力) in the field (田): man."
  },
  {
   "id": "kanji-昨",
@@ -828,7 +1721,18 @@
   "english": "yesterday, previous",
   "accept": [
    "last"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "日",
+    "meaning": "day"
+   },
+   {
+    "char": "乍",
+    "meaning": "suddenly"
+   }
+  ],
+  "tip": "The day (日) that's suddenly gone: 昨日 (yesterday)."
  },
  {
   "id": "kanji-年",
@@ -837,7 +1741,8 @@
   "accept": [
    "age",
    "counter for years"
-  ]
+  ],
+  "tip": "A farmer carrying a sheaf of grain: one harvest a year."
  },
  {
   "id": "kanji-人",
@@ -846,7 +1751,9 @@
   "accept": [
    "human",
    "people"
-  ]
+  ],
+  "tip": "Two legs walking.",
+  "similar": "入 (to enter) is the reverse: in 入 the right stroke is the long one."
  },
  {
   "id": "kanji-同",
@@ -855,7 +1762,22 @@
   "accept": [
    "agree",
    "equal"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "冂",
+    "meaning": "cover"
+   },
+   {
+    "char": "一",
+    "meaning": "one"
+   },
+   {
+    "char": "口",
+    "meaning": "mouth"
+   }
+  ],
+  "tip": "One (一) mouth (口) under one cover: all the same."
  },
  {
   "id": "kanji-風",
@@ -865,7 +1787,18 @@
    "air",
    "style",
    "manner"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "几",
+    "meaning": "sail"
+   },
+   {
+    "char": "虫",
+    "meaning": "insect"
+   }
+  ],
+  "tip": "Wind fills the sail (几) and carries an insect (虫) along."
  },
  {
   "id": "kanji-呂",
@@ -874,7 +1807,18 @@
   "accept": [
    "bath",
    "backbone"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "口",
+    "meaning": "vertebra"
+   },
+   {
+    "char": "口",
+    "meaning": "vertebra"
+   }
+  ],
+  "tip": "Two vertebrae stacked: a spine. You'll mostly see it in お風呂 (bath)."
  },
  {
   "id": "kanji-弁",
@@ -890,7 +1834,18 @@
    "dispose of",
    "distinguish",
    "conical cap"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "厶",
+    "meaning": "private"
+   },
+   {
+    "char": "廾",
+    "meaning": "two hands"
+   }
+  ],
+  "tip": "Two hands (廾) holding something private (厶): your own お弁当 (lunch box)."
  },
  {
   "id": "kanji-当",
@@ -901,7 +1856,18 @@
    "win",
    "appropriate",
    "himself"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "⺌",
+    "meaning": "sparks"
+   },
+   {
+    "char": "彐",
+    "meaning": "hand"
+   }
+  ],
+  "tip": "A hand (彐) hits the target and sparks fly (⺌): right on."
  },
  {
   "id": "kanji-覚",
@@ -912,7 +1878,23 @@
    "learn",
    "awake",
    "sober up"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "⺍",
+    "meaning": "light"
+   },
+   {
+    "char": "冖",
+    "meaning": "cover"
+   },
+   {
+    "char": "見",
+    "meaning": "see"
+   }
+  ],
+  "tip": "You see (見) a flash of light (⺍): you wake up and remember.",
+  "similar": "学 (to study) has the same top: study, then remember."
  },
  {
   "id": "kanji-重",
@@ -927,12 +1909,25 @@
    "pile up",
    "nest of boxes",
    "-fold"
-  ]
+  ],
+  "tip": "A person straining under a heavy load.",
+  "similar": "車 (car) lacks the slanting stroke on top and the extra base line."
  },
  {
   "id": "kanji-泳",
   "kanji": "泳",
-  "english": "to swim"
+  "english": "to swim",
+  "parts": [
+   {
+    "char": "氵",
+    "meaning": "water"
+   },
+   {
+    "char": "永",
+    "meaning": "forever"
+   }
+  ],
+  "tip": "In the water (氵) forever (永): swimming."
  },
  {
   "id": "kanji-降",
@@ -944,7 +1939,19 @@
    "go down",
    "precipitate",
    "surrender"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "阝",
+    "meaning": "hill"
+   },
+   {
+    "char": "夂",
+    "meaning": "feet"
+   }
+  ],
+  "tip": "Feet (夂) going down a hill (阝): descending.",
+  "similar": "階 (floor) has the same 阝 hill on the left."
  },
  {
   "id": "kanji-終",
@@ -952,7 +1959,19 @@
   "english": "to end",
   "accept": [
    "finish"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "糸",
+    "meaning": "thread"
+   },
+   {
+    "char": "冬",
+    "meaning": "winter"
+   }
+  ],
+  "tip": "The thread (糸) runs out in winter (冬), at the end of the year.",
+  "similar": "紙, 絵 and 緒 also have 糸 thread on the left."
  },
  {
   "id": "kanji-音",
@@ -960,7 +1979,19 @@
   "english": "sound",
   "accept": [
    "noise"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "立",
+    "meaning": "stand"
+   },
+   {
+    "char": "日",
+    "meaning": "speaking mouth"
+   }
+  ],
+  "tip": "Stand (立) up and speak (日): sound.",
+  "similar": "意 (idea) and 暗 (dark) both contain 音."
  },
  {
   "id": "kanji-楽",
@@ -970,7 +2001,19 @@
    "fun",
    "easy",
    "ease"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "白",
+    "meaning": "drum"
+   },
+   {
+    "char": "木",
+    "meaning": "wood"
+   }
+  ],
+  "tip": "A drum (白) on a wooden (木) stand: music, fun.",
+  "similar": "薬 (medicine) is 楽 with 艹 plants on top."
  },
  {
   "id": "kanji-女",
@@ -980,7 +2023,9 @@
    "female",
    "girl",
    "lady"
-  ]
+  ],
+  "tip": "A woman kneeling gracefully.",
+  "similar": "It's on the left of 姉, 妹 and 嫌."
  },
  {
   "id": "kanji-外",
@@ -989,7 +2034,19 @@
   "accept": [
    "abroad",
    "foreign"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "夕",
+    "meaning": "evening"
+   },
+   {
+    "char": "卜",
+    "meaning": "divination"
+   }
+  ],
+  "tip": "Fortune-telling (卜) in the evening (夕) was done outside.",
+  "similar": "多 (many) is two 夕."
  },
  {
   "id": "kanji-国",
@@ -997,7 +2054,18 @@
   "english": "country",
   "accept": [
    "nation"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "囗",
+    "meaning": "border"
+   },
+   {
+    "char": "玉",
+    "meaning": "jewel"
+   }
+  ],
+  "tip": "The king's jewel (玉) inside the borders (囗): a country."
  },
  {
   "id": "kanji-社",
@@ -1008,7 +2076,19 @@
    "firm",
    "office",
    "association"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "礻",
+    "meaning": "altar"
+   },
+   {
+    "char": "土",
+    "meaning": "earth"
+   }
+  ],
+  "tip": "An altar (礻) on the earth (土): a shrine where people gather, and later a company.",
+  "similar": "祖 (ancestor) also has 礻."
  },
  {
   "id": "kanji-階",
@@ -1019,7 +2099,19 @@
    "level",
    "stair",
    "counter for storeys of a building"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "阝",
+    "meaning": "hill"
+   },
+   {
+    "char": "皆",
+    "meaning": "everyone"
+   }
+  ],
+  "tip": "Everyone (皆) climbing the hill (阝): the floors of a building.",
+  "similar": "降 (descend) has the same 阝 hill."
  },
  {
   "id": "kanji-段",
@@ -1029,12 +2121,31 @@
    "stair",
    "grade",
    "steps"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "殳",
+    "meaning": "hand with a tool"
+   }
+  ],
+  "tip": "Steps cut with a tool (殳). With 階 it makes 階段 (stairs)."
  },
  {
   "id": "kanji-買",
   "kanji": "買",
-  "english": "to buy"
+  "english": "to buy",
+  "parts": [
+   {
+    "char": "罒",
+    "meaning": "net"
+   },
+   {
+    "char": "貝",
+    "meaning": "shell"
+   }
+  ],
+  "tip": "Shells (貝) were money. Catch them in a net (罒) and go buying.",
+  "similar": "売 (to sell) has no money in it. 貸 (to lend) has 貝 at the bottom too."
  },
  {
   "id": "kanji-物",
@@ -1043,7 +2154,18 @@
   "accept": [
    "object",
    "matter"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "牛",
+    "meaning": "cow"
+   },
+   {
+    "char": "勿",
+    "meaning": "not"
+   }
+  ],
+  "tip": "A cow (牛) was the thing worth owning."
  },
  {
   "id": "kanji-返",
@@ -1054,7 +2176,19 @@
    "answer",
    "fade",
    "repay"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "辶",
+    "meaning": "road"
+   },
+   {
+    "char": "反",
+    "meaning": "turn over"
+   }
+  ],
+  "tip": "Turn back (反) along the road (辶): return something.",
+  "similar": "飯 (meal) has the same 反."
  },
  {
   "id": "kanji-帰",
@@ -1068,7 +2202,18 @@
    "arrive at",
    "lead to",
    "result in"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "刂",
+    "meaning": "knife"
+   },
+   {
+    "char": "帚",
+    "meaning": "broom"
+   }
+  ],
+  "tip": "Return home and pick up the broom (帚)."
  },
  {
   "id": "kanji-書",
@@ -1076,7 +2221,19 @@
   "english": "to write",
   "accept": [
    "book"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "聿",
+    "meaning": "brush"
+   },
+   {
+    "char": "日",
+    "meaning": "speaking mouth"
+   }
+  ],
+  "tip": "A brush (聿) above a speaking mouth (日): writing the words down.",
+  "similar": "筆 (writing brush) has the same 聿."
  },
  {
   "id": "kanji-学",
@@ -1086,12 +2243,29 @@
    "learn",
    "learning",
    "science"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "⺍",
+    "meaning": "sparks"
+   },
+   {
+    "char": "冖",
+    "meaning": "roof"
+   },
+   {
+    "char": "子",
+    "meaning": "child"
+   }
+  ],
+  "tip": "A child (子) under a roof with sparks of ideas (⺍): studying.",
+  "similar": "字 (character) has a plain 宀 roof. 覚 (remember) has the same top."
  },
  {
   "id": "kanji-傘",
   "kanji": "傘",
-  "english": "umbrella"
+  "english": "umbrella",
+  "tip": "Four people (人) huddled under an umbrella."
  },
  {
   "id": "kanji-貸",
@@ -1100,7 +2274,19 @@
   "accept": [
    "loan",
    "rent out"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "代",
+    "meaning": "replace"
+   },
+   {
+    "char": "貝",
+    "meaning": "money"
+   }
+  ],
+  "tip": "Money (貝) handed over in place of (代) something: lending.",
+  "similar": "借 (to borrow) has 亻 person on the left instead."
  },
  {
   "id": "kanji-邪",
@@ -1110,7 +2296,18 @@
    "bad",
    "injustice",
    "wrong"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "牙",
+    "meaning": "fang"
+   },
+   {
+    "char": "阝",
+    "meaning": "village"
+   }
+  ],
+  "tip": "Fangs (牙) in the village (阝): wicked. In 風邪 (a cold) it's an evil wind."
  },
  {
   "id": "kanji-族",
@@ -1118,7 +2315,19 @@
   "english": "family, tribe",
   "accept": [
    "clan"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "方",
+    "meaning": "flag"
+   },
+   {
+    "char": "矢",
+    "meaning": "arrow"
+   }
+  ],
+  "tip": "People under one flag (方), armed with arrows (矢): a tribe or family.",
+  "similar": "遊 (to play) has the same flag shape."
  },
  {
   "id": "kanji-方",
@@ -1127,7 +2336,8 @@
   "accept": [
    "way",
    "alternative"
-  ]
+  ],
+  "tip": "A signpost pointing a direction. Politely, あの方 means \"that person\"."
  },
  {
   "id": "kanji-校",
@@ -1139,7 +2349,18 @@
    "printing",
    "proof",
    "correction"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "木",
+    "meaning": "wood"
+   },
+   {
+    "char": "交",
+    "meaning": "mix"
+   }
+  ],
+  "tip": "A wooden (木) building where people mix (交): school."
  },
  {
   "id": "kanji-庭",
@@ -1148,7 +2369,19 @@
   "accept": [
    "yard",
    "courtyard"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "广",
+    "meaning": "eaves"
+   },
+   {
+    "char": "廷",
+    "meaning": "court"
+   }
+  ],
+  "tip": "The open court (廷) under the eaves (广): a garden.",
+  "similar": "店 (shop) also has 广."
  },
  {
   "id": "kanji-角",
@@ -1158,12 +2391,25 @@
    "angle",
    "square",
    "antlers"
-  ]
+  ],
+  "tip": "An animal's horn with ridges. Horns come to a point, like corners."
  },
  {
   "id": "kanji-花",
   "kanji": "花",
-  "english": "flower"
+  "english": "flower",
+  "parts": [
+   {
+    "char": "艹",
+    "meaning": "plant"
+   },
+   {
+    "char": "化",
+    "meaning": "change"
+   }
+  ],
+  "tip": "Plants (艹) that change (化) from bud to flower.",
+  "similar": "靴 (shoes) also has 化."
  },
  {
   "id": "kanji-瓶",
@@ -1175,17 +2421,42 @@
    "jug",
    "vat",
    "urn"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "并",
+    "meaning": "side by side"
+   },
+   {
+    "char": "瓦",
+    "meaning": "pottery"
+   }
+  ],
+  "tip": "瓦 on the right means pottery: a pottery bottle or jar."
  },
  {
   "id": "kanji-紙",
   "kanji": "紙",
-  "english": "paper"
+  "english": "paper",
+  "parts": [
+   {
+    "char": "糸",
+    "meaning": "thread"
+   },
+   {
+    "char": "氏",
+    "meaning": "family name"
+   }
+  ],
+  "tip": "Paper was first made from fibres (糸).",
+  "similar": "終, 絵 and 緒 also have 糸 thread on the left."
  },
  {
   "id": "kanji-火",
   "kanji": "火",
-  "english": "fire"
+  "english": "fire",
+  "tip": "Flames rising from a fire.",
+  "similar": "At the bottom of a kanji it becomes 灬, as in 熱 and 黒."
  },
  {
   "id": "kanji-曜",
@@ -1193,7 +2464,22 @@
   "english": "day of the week",
   "accept": [
    "weekday"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "日",
+    "meaning": "sun"
+   },
+   {
+    "char": "羽",
+    "meaning": "feathers"
+   },
+   {
+    "char": "隹",
+    "meaning": "bird"
+   }
+  ],
+  "tip": "A crowded kanji you'll only see in weekday names, like 火曜日 (Tuesday)."
  },
  {
   "id": "kanji-辛",
@@ -1202,7 +2488,8 @@
   "accept": [
    "hot",
    "acrid"
-  ]
+  ],
+  "tip": "A sharp needle: stinging, like spicy food."
  },
  {
   "id": "kanji-体",
@@ -1213,7 +2500,19 @@
    "object",
    "reality",
    "counter for images"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "亻",
+    "meaning": "person"
+   },
+   {
+    "char": "本",
+    "meaning": "origin"
+   }
+  ],
+  "tip": "A person's (亻) origin (本): the body.",
+  "similar": "休 (rest), not on your list, is 亻 + 木 without the extra line."
  },
  {
   "id": "kanji-借",
@@ -1221,7 +2520,19 @@
   "english": "to borrow",
   "accept": [
    "rent"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "亻",
+    "meaning": "person"
+   },
+   {
+    "char": "昔",
+    "meaning": "long ago"
+   }
+  ],
+  "tip": "A person (亻) who borrowed something long ago (昔) and still has it.",
+  "similar": "貸 (to lend) has 貝 money at the bottom instead."
  },
  {
   "id": "kanji-軽",
@@ -1231,7 +2542,18 @@
    "lightly",
    "trifling",
    "unimportant"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "車",
+    "meaning": "car"
+   },
+   {
+    "char": "圣",
+    "meaning": "strength"
+   }
+  ],
+  "tip": "車 on the left: a light cart that's easy to pull."
  },
  {
   "id": "kanji-川",
@@ -1240,12 +2562,26 @@
   "accept": [
    "stream",
    "river or three-stroke river radical"
-  ]
+  ],
+  "tip": "Three lines of flowing water.",
+  "similar": "河 is also a river, written with 氵 water."
  },
  {
   "id": "kanji-河",
   "kanji": "河",
-  "english": "river"
+  "english": "river",
+  "parts": [
+   {
+    "char": "氵",
+    "meaning": "water"
+   },
+   {
+    "char": "可",
+    "meaning": "can"
+   }
+  ],
+  "tip": "Water (氵) that can (可) carry boats: a big river.",
+  "similar": "川 is the simpler river kanji."
  },
  {
   "id": "kanji-漢",
@@ -1255,7 +2591,14 @@
    "chinese",
    "han",
    "Sino-"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "氵",
+    "meaning": "water"
+   }
+  ],
+  "tip": "Named after the Han river and dynasty. 漢字 means \"Chinese characters\"."
  },
  {
   "id": "kanji-字",
@@ -1264,17 +2607,42 @@
   "accept": [
    "word",
    "section of village"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "宀",
+    "meaning": "roof"
+   },
+   {
+    "char": "子",
+    "meaning": "child"
+   }
+  ],
+  "tip": "A child (子) at home (宀) learning to write characters.",
+  "similar": "学 (to study) has ⺍ sparks over the roof."
  },
  {
   "id": "kanji-木",
   "kanji": "木",
-  "english": "tree, wood"
+  "english": "tree, wood",
+  "tip": "A tree with branches and roots.",
+  "similar": "未 (not yet), in 妹 and 味, has an extra short line."
  },
  {
   "id": "kanji-黄",
   "kanji": "黄",
-  "english": "yellow"
+  "english": "yellow",
+  "parts": [
+   {
+    "char": "田",
+    "meaning": "field"
+   },
+   {
+    "char": "八",
+    "meaning": "eight"
+   }
+  ],
+  "tip": "A field (田) of ripe grain: yellow."
  },
  {
   "id": "kanji-消",
@@ -1287,7 +2655,18 @@
    "blow out",
    "neutralize",
    "cancel"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "氵",
+    "meaning": "water"
+   },
+   {
+    "char": "肖",
+    "meaning": "resemble"
+   }
+  ],
+  "tip": "Water (氵) puts the fire out: it disappears."
  },
  {
   "id": "kanji-聞",
@@ -1296,12 +2675,25 @@
   "accept": [
    "listen",
    "ask"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "門",
+    "meaning": "gate"
+   },
+   {
+    "char": "耳",
+    "meaning": "ear"
+   }
+  ],
+  "tip": "An ear (耳) pressed to the gate (門): listening.",
+  "similar": "開 (to open) is the same gate with a bar and two hands inside."
  },
  {
   "id": "kanji-北",
   "kanji": "北",
-  "english": "north"
+  "english": "north",
+  "tip": "Two people sitting back to back, turning away from the cold north."
  },
  {
   "id": "kanji-汚",
@@ -1314,7 +2706,14 @@
    "disgrace",
    "rape",
    "defile"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "氵",
+    "meaning": "water"
+   }
+  ],
+  "tip": "Water (氵) gone bad: dirty."
  },
  {
   "id": "kanji-喫",
@@ -1324,7 +2723,18 @@
    "eat",
    "smoke",
    "receive"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "口",
+    "meaning": "mouth"
+   },
+   {
+    "char": "契",
+    "meaning": "contract"
+   }
+  ],
+  "tip": "A mouth (口) on the left: taking something in, as in 喫茶店 (café)."
  },
  {
   "id": "kanji-店",
@@ -1332,7 +2742,19 @@
   "english": "shop",
   "accept": [
    "store"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "广",
+    "meaning": "eaves"
+   },
+   {
+    "char": "占",
+    "meaning": "occupy"
+   }
+  ],
+  "tip": "Someone sets up (占) under the eaves (广): a shop.",
+  "similar": "庭 (garden) also has 广."
  },
  {
   "id": "kanji-切",
@@ -1342,7 +2764,18 @@
    "ticket",
    "cutoff",
    "be sharp"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "七",
+    "meaning": "seven"
+   },
+   {
+    "char": "刀",
+    "meaning": "knife"
+   }
+  ],
+  "tip": "Seven (七) cuts with a knife (刀)."
  },
  {
   "id": "kanji-符",
@@ -1353,22 +2786,39 @@
    "mark",
    "tally",
    "charm"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "⺮",
+    "meaning": "bamboo"
+   },
+   {
+    "char": "付",
+    "meaning": "attach"
+   }
+  ],
+  "tip": "A bamboo (⺮) tag attached (付) to you: a ticket, as in 切符.",
+  "similar": "筆 also has ⺮ bamboo."
  },
  {
   "id": "kanji-九",
   "kanji": "九",
-  "english": "nine"
+  "english": "nine",
+  "tip": "A hooked stroke: nine.",
+  "similar": "力 (power), in 男 and 勢, hooks down to the left instead."
  },
  {
   "id": "kanji-牛",
   "kanji": "牛",
-  "english": "cow"
+  "english": "cow",
+  "tip": "A cow's head from the front, horns and all.",
+  "similar": "午 (noon), not on your list, has no stroke poking through the top."
  },
  {
   "id": "kanji-肉",
   "kanji": "肉",
-  "english": "meat"
+  "english": "meat",
+  "tip": "Cuts of meat with the ribs showing inside."
  },
  {
   "id": "kanji-乳",
@@ -1376,7 +2826,22 @@
   "english": "milk",
   "accept": [
    "breasts"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "爫",
+    "meaning": "hand"
+   },
+   {
+    "char": "子",
+    "meaning": "child"
+   },
+   {
+    "char": "乚",
+    "meaning": "hook"
+   }
+  ],
+  "tip": "A hand (爫) over a child (子): feeding milk."
  },
  {
   "id": "kanji-室",
@@ -1387,7 +2852,19 @@
    "chamber",
    "greenhouse",
    "cellar"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "宀",
+    "meaning": "roof"
+   },
+   {
+    "char": "至",
+    "meaning": "arrive"
+   }
+  ],
+  "tip": "Where you arrive (至) under the roof (宀): a room.",
+  "similar": "家 and 字 also have the 宀 roof."
  },
  {
   "id": "kanji-去",
@@ -1399,7 +2876,18 @@
    "elapse",
    "eliminate",
    "divorce"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "土",
+    "meaning": "earth"
+   },
+   {
+    "char": "厶",
+    "meaning": "private"
+   }
+  ],
+  "tip": "Leave the earth (土) quietly (厶): gone, past. 去年 means last year."
  },
  {
   "id": "kanji-銀",
@@ -1407,7 +2895,19 @@
   "english": "silver",
   "accept": [
    "bank"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "金",
+    "meaning": "metal"
+   },
+   {
+    "char": "艮",
+    "meaning": "stubborn"
+   }
+  ],
+  "tip": "Metal (金) on the left. A 銀行 (bank) is literally a \"silver shop\".",
+  "similar": "鉛 (lead) also has 金."
  },
  {
   "id": "kanji-薬",
@@ -1419,7 +2919,19 @@
    "enamel",
    "gunpowder",
    "benefit"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "艹",
+    "meaning": "plant"
+   },
+   {
+    "char": "楽",
+    "meaning": "comfort"
+   }
+  ],
+  "tip": "Plants (艹) that make you comfortable (楽): medicine.",
+  "similar": "楽 (music) is the same without 艹."
  },
  {
   "id": "kanji-果",
@@ -1433,7 +2945,19 @@
    "end",
    "finish",
    "succeed"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "田",
+    "meaning": "field shape"
+   },
+   {
+    "char": "木",
+    "meaning": "tree"
+   }
+  ],
+  "tip": "Fruit (田) growing on top of a tree (木).",
+  "similar": "菓 (sweets) puts 艹 on top."
  },
  {
   "id": "kanji-靴",
@@ -1441,7 +2965,19 @@
   "english": "shoes",
   "accept": [
    "shoe"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "革",
+    "meaning": "leather"
+   },
+   {
+    "char": "化",
+    "meaning": "change"
+   }
+  ],
+  "tip": "Leather (革) changed (化) into shoes.",
+  "similar": "花 (flower) also has 化."
  },
  {
   "id": "kanji-下",
@@ -1454,17 +2990,29 @@
    "descend",
    "give",
    "inferior"
-  ]
+  ],
+  "tip": "A mark hanging below the line: down.",
+  "similar": "上 (up) is its mirror."
  },
  {
   "id": "kanji-曇",
   "kanji": "曇",
   "english": "cloudy",
   "accept": [
-   "cloud",
    "cloudy weather",
    "cloud up"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "日",
+    "meaning": "sun"
+   },
+   {
+    "char": "雲",
+    "meaning": "cloud"
+   }
+  ],
+  "tip": "The sun (日) hiding behind clouds (雲): cloudy."
  },
  {
   "id": "kanji-暗",
@@ -1478,7 +3026,19 @@
    "informal",
    "grow dark",
    "be blinded"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "日",
+    "meaning": "sun"
+   },
+   {
+    "char": "音",
+    "meaning": "sound"
+   }
+  ],
+  "tip": "The sun (日) is gone and only sounds (音) are left: dark.",
+  "similar": "暖 (warm) also has 日 on the left."
  },
  {
   "id": "kanji-来",
@@ -1490,7 +3050,9 @@
    "next",
    "cause",
    "become"
-  ]
+  ],
+  "tip": "A tree (木) with a crossbar and two marks: something coming.",
+  "similar": "木 (tree) is the same without the extra marks."
  },
  {
   "id": "kanji-車",
@@ -1498,12 +3060,26 @@
   "english": "car, vehicle",
   "accept": [
    "wheel"
-  ]
+  ],
+  "tip": "A cart seen from above: the axle through two wheels.",
+  "similar": "重 (heavy) has an extra slanting stroke on top."
  },
  {
   "id": "kanji-黒",
   "kanji": "黒",
-  "english": "black"
+  "english": "black",
+  "parts": [
+   {
+    "char": "里",
+    "meaning": "village"
+   },
+   {
+    "char": "灬",
+    "meaning": "fire"
+   }
+  ],
+  "tip": "Soot from the fire (灬) blackens the house: black.",
+  "similar": "熱 (heat) also has 灬 fire along the bottom."
  },
  {
   "id": "kanji-警",
@@ -1514,7 +3090,18 @@
    "guard",
    "admonish",
    "commandment"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "敬",
+    "meaning": "respect"
+   },
+   {
+    "char": "言",
+    "meaning": "words"
+   }
+  ],
+  "tip": "Respectful (敬) words (言) of warning: the police. 警官 is a police officer."
  },
  {
   "id": "kanji-官",
@@ -1526,6 +3113,14 @@
    "bureaucrat",
    "the government",
    "organ"
-  ]
+  ],
+  "parts": [
+   {
+    "char": "宀",
+    "meaning": "roof"
+   }
+  ],
+  "tip": "Under a grand roof (宀): a government official.",
+  "similar": "館 (hall) adds 飠 food on the left."
  }
 ]

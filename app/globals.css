@@ -415,6 +415,42 @@ button {
   gap: 1.25rem;
 }
 
+/* Kanji tips */
+
+.parts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.25rem;
+  color: var(--ink-soft);
+}
+
+.parts li + li::before {
+  content: "+";
+  margin-right: 1.25rem;
+}
+
+.parts [lang="ja"] {
+  color: var(--ink);
+  font-size: 1.375rem;
+}
+
+.prompt .parts {
+  margin-top: 0.5rem;
+}
+
+.remember {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 34rem;
+}
+
+.similar {
+  padding-left: 0.875rem;
+  border-left: 3px solid var(--line);
+  color: var(--ink-soft);
+}
+
 @media (prefers-reduced-motion: reduce) {
   .red-pen path {
     animation: none;
