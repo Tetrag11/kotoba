@@ -1,0 +1,1531 @@
+[
+ {
+  "id": "kanji-会",
+  "kanji": "会",
+  "english": "to meet, meeting",
+  "accept": [
+   "party",
+   "association",
+   "interview",
+   "join"
+  ]
+ },
+ {
+  "id": "kanji-青",
+  "kanji": "青",
+  "english": "blue",
+  "accept": [
+   "green"
+  ]
+ },
+ {
+  "id": "kanji-赤",
+  "kanji": "赤",
+  "english": "red"
+ },
+ {
+  "id": "kanji-明",
+  "kanji": "明",
+  "english": "bright",
+  "accept": [
+   "light",
+   "clear"
+  ]
+ },
+ {
+  "id": "kanji-秋",
+  "kanji": "秋",
+  "english": "autumn"
+ },
+ {
+  "id": "kanji-開",
+  "kanji": "開",
+  "english": "to open",
+  "accept": [
+   "unfold",
+   "unseal"
+  ]
+ },
+ {
+  "id": "kanji-上",
+  "kanji": "上",
+  "english": "up, above",
+  "accept": [
+   "on",
+   "top",
+   "over",
+   "on top"
+  ]
+ },
+ {
+  "id": "kanji-朝",
+  "kanji": "朝",
+  "english": "morning",
+  "accept": [
+   "dynasty",
+   "regime",
+   "epoch",
+   "period",
+   "Korea"
+  ]
+ },
+ {
+  "id": "kanji-御",
+  "kanji": "御",
+  "english": "honourable",
+  "accept": [
+   "honorable",
+   "manipulate",
+   "govern"
+  ]
+ },
+ {
+  "id": "kanji-飯",
+  "kanji": "飯",
+  "english": "cooked rice, meal",
+  "accept": [
+   "rice",
+   "food",
+   "boiled rice"
+  ]
+ },
+ {
+  "id": "kanji-足",
+  "kanji": "足",
+  "english": "foot, leg",
+  "accept": [
+   "enough",
+   "be sufficient",
+   "counter for pairs of footwear"
+  ]
+ },
+ {
+  "id": "kanji-日",
+  "kanji": "日",
+  "english": "day, sun",
+  "accept": [
+   "Japan",
+   "counter for days"
+  ]
+ },
+ {
+  "id": "kanji-遊",
+  "kanji": "遊",
+  "english": "to play",
+  "accept": [
+   "have fun"
+  ]
+ },
+ {
+  "id": "kanji-暖",
+  "kanji": "暖",
+  "english": "warm",
+  "accept": [
+   "warmth"
+  ]
+ },
+ {
+  "id": "kanji-頭",
+  "kanji": "頭",
+  "english": "head",
+  "accept": [
+   "counter for large animals"
+  ]
+ },
+ {
+  "id": "kanji-新",
+  "kanji": "新",
+  "english": "new"
+ },
+ {
+  "id": "kanji-暑",
+  "kanji": "暑",
+  "english": "hot (weather)",
+  "accept": [
+   "heat",
+   "sultry",
+   "summer heat"
+  ]
+ },
+ {
+  "id": "kanji-熱",
+  "kanji": "熱",
+  "english": "heat, hot",
+  "accept": [
+   "fever",
+   "temperature",
+   "mania",
+   "passion"
+  ]
+ },
+ {
+  "id": "kanji-厚",
+  "kanji": "厚",
+  "english": "thick",
+  "accept": [
+   "kind",
+   "heavy",
+   "rich",
+   "cordial",
+   "brazen",
+   "shameless"
+  ]
+ },
+ {
+  "id": "kanji-後",
+  "kanji": "後",
+  "english": "after, behind",
+  "accept": [
+   "later",
+   "back"
+  ]
+ },
+ {
+  "id": "kanji-兄",
+  "kanji": "兄",
+  "english": "older brother",
+  "accept": [
+   "elder brother",
+   "big brother"
+  ]
+ },
+ {
+  "id": "kanji-姉",
+  "kanji": "姉",
+  "english": "older sister",
+  "accept": [
+   "elder sister"
+  ]
+ },
+ {
+  "id": "kanji-危",
+  "kanji": "危",
+  "english": "dangerous",
+  "accept": [
+   "danger",
+   "fear",
+   "uneasy"
+  ]
+ },
+ {
+  "id": "kanji-甘",
+  "kanji": "甘",
+  "english": "sweet",
+  "accept": [
+   "coax",
+   "pamper",
+   "be content",
+   "sugary"
+  ]
+ },
+ {
+  "id": "kanji-雨",
+  "kanji": "雨",
+  "english": "rain"
+ },
+ {
+  "id": "kanji-飴",
+  "kanji": "飴",
+  "english": "candy",
+  "accept": [
+   "sweet",
+   "sweets",
+   "rice jelly"
+  ]
+ },
+ {
+  "id": "kanji-洗",
+  "kanji": "洗",
+  "english": "to wash",
+  "accept": [
+   "clean",
+   "inquire into",
+   "probe"
+  ]
+ },
+ {
+  "id": "kanji-歩",
+  "kanji": "歩",
+  "english": "to walk",
+  "accept": [
+   "counter for steps"
+  ]
+ },
+ {
+  "id": "kanji-言",
+  "kanji": "言",
+  "english": "to say",
+  "accept": [
+   "word"
+  ]
+ },
+ {
+  "id": "kanji-家",
+  "kanji": "家",
+  "english": "house",
+  "accept": [
+   "home",
+   "family",
+   "professional",
+   "expert",
+   "performer"
+  ]
+ },
+ {
+  "id": "kanji-行",
+  "kanji": "行",
+  "english": "to go",
+  "accept": [
+   "travel",
+   "going",
+   "journey",
+   "carry out",
+   "conduct",
+   "act",
+   "line",
+   "row",
+   "bank"
+  ]
+ },
+ {
+  "id": "kanji-池",
+  "kanji": "池",
+  "english": "pond",
+  "accept": [
+   "cistern",
+   "pool",
+   "reservoir"
+  ]
+ },
+ {
+  "id": "kanji-医",
+  "kanji": "医",
+  "english": "doctor, medicine",
+  "accept": [
+   "medical"
+  ]
+ },
+ {
+  "id": "kanji-者",
+  "kanji": "者",
+  "english": "person",
+  "accept": [
+   "someone"
+  ]
+ },
+ {
+  "id": "kanji-忙",
+  "kanji": "忙",
+  "english": "busy",
+  "accept": [
+   "occupied",
+   "restless"
+  ]
+ },
+ {
+  "id": "kanji-痛",
+  "kanji": "痛",
+  "english": "pain",
+  "accept": [
+   "painful",
+   "hurt",
+   "ache",
+   "damage",
+   "bruise"
+  ]
+ },
+ {
+  "id": "kanji-一",
+  "kanji": "一",
+  "english": "one",
+  "accept": [
+   "one radical"
+  ]
+ },
+ {
+  "id": "kanji-五",
+  "kanji": "五",
+  "english": "five"
+ },
+ {
+  "id": "kanji-緒",
+  "kanji": "緒",
+  "english": "cord, strap",
+  "accept": [
+   "together",
+   "thong",
+   "beginning",
+   "inception",
+   "end",
+   "mental or emotional state"
+  ]
+ },
+ {
+  "id": "kanji-犬",
+  "kanji": "犬",
+  "english": "dog"
+ },
+ {
+  "id": "kanji-今",
+  "kanji": "今",
+  "english": "now"
+ },
+ {
+  "id": "kanji-意",
+  "kanji": "意",
+  "english": "idea, mind",
+  "accept": [
+   "meaning",
+   "intention",
+   "will",
+   "heart",
+   "taste",
+   "thought",
+   "desire",
+   "care",
+   "liking"
+  ]
+ },
+ {
+  "id": "kanji-味",
+  "kanji": "味",
+  "english": "taste",
+  "accept": [
+   "flavor",
+   "flavour"
+  ]
+ },
+ {
+  "id": "kanji-妹",
+  "kanji": "妹",
+  "english": "younger sister"
+ },
+ {
+  "id": "kanji-嫌",
+  "kanji": "嫌",
+  "english": "dislike",
+  "accept": [
+   "hate",
+   "unpleasant",
+   "detest"
+  ]
+ },
+ {
+  "id": "kanji-入",
+  "kanji": "入",
+  "english": "to enter",
+  "accept": [
+   "insert"
+  ]
+ },
+ {
+  "id": "kanji-口",
+  "kanji": "口",
+  "english": "mouth",
+  "accept": [
+   "opening"
+  ]
+ },
+ {
+  "id": "kanji-居",
+  "kanji": "居",
+  "english": "to be, to live",
+  "accept": [
+   "exist",
+   "reside",
+   "stay",
+   "live with"
+  ]
+ },
+ {
+  "id": "kanji-要",
+  "kanji": "要",
+  "english": "to need",
+  "accept": [
+   "necessary",
+   "important",
+   "main point",
+   "essence",
+   "pivot",
+   "key to"
+  ]
+ },
+ {
+  "id": "kanji-色",
+  "kanji": "色",
+  "english": "colour",
+  "accept": [
+   "color"
+  ]
+ },
+ {
+  "id": "kanji-薄",
+  "kanji": "薄",
+  "english": "thin",
+  "accept": [
+   "weak",
+   "pale",
+   "dilute",
+   "pampas grass"
+  ]
+ },
+ {
+  "id": "kanji-歌",
+  "kanji": "歌",
+  "english": "song",
+  "accept": [
+   "sing"
+  ]
+ },
+ {
+  "id": "kanji-生",
+  "kanji": "生",
+  "english": "life, birth",
+  "accept": [
+   "genuine"
+  ]
+ },
+ {
+  "id": "kanji-海",
+  "kanji": "海",
+  "english": "sea",
+  "accept": [
+   "ocean"
+  ]
+ },
+ {
+  "id": "kanji-売",
+  "kanji": "売",
+  "english": "to sell"
+ },
+ {
+  "id": "kanji-煩",
+  "kanji": "煩",
+  "english": "annoying",
+  "accept": [
+   "anxiety",
+   "trouble",
+   "worry",
+   "pain",
+   "ill",
+   "annoy",
+   "nuisance",
+   "irksome"
+  ]
+ },
+ {
+  "id": "kanji-着",
+  "kanji": "着",
+  "english": "to wear, to arrive",
+  "accept": [
+   "put on",
+   "clothes",
+   "don",
+   "counter for suits of clothing"
+  ]
+ },
+ {
+  "id": "kanji-絵",
+  "kanji": "絵",
+  "english": "picture",
+  "accept": [
+   "drawing",
+   "painting",
+   "sketch"
+  ]
+ },
+ {
+  "id": "kanji-映",
+  "kanji": "映",
+  "english": "to reflect, to project",
+  "accept": [
+   "movie",
+   "film",
+   "reflection",
+   "projection"
+  ]
+ },
+ {
+  "id": "kanji-画",
+  "kanji": "画",
+  "english": "picture, brush stroke",
+  "accept": [
+   "drawing",
+   "movie",
+   "painting"
+  ]
+ },
+ {
+  "id": "kanji-館",
+  "kanji": "館",
+  "english": "large building, hall",
+  "accept": [
+   "building",
+   "mansion",
+   "palace"
+  ]
+ },
+ {
+  "id": "kanji-英",
+  "kanji": "英",
+  "english": "England, English",
+  "accept": [
+   "britain",
+   "hero",
+   "outstanding",
+   "calyx"
+  ]
+ },
+ {
+  "id": "kanji-語",
+  "kanji": "語",
+  "english": "language, word",
+  "accept": [
+   "speak",
+   "tell",
+   "speech"
+  ]
+ },
+ {
+  "id": "kanji-駅",
+  "kanji": "駅",
+  "english": "station"
+ },
+ {
+  "id": "kanji-鉛",
+  "kanji": "鉛",
+  "english": "lead (the metal)",
+  "accept": [
+   "pencil"
+  ]
+ },
+ {
+  "id": "kanji-筆",
+  "kanji": "筆",
+  "english": "writing brush",
+  "accept": [
+   "pen",
+   "writing",
+   "painting brush",
+   "handwriting"
+  ]
+ },
+ {
+  "id": "kanji-多",
+  "kanji": "多",
+  "english": "many",
+  "accept": [
+   "frequent",
+   "much"
+  ]
+ },
+ {
+  "id": "kanji-大",
+  "kanji": "大",
+  "english": "big",
+  "accept": [
+   "large"
+  ]
+ },
+ {
+  "id": "kanji-勢",
+  "kanji": "勢",
+  "english": "force, power",
+  "accept": [
+   "energy",
+   "forces",
+   "military strength"
+  ]
+ },
+ {
+  "id": "kanji-母",
+  "kanji": "母",
+  "english": "mother"
+ },
+ {
+  "id": "kanji-菓",
+  "kanji": "菓",
+  "english": "sweets, cake",
+  "accept": [
+   "candy",
+   "confectionery",
+   "sweet",
+   "cakes",
+   "fruit"
+  ]
+ },
+ {
+  "id": "kanji-子",
+  "kanji": "子",
+  "english": "child",
+  "accept": [
+   "kid",
+   "children",
+   "sign of the rat",
+   "11PM-1AM",
+   "first sign of Chinese zodiac"
+  ]
+ },
+ {
+  "id": "kanji-金",
+  "kanji": "金",
+  "english": "gold, money",
+  "accept": [
+   "metal"
+  ]
+ },
+ {
+  "id": "kanji-起",
+  "kanji": "起",
+  "english": "to wake up",
+  "accept": [
+   "get up",
+   "rise",
+   "rouse"
+  ]
+ },
+ {
+  "id": "kanji-置",
+  "kanji": "置",
+  "english": "to put",
+  "accept": [
+   "placement",
+   "set",
+   "deposit",
+   "leave behind",
+   "keep",
+   "employ",
+   "pawn"
+  ]
+ },
+ {
+  "id": "kanji-奥",
+  "kanji": "奥",
+  "english": "inner part, interior",
+  "accept": [
+   "wife",
+   "deep",
+   "heart"
+  ]
+ },
+ {
+  "id": "kanji-酒",
+  "kanji": "酒",
+  "english": "alcohol, sake",
+  "accept": [
+   "wine",
+   "liquor"
+  ]
+ },
+ {
+  "id": "kanji-皿",
+  "kanji": "皿",
+  "english": "plate",
+  "accept": [
+   "dish",
+   "a helping"
+  ]
+ },
+ {
+  "id": "kanji-祖",
+  "kanji": "祖",
+  "english": "ancestor",
+  "accept": [
+   "grandparent",
+   "pioneer",
+   "founder"
+  ]
+ },
+ {
+  "id": "kanji-父",
+  "kanji": "父",
+  "english": "father"
+ },
+ {
+  "id": "kanji-教",
+  "kanji": "教",
+  "english": "to teach",
+  "accept": [
+   "faith",
+   "doctrine"
+  ]
+ },
+ {
+  "id": "kanji-伯",
+  "kanji": "伯",
+  "english": "uncle, chief",
+  "accept": [
+   "count",
+   "earl",
+   "Brazil"
+  ]
+ },
+ {
+  "id": "kanji-叔",
+  "kanji": "叔",
+  "english": "uncle, aunt",
+  "accept": [
+   "younger uncle",
+   "youth"
+  ]
+ },
+ {
+  "id": "kanji-押",
+  "kanji": "押",
+  "english": "to push",
+  "accept": [
+   "press",
+   "stop",
+   "check",
+   "subdue",
+   "attach",
+   "seize",
+   "weight",
+   "shove",
+   "seal",
+   "do in spite of"
+  ]
+ },
+ {
+  "id": "kanji-遅",
+  "kanji": "遅",
+  "english": "late, slow",
+  "accept": [
+   "back",
+   "later"
+  ]
+ },
+ {
+  "id": "kanji-茶",
+  "kanji": "茶",
+  "english": "tea"
+ },
+ {
+  "id": "kanji-手",
+  "kanji": "手",
+  "english": "hand"
+ },
+ {
+  "id": "kanji-弟",
+  "kanji": "弟",
+  "english": "younger brother",
+  "accept": [
+   "faithful service to elders"
+  ]
+ },
+ {
+  "id": "kanji-男",
+  "kanji": "男",
+  "english": "man",
+  "accept": [
+   "male",
+   "boy"
+  ]
+ },
+ {
+  "id": "kanji-昨",
+  "kanji": "昨",
+  "english": "yesterday, previous",
+  "accept": [
+   "last"
+  ]
+ },
+ {
+  "id": "kanji-年",
+  "kanji": "年",
+  "english": "year",
+  "accept": [
+   "age",
+   "counter for years"
+  ]
+ },
+ {
+  "id": "kanji-人",
+  "kanji": "人",
+  "english": "person",
+  "accept": [
+   "human",
+   "people"
+  ]
+ },
+ {
+  "id": "kanji-同",
+  "kanji": "同",
+  "english": "same",
+  "accept": [
+   "agree",
+   "equal"
+  ]
+ },
+ {
+  "id": "kanji-風",
+  "kanji": "風",
+  "english": "wind",
+  "accept": [
+   "air",
+   "style",
+   "manner"
+  ]
+ },
+ {
+  "id": "kanji-呂",
+  "kanji": "呂",
+  "english": "spine",
+  "accept": [
+   "bath",
+   "backbone"
+  ]
+ },
+ {
+  "id": "kanji-弁",
+  "kanji": "弁",
+  "english": "speech, valve",
+  "accept": [
+   "lunch",
+   "boxed lunch",
+   "petal",
+   "braid",
+   "dialect",
+   "discrimination",
+   "dispose of",
+   "distinguish",
+   "conical cap"
+  ]
+ },
+ {
+  "id": "kanji-当",
+  "kanji": "当",
+  "english": "to hit, right",
+  "accept": [
+   "this",
+   "win",
+   "appropriate",
+   "himself"
+  ]
+ },
+ {
+  "id": "kanji-覚",
+  "kanji": "覚",
+  "english": "to remember, to wake",
+  "accept": [
+   "memorize",
+   "learn",
+   "awake",
+   "sober up"
+  ]
+ },
+ {
+  "id": "kanji-重",
+  "kanji": "重",
+  "english": "heavy",
+  "accept": [
+   "pile",
+   "important",
+   "esteem",
+   "respect",
+   "heap up",
+   "pile up",
+   "nest of boxes",
+   "-fold"
+  ]
+ },
+ {
+  "id": "kanji-泳",
+  "kanji": "泳",
+  "english": "to swim"
+ },
+ {
+  "id": "kanji-降",
+  "kanji": "降",
+  "english": "to descend, to fall",
+  "accept": [
+   "get off",
+   "rain",
+   "go down",
+   "precipitate",
+   "surrender"
+  ]
+ },
+ {
+  "id": "kanji-終",
+  "kanji": "終",
+  "english": "to end",
+  "accept": [
+   "finish"
+  ]
+ },
+ {
+  "id": "kanji-音",
+  "kanji": "音",
+  "english": "sound",
+  "accept": [
+   "noise"
+  ]
+ },
+ {
+  "id": "kanji-楽",
+  "kanji": "楽",
+  "english": "music, comfort",
+  "accept": [
+   "fun",
+   "easy",
+   "ease"
+  ]
+ },
+ {
+  "id": "kanji-女",
+  "kanji": "女",
+  "english": "woman",
+  "accept": [
+   "female",
+   "girl",
+   "lady"
+  ]
+ },
+ {
+  "id": "kanji-外",
+  "kanji": "外",
+  "english": "outside",
+  "accept": [
+   "abroad",
+   "foreign"
+  ]
+ },
+ {
+  "id": "kanji-国",
+  "kanji": "国",
+  "english": "country",
+  "accept": [
+   "nation"
+  ]
+ },
+ {
+  "id": "kanji-社",
+  "kanji": "社",
+  "english": "company, shrine",
+  "accept": [
+   "society",
+   "firm",
+   "office",
+   "association"
+  ]
+ },
+ {
+  "id": "kanji-階",
+  "kanji": "階",
+  "english": "floor, storey",
+  "accept": [
+   "stairs",
+   "level",
+   "stair",
+   "counter for storeys of a building"
+  ]
+ },
+ {
+  "id": "kanji-段",
+  "kanji": "段",
+  "english": "step, stairs",
+  "accept": [
+   "stair",
+   "grade",
+   "steps"
+  ]
+ },
+ {
+  "id": "kanji-買",
+  "kanji": "買",
+  "english": "to buy"
+ },
+ {
+  "id": "kanji-物",
+  "kanji": "物",
+  "english": "thing",
+  "accept": [
+   "object",
+   "matter"
+  ]
+ },
+ {
+  "id": "kanji-返",
+  "kanji": "返",
+  "english": "to return",
+  "accept": [
+   "give back",
+   "answer",
+   "fade",
+   "repay"
+  ]
+ },
+ {
+  "id": "kanji-帰",
+  "kanji": "帰",
+  "english": "to return home",
+  "accept": [
+   "go home",
+   "go back",
+   "return",
+   "homecoming",
+   "arrive at",
+   "lead to",
+   "result in"
+  ]
+ },
+ {
+  "id": "kanji-書",
+  "kanji": "書",
+  "english": "to write",
+  "accept": [
+   "book"
+  ]
+ },
+ {
+  "id": "kanji-学",
+  "kanji": "学",
+  "english": "to study",
+  "accept": [
+   "learn",
+   "learning",
+   "science"
+  ]
+ },
+ {
+  "id": "kanji-傘",
+  "kanji": "傘",
+  "english": "umbrella"
+ },
+ {
+  "id": "kanji-貸",
+  "kanji": "貸",
+  "english": "to lend",
+  "accept": [
+   "loan",
+   "rent out"
+  ]
+ },
+ {
+  "id": "kanji-邪",
+  "kanji": "邪",
+  "english": "wicked, evil",
+  "accept": [
+   "bad",
+   "injustice",
+   "wrong"
+  ]
+ },
+ {
+  "id": "kanji-族",
+  "kanji": "族",
+  "english": "family, tribe",
+  "accept": [
+   "clan"
+  ]
+ },
+ {
+  "id": "kanji-方",
+  "kanji": "方",
+  "english": "direction, person",
+  "accept": [
+   "way",
+   "alternative"
+  ]
+ },
+ {
+  "id": "kanji-校",
+  "kanji": "校",
+  "english": "school",
+  "accept": [
+   "schoolhouse",
+   "exam",
+   "printing",
+   "proof",
+   "correction"
+  ]
+ },
+ {
+  "id": "kanji-庭",
+  "kanji": "庭",
+  "english": "garden",
+  "accept": [
+   "yard",
+   "courtyard"
+  ]
+ },
+ {
+  "id": "kanji-角",
+  "kanji": "角",
+  "english": "corner, horn",
+  "accept": [
+   "angle",
+   "square",
+   "antlers"
+  ]
+ },
+ {
+  "id": "kanji-花",
+  "kanji": "花",
+  "english": "flower"
+ },
+ {
+  "id": "kanji-瓶",
+  "kanji": "瓶",
+  "english": "bottle, jar",
+  "accept": [
+   "vase",
+   "vial",
+   "jug",
+   "vat",
+   "urn"
+  ]
+ },
+ {
+  "id": "kanji-紙",
+  "kanji": "紙",
+  "english": "paper"
+ },
+ {
+  "id": "kanji-火",
+  "kanji": "火",
+  "english": "fire"
+ },
+ {
+  "id": "kanji-曜",
+  "kanji": "曜",
+  "english": "day of the week",
+  "accept": [
+   "weekday"
+  ]
+ },
+ {
+  "id": "kanji-辛",
+  "kanji": "辛",
+  "english": "spicy, bitter",
+  "accept": [
+   "hot",
+   "acrid"
+  ]
+ },
+ {
+  "id": "kanji-体",
+  "kanji": "体",
+  "english": "body",
+  "accept": [
+   "substance",
+   "object",
+   "reality",
+   "counter for images"
+  ]
+ },
+ {
+  "id": "kanji-借",
+  "kanji": "借",
+  "english": "to borrow",
+  "accept": [
+   "rent"
+  ]
+ },
+ {
+  "id": "kanji-軽",
+  "kanji": "軽",
+  "english": "light (weight)",
+  "accept": [
+   "lightly",
+   "trifling",
+   "unimportant"
+  ]
+ },
+ {
+  "id": "kanji-川",
+  "kanji": "川",
+  "english": "river",
+  "accept": [
+   "stream",
+   "river or three-stroke river radical"
+  ]
+ },
+ {
+  "id": "kanji-河",
+  "kanji": "河",
+  "english": "river"
+ },
+ {
+  "id": "kanji-漢",
+  "kanji": "漢",
+  "english": "China",
+  "accept": [
+   "chinese",
+   "han",
+   "Sino-"
+  ]
+ },
+ {
+  "id": "kanji-字",
+  "kanji": "字",
+  "english": "character, letter",
+  "accept": [
+   "word",
+   "section of village"
+  ]
+ },
+ {
+  "id": "kanji-木",
+  "kanji": "木",
+  "english": "tree, wood"
+ },
+ {
+  "id": "kanji-黄",
+  "kanji": "黄",
+  "english": "yellow"
+ },
+ {
+  "id": "kanji-消",
+  "kanji": "消",
+  "english": "to disappear, to erase",
+  "accept": [
+   "extinguish",
+   "vanish",
+   "turn off",
+   "blow out",
+   "neutralize",
+   "cancel"
+  ]
+ },
+ {
+  "id": "kanji-聞",
+  "kanji": "聞",
+  "english": "to hear",
+  "accept": [
+   "listen",
+   "ask"
+  ]
+ },
+ {
+  "id": "kanji-北",
+  "kanji": "北",
+  "english": "north"
+ },
+ {
+  "id": "kanji-汚",
+  "kanji": "汚",
+  "english": "dirty",
+  "accept": [
+   "filthy",
+   "unclean",
+   "pollute",
+   "disgrace",
+   "rape",
+   "defile"
+  ]
+ },
+ {
+  "id": "kanji-喫",
+  "kanji": "喫",
+  "english": "to consume, to drink",
+  "accept": [
+   "eat",
+   "smoke",
+   "receive"
+  ]
+ },
+ {
+  "id": "kanji-店",
+  "kanji": "店",
+  "english": "shop",
+  "accept": [
+   "store"
+  ]
+ },
+ {
+  "id": "kanji-切",
+  "kanji": "切",
+  "english": "to cut",
+  "accept": [
+   "ticket",
+   "cutoff",
+   "be sharp"
+  ]
+ },
+ {
+  "id": "kanji-符",
+  "kanji": "符",
+  "english": "token, sign",
+  "accept": [
+   "ticket",
+   "mark",
+   "tally",
+   "charm"
+  ]
+ },
+ {
+  "id": "kanji-九",
+  "kanji": "九",
+  "english": "nine"
+ },
+ {
+  "id": "kanji-牛",
+  "kanji": "牛",
+  "english": "cow"
+ },
+ {
+  "id": "kanji-肉",
+  "kanji": "肉",
+  "english": "meat"
+ },
+ {
+  "id": "kanji-乳",
+  "kanji": "乳",
+  "english": "milk",
+  "accept": [
+   "breasts"
+  ]
+ },
+ {
+  "id": "kanji-室",
+  "kanji": "室",
+  "english": "room",
+  "accept": [
+   "apartment",
+   "chamber",
+   "greenhouse",
+   "cellar"
+  ]
+ },
+ {
+  "id": "kanji-去",
+  "kanji": "去",
+  "english": "past, to leave",
+  "accept": [
+   "gone",
+   "quit",
+   "elapse",
+   "eliminate",
+   "divorce"
+  ]
+ },
+ {
+  "id": "kanji-銀",
+  "kanji": "銀",
+  "english": "silver",
+  "accept": [
+   "bank"
+  ]
+ },
+ {
+  "id": "kanji-薬",
+  "kanji": "薬",
+  "english": "medicine",
+  "accept": [
+   "drug",
+   "chemical",
+   "enamel",
+   "gunpowder",
+   "benefit"
+  ]
+ },
+ {
+  "id": "kanji-果",
+  "kanji": "果",
+  "english": "fruit",
+  "accept": [
+   "reward",
+   "carry out",
+   "achieve",
+   "complete",
+   "end",
+   "finish",
+   "succeed"
+  ]
+ },
+ {
+  "id": "kanji-靴",
+  "kanji": "靴",
+  "english": "shoes",
+  "accept": [
+   "shoe"
+  ]
+ },
+ {
+  "id": "kanji-下",
+  "kanji": "下",
+  "english": "below, down",
+  "accept": [
+   "under",
+   "beneath",
+   "low",
+   "descend",
+   "give",
+   "inferior"
+  ]
+ },
+ {
+  "id": "kanji-曇",
+  "kanji": "曇",
+  "english": "cloudy",
+  "accept": [
+   "cloud",
+   "cloudy weather",
+   "cloud up"
+  ]
+ },
+ {
+  "id": "kanji-暗",
+  "kanji": "暗",
+  "english": "dark",
+  "accept": [
+   "gloomy",
+   "darkness",
+   "disappear",
+   "shade",
+   "informal",
+   "grow dark",
+   "be blinded"
+  ]
+ },
+ {
+  "id": "kanji-来",
+  "kanji": "来",
+  "english": "to come",
+  "accept": [
+   "arrive",
+   "due",
+   "next",
+   "cause",
+   "become"
+  ]
+ },
+ {
+  "id": "kanji-車",
+  "kanji": "車",
+  "english": "car, vehicle",
+  "accept": [
+   "wheel"
+  ]
+ },
+ {
+  "id": "kanji-黒",
+  "kanji": "黒",
+  "english": "black"
+ },
+ {
+  "id": "kanji-警",
+  "kanji": "警",
+  "english": "to warn, police",
+  "accept": [
+   "policeman",
+   "guard",
+   "admonish",
+   "commandment"
+  ]
+ },
+ {
+  "id": "kanji-官",
+  "kanji": "官",
+  "english": "government official",
+  "accept": [
+   "official",
+   "government",
+   "bureaucrat",
+   "the government",
+   "organ"
+  ]
+ }
+]

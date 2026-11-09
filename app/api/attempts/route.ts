@@ -1,9 +1,8 @@
 import { NextResponse } from "next/server";
 import { hasDatabase, saveAttempt } from "@/lib/db";
-import { words } from "@/lib/words";
+import { allCardIds } from "@/lib/decks";
 
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
-const wordIds = new Set(words.map((w) => w.id));
 
 export async function POST(request: Request) {
   if (!hasDatabase) {
@@ -15,7 +14,7 @@ export async function POST(request: Request) {
     typeof id !== "string" ||
     !UUID.test(id) ||
     typeof wordId !== "string" ||
-    !wordIds.has(wordId) ||
+    !allCardIds.has(wordId) ||
     typeof answer !== "string" ||
     answer.length > 200 ||
     typeof correct !== "boolean"

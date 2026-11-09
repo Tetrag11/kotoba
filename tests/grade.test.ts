@@ -1,5 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { acceptedAnswers, grade, normalize } from "../lib/grade";
+import { allCardIds, decks } from "../lib/decks";
+import { kanji } from "../lib/kanji";
 import { words } from "../lib/words";
 
 const byKana = (kana: string, kanji = "") =>
@@ -89,5 +91,37 @@ describe("word list", () => {
   });
   it("accepts its own displayed meaning", () => {
     for (const w of words) expect(grade(w, w.english), w.english).toBe("correct");
+  });
+});
+
+describe("kanji list", () => {
+  const byChar = (char: string) => kanji.find((k) => k.kanji === char)!;
+
+  it("has every kanji in the word list, and only those", () => {
+    const inWords = new Set(words.flatMap((w) => Array.from(w.kanji)).filter((c) => /\p{sc=Han}/u.test(c)));
+    expect(new Set(kanji.map((k) => k.kanji))).toEqual(inWords);
+    expect(kanji).toHaveLength(inWords.size);
+  });
+  it("accepts its own displayed meaning", () => {
+    for (const k of kanji) expect(grade(k, k.english), k.kanji).toBe("correct");
+  });
+  it("accepts each meaning on its own", () => {
+    expect(grade(byChar("貸"), "to lend")).toBe("correct");
+    expect(grade(byChar("貸"), "lend")).toBe("correct");
+    expect(grade(byChar("金"), "money")).toBe("correct");
+    expect(grade(byChar("金"), "gold")).toBe("correct");
+    expect(grade(byChar("色"), "color")).toBe("correct");
+  });
+  it("rejects a different kanji's meaning", () => {
+    expect(grade(byChar("貸"), "to borrow")).toBe("wrong");
+    expect(grade(byChar("赤"), "blue")).toBe("wrong");
+  });
+  it("gives every kanji a word from the list as an example", () => {
+    for (const c of decks.kanji.cards) expect(c.examples?.length, c.prompt).toBeGreaterThan(0);
+    const lend = decks.kanji.cards.find((c) => c.prompt === "貸")!;
+    expect(lend.examples?.[0].word).toBe("貸す");
+  });
+  it("shares no ids between decks", () => {
+    expect(allCardIds.size).toBe(words.length + kanji.length);
   });
 });

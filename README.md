@@ -1,7 +1,11 @@
 # Kotoba (ことば)
 
-Practise Japanese vocabulary by typing what each word means. It currently covers pages 1 to 11 of
-the [JLPT N5 vocab list](http://www.tanos.co.uk/jlpt/): 218 entries, which make 217 cards.
+Practise Japanese by typing what each word or kanji means. It has two modes:
+
+- **Words:** pages 1 to 11 of the [JLPT N5 vocab list](http://www.tanos.co.uk/jlpt/): 218 entries,
+  which make 217 cards.
+- **Kanji:** the 165 individual kanji used in those words. After you answer, you see which words on
+  your list use that kanji.
 
 Built with Next.js and Postgres, and made to deploy on Vercel.
 
@@ -41,6 +45,8 @@ npm test
 | Path | What's there |
 | --- | --- |
 | `data/words.json` | The vocabulary. `accept` lists extra answers that count as right. |
+| `data/kanji.json` | The kanji, in the same format. A test checks it covers every kanji in the words. |
+| `lib/decks.ts` | Turns both lists into the cards the quiz shows |
 | `lib/grade.ts` | Answer checking |
 | `lib/session.ts` | Choosing words and running a session |
 | `lib/db.ts` | Database queries |
@@ -54,7 +60,8 @@ history.
 
 - **Add words:** add entries to `data/words.json` with a new unique `id`. Don't reuse or change an
   existing `id`, because saved progress points to it. The tests in `tests/grade.test.ts` check the
-  list, including its expected size, so update that number too.
+  list, including its expected size, so update that number too. Add any new kanji to
+  `data/kanji.json` as well.
 - **Change the database:** add a file such as `migrations/002_add_something.sql`. Don't edit a
   migration that has already run.
 
@@ -81,3 +88,11 @@ The PDF has a few errors, which are fixed in `data/words.json`:
 
 The PDF also lists あの twice, as "that over there" and "um...". Both look identical on a card, so
 they're one card that accepts either meaning. Capitalisation and comma spacing were also tidied.
+
+## Kanji meanings
+
+The meanings shown in `data/kanji.json` were written for this app and checked against
+[KANJIDIC](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project). Most of its `accept` lists include
+KANJIDIC's English meanings, so any valid meaning counts as right. KANJIDIC is the property of the
+Electronic Dictionary Research and Development Group and is used under its
+[licence](https://www.edrdg.org/edrdg/licence.html) (CC BY-SA 4.0).
