@@ -124,4 +124,16 @@ describe("kanji list", () => {
   it("shares no ids between decks", () => {
     expect(allCardIds.size).toBe(words.length + kanji.length);
   });
+  it("gives every kanji a memory tip", () => {
+    for (const k of kanji) expect(k.tip.length, k.kanji).toBeGreaterThan(10);
+  });
+  it("never gives away an accepted answer in the hint", () => {
+    for (const k of kanji) {
+      const hint = (k.parts ?? []).map((p) => p.meaning).join(", ");
+      if (hint) expect(grade(k, hint), `${k.kanji}: ${hint}`).toBe("wrong");
+      for (const p of k.parts ?? []) {
+        expect(grade(k, p.meaning), `${k.kanji}: ${p.meaning}`).not.toBe("correct");
+      }
+    }
+  });
 });

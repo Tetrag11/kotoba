@@ -4,6 +4,7 @@ import { useEffect, useRef, useState, type FormEvent } from "react";
 import { grade } from "@/lib/grade";
 import { overrideWrong, recordAnswer, wordsDone, type Session } from "@/lib/session";
 import type { Card } from "@/lib/decks";
+import type { Part } from "@/lib/kanji";
 
 type Attempt = { id: string; wordId: string; answer: string; correct: boolean };
 type Result = { correct: boolean; attemptId: string; gaveUp: boolean };
@@ -31,6 +32,7 @@ export function Quiz({
   const [answer, setAnswer] = useState("");
   const [result, setResult] = useState<Result | null>(null);
   const [closeHint, setCloseHint] = useState(false);
+  const [showParts, setShowParts] = useState(false);
   const [afterAnswer, setAfterAnswer] = useState<Session | null>(null);
   const input = useRef<HTMLInputElement>(null);
 
@@ -101,6 +103,7 @@ export function Quiz({
           </h1>
           {result && <RedPen correct={result.correct} />}
         </div>
+        {showParts && !result && card.parts && <Parts parts={card.parts} />}
       </div>
 
       <form onSubmit={submit} className="answer">
@@ -145,6 +148,18 @@ export function Quiz({
                 ? "See results"
                 : `Next ${singular}`}
           </button>
+          {!result && card.parts && !showParts && (
+            <button
+              className="quiet"
+              type="button"
+              onClick={() => {
+                setShowParts(true);
+                input.current?.focus();
+              }}
+            >
+              Show a hint
+            </button>
+          )}
           {!result && (
             <button className="quiet" type="button" onClick={() => mark(false, "", true)}>
               I don’t know
@@ -157,6 +172,21 @@ export function Quiz({
           )}
         </div>
       </form>
+
+      {result && card.tip && (
+        <section className="remember" aria-label="How to remember it">
+          <p className="hint">How to remember it</p>
+          {card.parts && <Parts parts={card.parts} />}
+          <p>
+            <JaText text={card.tip} />
+          </p>
+          {card.similar && (
+            <p className="similar">
+              <JaText text={card.similar} />
+            </p>
+          )}
+        </section>
+      )}
 
       {result && card.examples && card.examples.length > 0 && (
         <section aria-label="Words that use this kanji">
@@ -197,4 +227,26 @@ function RedPen({ correct }: { correct: boolean }) {
       )}
     </svg>
   );
+}
+
+/** The pieces a kanji is built from, such as 門 gate + 耳 ear. */
+function Parts({ parts }: { parts: Part[] }) {
+  return (
+    <ul className="parts" aria-label="Parts">
+      {parts.map((p, i) => (
+        <li key={i}>
+          <span lang="ja">{p.char}</span> {p.meaning}
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+const JAPANESE = /([\u2e80-\u2fdf\u3040-\u30ff\u3400-\u9fff\uf900-\ufaff]+)/;
+
+/** English text with Japanese runs marked, so they use the Japanese font. */
+function JaText({ text }: { text: string }) {
+  return text
+    .split(JAPANESE)
+    .map((run, i) => (i % 2 === 1 ? <span key={i} lang="ja">{run}</span> : run));
 }
