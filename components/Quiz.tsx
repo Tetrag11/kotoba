@@ -136,6 +136,7 @@ export function Quiz({
               {!result.correct && (
                 <p className="hint">This {singular} will come back in a moment.</p>
               )}
+              {card.kanjiMeanings && <Parts parts={card.kanjiMeanings} label="Kanji in this word" />}
             </>
           )}
         </div>
@@ -230,9 +231,9 @@ function RedPen({ correct }: { correct: boolean }) {
 }
 
 /** The pieces a kanji is built from, such as 門 gate + 耳 ear. */
-function Parts({ parts }: { parts: Part[] }) {
+function Parts({ parts, label = "Parts" }: { parts: Part[]; label?: string }) {
   return (
-    <ul className="parts" aria-label="Parts">
+    <ul className="parts" aria-label={label}>
       {parts.map((p, i) => (
         <li key={i}>
           <span lang="ja">{p.char}</span> {p.meaning}

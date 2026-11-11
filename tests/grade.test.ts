@@ -136,4 +136,12 @@ describe("kanji list", () => {
       }
     }
   });
+  it("lists each kanji's meaning for words, but not for a lone kanji", () => {
+    const card = (prompt: string) => decks.words.cards.find((c) => c.prompt === prompt)!;
+    expect(card("貸す").kanjiMeanings).toEqual([{ char: "貸", meaning: "to lend" }]);
+    expect(card("映画館").kanjiMeanings?.map((p) => p.char)).toEqual(["映", "画", "館"]);
+    expect(card("伯父さん/叔父さん").kanjiMeanings?.map((p) => p.char)).toEqual(["伯", "父", "叔"]);
+    expect(card("雨").kanjiMeanings).toBeUndefined();
+    expect(card("あさって").kanjiMeanings).toBeUndefined();
+  });
 });

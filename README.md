@@ -3,7 +3,7 @@
 Practise Japanese by typing what each word or kanji means. It has two modes:
 
 - **Words:** pages 1 to 11 of the [JLPT N5 vocab list](http://www.tanos.co.uk/jlpt/): 218 entries,
-  which make 217 cards.
+  which make 217 cards. After you answer, each kanji in the word is shown with its meaning.
 - **Kanji:** the 165 individual kanji used in those words. **Show a hint** reveals the parts a kanji
   is built from. After you answer, you get a memory tip, how to tell it from look-alikes, and the
   words on your list that use it.

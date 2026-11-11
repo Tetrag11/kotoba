@@ -12,6 +12,8 @@ export type Card = {
   accept?: string[];
   /** Words from the vocabulary list that use this kanji. */
   examples?: Example[];
+  /** For words: each kanji in the word with its basic meaning. */
+  kanjiMeanings?: Part[];
   parts?: Part[];
   tip?: string;
   similar?: string;
@@ -29,6 +31,18 @@ export type Deck = {
 };
 
 const MAX_EXAMPLES = 3;
+
+const kanjiByChar = new Map(kanji.map((k) => [k.kanji, k]));
+
+/**
+ * The kanji in a word, each with its meaning. Left out for a word that is a single kanji
+ * on its own, such as 雨, because the meaning would just repeat the answer.
+ */
+function kanjiMeaningsFor(word: string): Part[] | undefined {
+  const chars = [...new Set(Array.from(word))].filter((c) => kanjiByChar.has(c));
+  if (chars.length === 0 || word === chars[0]) return undefined;
+  return chars.map((c) => ({ char: c, meaning: kanjiByChar.get(c)!.english }));
+}
 
 function examplesFor(char: string): Example[] {
   return words
@@ -50,6 +64,7 @@ export const decks: Record<DeckId, Deck> = {
       reading: w.kanji ? w.kana : undefined,
       english: w.english,
       accept: w.accept,
+      kanjiMeanings: kanjiMeaningsFor(w.kanji),
     })),
   },
   kanji: {

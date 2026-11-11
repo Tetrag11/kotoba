@@ -438,6 +438,15 @@ button {
   margin-top: 0.5rem;
 }
 
+/* The kanji in a word sit side by side, so no "+" between them. */
+.feedback .parts {
+  margin: 0.5rem 0 0.75rem;
+}
+
+.feedback .parts li + li::before {
+  content: none;
+}
+
 .remember {
   display: flex;
   flex-direction: column;
