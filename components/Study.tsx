@@ -98,7 +98,6 @@ export function Study({
   if (session) {
     return (
       <Quiz
-        key={session.turn}
         session={session}
         byId={byId}
         singular={deck.singular}
