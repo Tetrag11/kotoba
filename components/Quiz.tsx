@@ -52,16 +52,16 @@ export function Quiz({
   useEffect(() => input.current?.focus(), []);
   useKeyboardOffset(input, actions);
 
-  // On phones the pinned buttons can cover the result, so scroll it into view above them.
+  // A new card starts from the top, with the answer box clear of the keyboard and buttons.
   useEffect(() => {
-    const viewport = window.visualViewport;
-    const box = feedback.current?.getBoundingClientRect();
-    const bar = actions.current;
-    if (!result || !viewport || !box || !bar || getComputedStyle(bar).position !== "sticky") return;
-    const limit = viewport.offsetTop + viewport.height - bar.offsetHeight - 8;
-    // As far as needed to show the whole result, but never past its first line.
-    const needed = Math.min(box.bottom - limit, box.top - viewport.offsetTop - 8);
-    if (needed > 0) window.scrollBy(0, needed);
+    if (!isPinned(actions.current)) return;
+    window.scrollTo(0, 0);
+    keepVisible(input.current, actions.current);
+  }, [session.turn]);
+
+  // Show the result too, as far as possible without hiding what was typed.
+  useEffect(() => {
+    if (result) keepVisible(feedback.current, actions.current, input.current);
   }, [result]);
 
   function mark(correct: boolean, typed: string, gaveUp: boolean) {
@@ -145,11 +145,13 @@ export function Quiz({
             id="answer"
             ref={input}
             value={answer}
+            onFocus={() => keepVisible(input.current, actions.current)}
             onChange={(e) => {
               // Not readOnly once answered: that would close the phone keyboard.
               if (result) return;
               setAnswer(e.target.value);
               setCloseHint(false);
+              keepVisible(input.current, actions.current);
             }}
             className={result ? "answered" : undefined}
             aria-readonly={Boolean(result)}
@@ -297,11 +299,41 @@ function JaText({ text }: { text: string }) {
   );
 }
 
+/** True when the buttons are pinned above the keyboard, which happens on phone-sized screens. */
+function isPinned(bar: HTMLElement | null): bar is HTMLElement {
+  return bar !== null && getComputedStyle(bar).position === "sticky";
+}
+
+/**
+ * Scrolls as little as possible so `target` sits between the top of the screen and the
+ * pinned buttons. With `keep`, it never scrolls so far that `keep` goes off the top.
+ */
+function keepVisible(
+  target: HTMLElement | null,
+  bar: HTMLElement | null,
+  keep?: HTMLElement | null,
+) {
+  const viewport = window.visualViewport;
+  if (!target || !viewport || !isPinned(bar)) return;
+  const top = viewport.offsetTop + 8;
+  const bottom = viewport.offsetTop + viewport.height - bar.offsetHeight - 8;
+  const box = target.getBoundingClientRect();
+  if (box.bottom > bottom) {
+    const highest = (keep ?? target).getBoundingClientRect().top - top;
+    const by = Math.min(box.bottom - bottom, highest);
+    if (by > 0) window.scrollBy(0, by);
+  } else if (box.top < top) {
+    window.scrollBy(0, box.top - top);
+  }
+}
+
 /**
  * Sets --keyboard to the height of the screen hidden by an on-screen keyboard, so the
- * buttons can sit just above it, and scrolls the answer box into view above them when
- * the keyboard opens. Android browsers resize the page for the keyboard instead (see
- * interactiveWidget in the layout), which leaves --keyboard at zero.
+ * buttons can sit just above it. Android browsers resize the page for the keyboard
+ * instead (see interactiveWidget in the layout), which leaves --keyboard at zero.
+ * Whenever the visible area changes size, the answer box is moved clear of the keyboard
+ * and buttons. That runs again shortly after, because the browser does its own scrolling
+ * to the focused box, which can leave it behind the buttons.
  */
 function useKeyboardOffset(
   input: React.RefObject<HTMLInputElement | null>,
@@ -311,7 +343,7 @@ function useKeyboardOffset(
     const viewport = window.visualViewport;
     if (!viewport) return;
     const root = document.documentElement;
-    let wasOpen = false;
+    const timers: number[] = [];
     const measure = () => {
       const hidden = Math.max(
         0,
@@ -319,25 +351,22 @@ function useKeyboardOffset(
       );
       root.style.setProperty("--keyboard", `${hidden}px`);
       root.toggleAttribute("data-keyboard-open", hidden > 0);
-      return hidden > 0;
+    };
+    const fix = () => {
+      if (document.activeElement === input.current) keepVisible(input.current, actions.current);
     };
     const onResize = () => {
-      const open = measure();
-      // Only when the keyboard first opens, so it never fights the reader's own scrolling.
-      if (open && !wasOpen && document.activeElement === input.current) {
-        const box = input.current!.getBoundingClientRect();
-        const bar = actions.current?.offsetHeight ?? 0;
-        const limit = viewport.offsetTop + viewport.height - bar - 8;
-        if (box.bottom > limit) window.scrollBy(0, box.bottom - limit);
-      }
-      wasOpen = open;
+      measure();
+      fix();
+      timers.push(window.setTimeout(fix, 150), window.setTimeout(fix, 400));
     };
-    onResize();
+    measure();
     viewport.addEventListener("resize", onResize);
     viewport.addEventListener("scroll", measure);
     return () => {
       viewport.removeEventListener("resize", onResize);
       viewport.removeEventListener("scroll", measure);
+      timers.forEach(clearTimeout);
       root.style.removeProperty("--keyboard");
       root.removeAttribute("data-keyboard-open");
     };

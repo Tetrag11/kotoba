@@ -473,6 +473,11 @@ button {
 
 /* On phones, keep the buttons in view just above the on-screen keyboard. */
 @media (max-width: 40rem) {
+  /* When the browser scrolls to the answer box itself, stop short of the pinned buttons. */
+  :root {
+    scroll-padding-bottom: calc(var(--keyboard, 0px) + 5rem);
+  }
+
   /* Room to scroll the answer above the keyboard. */
   .quiz {
     padding-bottom: calc(4rem + var(--keyboard, 0px));
