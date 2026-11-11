@@ -27,7 +27,6 @@ export function Quiz({
   onFinish: (session: Session) => void;
   onSave: (attempt: Attempt) => void;
 }) {
-  // The parent remounts this for every turn, so this state is per answer.
   const card = byId.get(session.queue[0])!;
   const [answer, setAnswer] = useState("");
   const [result, setResult] = useState<Result | null>(null);
@@ -35,8 +34,35 @@ export function Quiz({
   const [showParts, setShowParts] = useState(false);
   const [afterAnswer, setAfterAnswer] = useState<Session | null>(null);
   const input = useRef<HTMLInputElement>(null);
+  const actions = useRef<HTMLDivElement>(null);
+  const feedback = useRef<HTMLDivElement>(null);
+
+  // This stays mounted for the whole session so the answer box keeps focus, and a phone
+  // keyboard stays open from one card to the next. Per-card state resets here instead.
+  const [turn, setTurn] = useState(session.turn);
+  if (turn !== session.turn) {
+    setTurn(session.turn);
+    setAnswer("");
+    setResult(null);
+    setCloseHint(false);
+    setShowParts(false);
+    setAfterAnswer(null);
+  }
 
   useEffect(() => input.current?.focus(), []);
+  useKeyboardOffset(input, actions);
+
+  // On phones the pinned buttons can cover the result, so scroll it into view above them.
+  useEffect(() => {
+    const viewport = window.visualViewport;
+    const box = feedback.current?.getBoundingClientRect();
+    const bar = actions.current;
+    if (!result || !viewport || !box || !bar || getComputedStyle(bar).position !== "sticky") return;
+    const limit = viewport.offsetTop + viewport.height - bar.offsetHeight - 8;
+    // As far as needed to show the whole result, but never past its first line.
+    const needed = Math.min(box.bottom - limit, box.top - viewport.offsetTop - 8);
+    if (needed > 0) window.scrollBy(0, needed);
+  }, [result]);
 
   function mark(correct: boolean, typed: string, gaveUp: boolean) {
     const attemptId = crypto.randomUUID();
@@ -67,7 +93,12 @@ export function Quiz({
 
   function countAsCorrect() {
     if (!result || !afterAnswer) return;
-    onSave({ id: result.attemptId, wordId: card.id, answer: answer.trim(), correct: true });
+    onSave({
+      id: result.attemptId,
+      wordId: card.id,
+      answer: answer.trim(),
+      correct: true,
+    });
     setResult({ ...result, correct: true });
     setAfterAnswer(overrideWrong(afterAnswer, card.id));
     input.current?.focus();
@@ -87,61 +118,69 @@ export function Quiz({
         </button>
       </header>
 
-      <div className="prompt">
-        {showReading && (
-          <p lang="ja" className="reading" aria-hidden={!card.reading}>
-            {card.reading ?? "\u00a0"}
-          </p>
-        )}
-        <div className="manuscript" style={{ "--n": chars.length } as React.CSSProperties}>
-          <h1 lang="ja" aria-label={card.prompt}>
-            {chars.map((char, i) => (
-              <span key={i} aria-hidden="true">
-                {char}
-              </span>
-            ))}
-          </h1>
-          {result && <RedPen correct={result.correct} />}
-        </div>
-        {showParts && !result && card.parts && <Parts parts={card.parts} />}
-      </div>
-
-      <form onSubmit={submit} className="answer">
-        <label htmlFor="answer">What does it mean in English?</label>
-        <input
-          id="answer"
-          ref={input}
-          value={answer}
-          onChange={(e) => {
-            setAnswer(e.target.value);
-            setCloseHint(false);
-          }}
-          readOnly={Boolean(result)}
-          maxLength={200}
-          autoComplete="off"
-          autoCorrect="off"
-          autoCapitalize="none"
-          spellCheck={false}
-          enterKeyHint={result ? "next" : "done"}
-        />
-
-        <div className="feedback" role="status">
-          {closeHint && <p className="close">Close. Check the spelling and try again.</p>}
-          {result && (
-            <>
-              <p className={result.correct ? "verdict right" : "verdict wrong"}>
-                {result.correct ? "Correct" : result.gaveUp ? "Here’s the answer" : "Not quite"}
-              </p>
-              <p className="meaning">{card.english}</p>
-              {!result.correct && (
-                <p className="hint">This {singular} will come back in a moment.</p>
-              )}
-              {card.kanjiMeanings && <Parts parts={card.kanjiMeanings} label="Kanji in this word" />}
-            </>
+      {/* One form around the whole card, so on phones the buttons can rise anywhere above the keyboard. */}
+      <form onSubmit={submit} className="quiz-form">
+        <div className="prompt">
+          {showReading && (
+            <p lang="ja" className="reading" aria-hidden={!card.reading}>
+              {card.reading ?? "\u00a0"}
+            </p>
           )}
+          <div className="manuscript" style={{ "--n": chars.length } as React.CSSProperties}>
+            <h1 lang="ja" aria-label={card.prompt}>
+              {chars.map((char, i) => (
+                <span key={i} aria-hidden="true">
+                  {char}
+                </span>
+              ))}
+            </h1>
+            {result && <RedPen correct={result.correct} />}
+          </div>
+          {showParts && !result && card.parts && <Parts parts={card.parts} />}
         </div>
 
-        <div className="actions">
+        <div className="answer">
+          <label htmlFor="answer">What does it mean in English?</label>
+          <input
+            id="answer"
+            ref={input}
+            value={answer}
+            onChange={(e) => {
+              // Not readOnly once answered: that would close the phone keyboard.
+              if (result) return;
+              setAnswer(e.target.value);
+              setCloseHint(false);
+            }}
+            className={result ? "answered" : undefined}
+            aria-readonly={Boolean(result)}
+            maxLength={200}
+            autoComplete="off"
+            autoCorrect="off"
+            autoCapitalize="none"
+            spellCheck={false}
+            enterKeyHint="go"
+          />
+
+          <div className="feedback" role="status" ref={feedback}>
+            {closeHint && <p className="close">Close. Check the spelling and try again.</p>}
+            {result && (
+              <>
+                <p className={result.correct ? "verdict right" : "verdict wrong"}>
+                  {result.correct ? "Correct" : result.gaveUp ? "Here’s the answer" : "Not quite"}
+                </p>
+                <p className="meaning">{card.english}</p>
+                {!result.correct && (
+                  <p className="hint">This {singular} will come back in a moment.</p>
+                )}
+                {card.kanjiMeanings && (
+                  <Parts parts={card.kanjiMeanings} label="Kanji in this word" />
+                )}
+              </>
+            )}
+          </div>
+        </div>
+
+        <div className="actions" ref={actions}>
           <button className="primary" type="submit">
             {!result
               ? "Check"
@@ -172,41 +211,41 @@ export function Quiz({
             </button>
           )}
         </div>
-      </form>
 
-      {result && card.tip && (
-        <section className="remember" aria-label="How to remember it">
-          <p className="hint">How to remember it</p>
-          {card.parts && <Parts parts={card.parts} />}
-          <p>
-            <JaText text={card.tip} />
-          </p>
-          {card.similar && (
-            <p className="similar">
-              <JaText text={card.similar} />
+        {result && card.tip && (
+          <section className="remember" aria-label="How to remember it">
+            <p className="hint">How to remember it</p>
+            {card.parts && <Parts parts={card.parts} />}
+            <p>
+              <JaText text={card.tip} />
             </p>
-          )}
-        </section>
-      )}
+            {card.similar && (
+              <p className="similar">
+                <JaText text={card.similar} />
+              </p>
+            )}
+          </section>
+        )}
 
-      {result && card.examples && card.examples.length > 0 && (
-        <section aria-label="Words that use this kanji">
-          <p className="hint">In your word list</p>
-          <ul className="missed">
-            {card.examples.map((e) => (
-              <li key={e.word + e.reading}>
-                <span lang="ja" className="missed-word">
-                  {e.word}
-                </span>
-                <span lang="ja" className="missed-kana">
-                  {e.reading}
-                </span>
-                <span>{e.english}</span>
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
+        {result && card.examples && card.examples.length > 0 && (
+          <section aria-label="Words that use this kanji">
+            <p className="hint">In your word list</p>
+            <ul className="missed">
+              {card.examples.map((e) => (
+                <li key={e.word + e.reading}>
+                  <span lang="ja" className="missed-word">
+                    {e.word}
+                  </span>
+                  <span lang="ja" className="missed-kana">
+                    {e.reading}
+                  </span>
+                  <span>{e.english}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+      </form>
     </main>
   );
 }
@@ -247,7 +286,60 @@ const JAPANESE = /([\u2e80-\u2fdf\u3040-\u30ff\u3400-\u9fff\uf900-\ufaff]+)/;
 
 /** English text with Japanese runs marked, so they use the Japanese font. */
 function JaText({ text }: { text: string }) {
-  return text
-    .split(JAPANESE)
-    .map((run, i) => (i % 2 === 1 ? <span key={i} lang="ja">{run}</span> : run));
+  return text.split(JAPANESE).map((run, i) =>
+    i % 2 === 1 ? (
+      <span key={i} lang="ja">
+        {run}
+      </span>
+    ) : (
+      run
+    ),
+  );
+}
+
+/**
+ * Sets --keyboard to the height of the screen hidden by an on-screen keyboard, so the
+ * buttons can sit just above it, and scrolls the answer box into view above them when
+ * the keyboard opens. Android browsers resize the page for the keyboard instead (see
+ * interactiveWidget in the layout), which leaves --keyboard at zero.
+ */
+function useKeyboardOffset(
+  input: React.RefObject<HTMLInputElement | null>,
+  actions: React.RefObject<HTMLDivElement | null>,
+) {
+  useEffect(() => {
+    const viewport = window.visualViewport;
+    if (!viewport) return;
+    const root = document.documentElement;
+    let wasOpen = false;
+    const measure = () => {
+      const hidden = Math.max(
+        0,
+        Math.round(root.clientHeight - (viewport.offsetTop + viewport.height)),
+      );
+      root.style.setProperty("--keyboard", `${hidden}px`);
+      root.toggleAttribute("data-keyboard-open", hidden > 0);
+      return hidden > 0;
+    };
+    const onResize = () => {
+      const open = measure();
+      // Only when the keyboard first opens, so it never fights the reader's own scrolling.
+      if (open && !wasOpen && document.activeElement === input.current) {
+        const box = input.current!.getBoundingClientRect();
+        const bar = actions.current?.offsetHeight ?? 0;
+        const limit = viewport.offsetTop + viewport.height - bar - 8;
+        if (box.bottom > limit) window.scrollBy(0, box.bottom - limit);
+      }
+      wasOpen = open;
+    };
+    onResize();
+    viewport.addEventListener("resize", onResize);
+    viewport.addEventListener("scroll", measure);
+    return () => {
+      viewport.removeEventListener("resize", onResize);
+      viewport.removeEventListener("scroll", measure);
+      root.style.removeProperty("--keyboard");
+      root.removeAttribute("data-keyboard-open");
+    };
+  }, [input, actions]);
 }

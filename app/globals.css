@@ -356,6 +356,17 @@ button {
   }
 }
 
+.quiz-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Sits just under the feedback, as part of the answer. */
+.quiz-form > .actions {
+  margin-top: -1.625rem;
+}
+
 .answer {
   display: flex;
   flex-direction: column;
@@ -382,7 +393,7 @@ button {
   border-bottom-color: var(--ink);
 }
 
-.answer input:read-only {
+.answer input.answered {
   color: var(--ink-soft);
 }
 
@@ -458,6 +469,29 @@ button {
   padding-left: 0.875rem;
   border-left: 3px solid var(--line);
   color: var(--ink-soft);
+}
+
+/* On phones, keep the buttons in view just above the on-screen keyboard. */
+@media (max-width: 40rem) {
+  /* Room to scroll the answer above the keyboard. */
+  .quiz {
+    padding-bottom: calc(4rem + var(--keyboard, 0px));
+  }
+
+  .actions {
+    position: sticky;
+    bottom: var(--keyboard, 0px);
+    z-index: 1;
+    margin: 0 -1rem;
+    padding: 0.625rem 1rem;
+    background: var(--paper);
+    gap: 0.5rem 1rem;
+  }
+
+  /* Smaller squares while typing, so the word and the answer both fit above the keyboard. */
+  :root[data-keyboard-open] .manuscript {
+    --cell: min(4.5rem, calc(min(100vw - 2rem, 36rem) / var(--n)));
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -11,6 +11,8 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
+  // On Android, shrink the page when the keyboard opens so the buttons stay above it.
+  interactiveWidget: "resizes-content",
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "#f4f8f1" },
     { media: "(prefers-color-scheme: dark)", color: "#1c2b25" },
