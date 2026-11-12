@@ -10,6 +10,23 @@ Practise Japanese by typing what each word or kanji means. It has two modes:
 
 Built with Next.js and Postgres, and made to deploy on Vercel.
 
+## Stats
+
+`/stats`, linked from the home screen, is worked out from the saved answers:
+
+- **Overall:** answers, accuracy, days in a row studied, roughly how long you've studied, and how many
+  words and kanji you've learned.
+- **Activity:** a calendar of answers per day, right and wrong over the last two weeks, and which
+  hours you study.
+- **For Words and Kanji separately:** progress overall and by page of the list, the hardest cards,
+  cards one right answer from learned, learned cards not seen lately, the most-seen cards, and wrong
+  answers you've typed more than once.
+- **Every card:** times seen, accuracy, right answers in a row, and when you last saw it. You can
+  filter to cards you haven't started, and sort the list.
+
+Days are counted in the viewer's own time zone. "Time studied" adds up gaps of up to 5 minutes
+between answers, and a gap over 30 minutes starts a new session.
+
 ## Deploy on Vercel
 
 1. In Vercel, choose **Add New > Project** and import this repo. The default settings work.
@@ -51,6 +68,7 @@ npm test
 | `lib/grade.ts` | Answer checking |
 | `lib/session.ts` | Choosing words and running a session |
 | `lib/db.ts` | Database queries |
+| `lib/stats.ts` | Calculations for the stats page, such as day streaks and the calendar |
 | `migrations/` | SQL files, applied in filename order by every build |
 | `components/` | The home screen and quiz |
 
