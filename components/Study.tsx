@@ -186,9 +186,15 @@ export function Study({
           </li>
         </ul>
         <p className="hint">
-          {deckId === "kanji" ? "A kanji" : "A word"} is learned after {LEARNED_STREAK} right answers
-          in a row.
+          {deckId === "kanji" ? "A kanji" : "A word"} is learned after {LEARNED_STREAK} right
+          answers in a row.
         </p>
+        <a
+          className="text-link stats-link"
+          href={deckId === "kanji" ? "/stats?deck=kanji" : "/stats"}
+        >
+          See all your stats
+        </a>
       </section>
     </main>
   );
