@@ -4,9 +4,10 @@ Practise Japanese by typing what each word or kanji means. It has two modes:
 
 - **Words:** pages 1 to 11 of the [JLPT N5 vocab list](http://www.tanos.co.uk/jlpt/): 218 entries,
   which make 217 cards. After you answer, each kanji in the word is shown with its meaning.
-- **Kanji:** the 165 individual kanji used in those words. **Show a hint** reveals the parts a kanji
+- **Kanji:** the 80 kanji on the JLPT N5 list (the version on
+  [JLPT Sensei](https://jlptsensei.com/jlpt-n5-kanji-list/)). **Show a hint** reveals the parts a kanji
   is built from. After you answer, you get a memory tip, how to tell it from look-alikes, and the
-  words on your list that use it.
+  words from the N5 list that use it.
 
 Built with Next.js and Postgres, and made to deploy on Vercel.
 
@@ -63,7 +64,7 @@ npm test
 | Path | What's there |
 | --- | --- |
 | `data/words.json` | The vocabulary. `accept` lists extra answers that count as right. |
-| `data/kanji.json` | The kanji, in the same format. A test checks it covers every kanji in the words. |
+| `data/kanji.json` | The kanji. The 80 marked `n5` are quizzed, with example words from the full N5 PDF. The rest are kanji used in the words but above N5: they're only used to show the meaning of each kanji under a word. |
 | `lib/decks.ts` | Turns both lists into the cards the quiz shows |
 | `lib/grade.ts` | Answer checking |
 | `lib/session.ts` | Choosing words and running a session |
