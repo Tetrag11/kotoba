@@ -1,7 +1,7 @@
-import { kanji, type Part } from "./kanji";
+import { kanji, n5Kanji, type Example, type Part } from "./kanji";
 import { words } from "./words";
 
-export type Example = { word: string; reading: string; english: string };
+export type { Example };
 
 /** One thing to be quizzed on, whichever deck it comes from. */
 export type Card = {
@@ -10,7 +10,7 @@ export type Card = {
   reading?: string;
   english: string;
   accept?: string[];
-  /** Words from the vocabulary list that use this kanji. */
+  /** Words from the N5 vocabulary list that use this kanji. */
   examples?: Example[];
   /** For words: each kanji in the word with its basic meaning. */
   kanjiMeanings?: Part[];
@@ -44,14 +44,6 @@ function kanjiMeaningsFor(word: string): Part[] | undefined {
   return chars.map((c) => ({ char: c, meaning: kanjiByChar.get(c)!.english }));
 }
 
-function examplesFor(char: string): Example[] {
-  return words
-    .filter((w) => w.kanji.includes(char))
-    .sort((a, b) => a.kanji.length - b.kanji.length)
-    .slice(0, MAX_EXAMPLES)
-    .map((w) => ({ word: w.kanji, reading: w.kana, english: w.english }));
-}
-
 export const decks: Record<DeckId, Deck> = {
   words: {
     label: "Words",
@@ -71,13 +63,13 @@ export const decks: Record<DeckId, Deck> = {
     label: "Kanji",
     singular: "kanji",
     plural: "kanji",
-    description: `The ${kanji.length} kanji from JLPT N5 pages 1 to 11, one at a time`,
-    cards: kanji.map((k) => ({
+    description: `The ${n5Kanji.length} JLPT N5 kanji, one at a time`,
+    cards: n5Kanji.map((k) => ({
       id: k.id,
       prompt: k.kanji,
       english: k.english,
       accept: k.accept,
-      examples: examplesFor(k.kanji),
+      examples: k.examples,
       parts: k.parts,
       tip: k.tip,
       similar: k.similar,

@@ -231,7 +231,7 @@ export function Quiz({
 
         {result && card.examples && card.examples.length > 0 && (
           <section aria-label="Words that use this kanji">
-            <p className="hint">In your word list</p>
+            <p className="hint">In the N5 word list</p>
             <ul className="missed">
               {card.examples.map((e) => (
                 <li key={e.word + e.reading}>

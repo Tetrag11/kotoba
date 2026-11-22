@@ -1,5 +1,2400 @@
 [
  {
+  "id": "kanji-日",
+  "kanji": "日",
+  "english": "day, sun",
+  "accept": [
+   "Japan"
+  ],
+  "tip": "A picture of the sun. A day is one sun.",
+  "similar": "目 (eye) is taller, with two lines inside instead of one.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "明日",
+    "reading": "あした",
+    "english": "tomorrow"
+   },
+   {
+    "word": "一日",
+    "reading": "いちにち",
+    "english": "one day"
+   },
+   {
+    "word": "五日",
+    "reading": "いつか",
+    "english": "five days, fifth day"
+   }
+  ]
+ },
+ {
+  "id": "kanji-一",
+  "kanji": "一",
+  "english": "one",
+  "accept": [
+   "1"
+  ],
+  "tip": "One stroke for one.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "一",
+    "reading": "いち",
+    "english": "one"
+   },
+   {
+    "word": "一日",
+    "reading": "いちにち",
+    "english": "one day"
+   },
+   {
+    "word": "一緒",
+    "reading": "いっしょ",
+    "english": "together"
+   }
+  ]
+ },
+ {
+  "id": "kanji-国",
+  "kanji": "国",
+  "english": "country",
+  "accept": [
+   "nation"
+  ],
+  "parts": [
+   {
+    "char": "囗",
+    "meaning": "border"
+   },
+   {
+    "char": "玉",
+    "meaning": "jewel"
+   }
+  ],
+  "tip": "The king's jewel (玉) inside the borders (囗): a country.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "国",
+    "reading": "くに",
+    "english": "country"
+   },
+   {
+    "word": "外国",
+    "reading": "がいこく",
+    "english": "foreign country"
+   },
+   {
+    "word": "外国人",
+    "reading": "がいこくじん",
+    "english": "foreigner"
+   }
+  ]
+ },
+ {
+  "id": "kanji-人",
+  "kanji": "人",
+  "english": "person",
+  "accept": [
+   "human",
+   "people"
+  ],
+  "tip": "Two legs walking.",
+  "similar": "入 (to enter) is the reverse: in 入 the right stroke is the long one.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "大人",
+    "reading": "おとな",
+    "english": "adult"
+   },
+   {
+    "word": "外国人",
+    "reading": "がいこくじん",
+    "english": "foreigner"
+   },
+   {
+    "word": "人",
+    "reading": "ひと",
+    "english": "person"
+   }
+  ]
+ },
+ {
+  "id": "kanji-年",
+  "kanji": "年",
+  "english": "year",
+  "accept": [
+   "age"
+  ],
+  "tip": "A farmer carrying a sheaf of grain: one harvest a year.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "去年",
+    "reading": "きょねん",
+    "english": "last year"
+   },
+   {
+    "word": "一昨年",
+    "reading": "おととし",
+    "english": "year before last"
+   },
+   {
+    "word": "年",
+    "reading": "とし",
+    "english": "year"
+   }
+  ]
+ },
+ {
+  "id": "kanji-大",
+  "kanji": "大",
+  "english": "big",
+  "accept": [
+   "large"
+  ],
+  "tip": "A person stretching their arms out wide: big.",
+  "similar": "犬 (dog) adds a dot. 人 (person) has no crossbar.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "大勢",
+    "reading": "おおぜい",
+    "english": "great number of people"
+   },
+   {
+    "word": "大人",
+    "reading": "おとな",
+    "english": "adult"
+   },
+   {
+    "word": "大きい",
+    "reading": "おおきい",
+    "english": "big"
+   }
+  ]
+ },
+ {
+  "id": "kanji-十",
+  "kanji": "十",
+  "english": "ten",
+  "accept": [
+   "10"
+  ],
+  "tip": "A cross, like a plus sign: ten.",
+  "similar": "千 (thousand) adds a slanting stroke on top.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "十",
+    "reading": "じゅう とお",
+    "english": "ten"
+   },
+   {
+    "word": "十日",
+    "reading": "とおか",
+    "english": "ten days, the tenth day"
+   },
+   {
+    "word": "二十歳",
+    "reading": "はたち",
+    "english": "20 years old, 20th year"
+   }
+  ]
+ },
+ {
+  "id": "kanji-二",
+  "kanji": "二",
+  "english": "two",
+  "accept": [
+   "2"
+  ],
+  "tip": "Two lines for two.",
+  "similar": "三 (three) has three lines.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "二",
+    "reading": "に",
+    "english": "two"
+   },
+   {
+    "word": "二つ",
+    "reading": "ふたつ",
+    "english": "two"
+   },
+   {
+    "word": "二人",
+    "reading": "ふたり",
+    "english": "two people"
+   }
+  ]
+ },
+ {
+  "id": "kanji-本",
+  "kanji": "本",
+  "english": "book, origin",
+  "accept": [
+   "main",
+   "true",
+   "present",
+   "real"
+  ],
+  "parts": [
+   {
+    "char": "木",
+    "meaning": "tree"
+   },
+   {
+    "char": "一",
+    "meaning": "one"
+   }
+  ],
+  "tip": "A line marking the root of a tree (木): origin, and a book.",
+  "similar": "木 (tree) has no line. 体 (body) contains 本.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "本",
+    "reading": "ほん",
+    "english": "book"
+   },
+   {
+    "word": "本棚",
+    "reading": "ほんだな",
+    "english": "bookshelves"
+   }
+  ]
+ },
+ {
+  "id": "kanji-中",
+  "kanji": "中",
+  "english": "middle, inside",
+  "accept": [
+   "center",
+   "centre",
+   "in",
+   "mean"
+  ],
+  "parts": [
+   {
+    "char": "口",
+    "meaning": "box"
+   },
+   {
+    "char": "丨",
+    "meaning": "line"
+   }
+  ],
+  "tip": "A line through the middle of a box.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "中",
+    "reading": "なか",
+    "english": "middle"
+   }
+  ]
+ },
+ {
+  "id": "kanji-長",
+  "kanji": "長",
+  "english": "long, leader",
+  "accept": [
+   "chief",
+   "superior",
+   "senior"
+  ],
+  "tip": "An old man with long, flowing hair.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "長い",
+    "reading": "ながい",
+    "english": "long"
+   }
+  ]
+ },
+ {
+  "id": "kanji-出",
+  "kanji": "出",
+  "english": "to go out, to leave",
+  "accept": [
+   "exit",
+   "come out",
+   "put out",
+   "protrude"
+  ],
+  "parts": [
+   {
+    "char": "山",
+    "meaning": "mountain"
+   },
+   {
+    "char": "山",
+    "meaning": "mountain"
+   }
+  ],
+  "tip": "Two mountains (山) stacked up: climb out over them.",
+  "similar": "山 (mountain) is a single peak.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "出す",
+    "reading": "だす",
+    "english": "to put out"
+   },
+   {
+    "word": "出口",
+    "reading": "でぐち",
+    "english": "exit"
+   },
+   {
+    "word": "出る",
+    "reading": "でる",
+    "english": "to appear, to leave"
+   }
+  ]
+ },
+ {
+  "id": "kanji-三",
+  "kanji": "三",
+  "english": "three",
+  "accept": [
+   "3"
+  ],
+  "tip": "Three lines for three.",
+  "similar": "二 (two) has two lines.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "三",
+    "reading": "さん",
+    "english": "three"
+   },
+   {
+    "word": "三日",
+    "reading": "みっか",
+    "english": "three days, third day of the month"
+   },
+   {
+    "word": "三つ",
+    "reading": "みっつ",
+    "english": "three"
+   }
+  ]
+ },
+ {
+  "id": "kanji-時",
+  "kanji": "時",
+  "english": "time, hour",
+  "accept": [
+   "o'clock"
+  ],
+  "parts": [
+   {
+    "char": "日",
+    "meaning": "sun"
+   },
+   {
+    "char": "寺",
+    "meaning": "temple"
+   }
+  ],
+  "tip": "The temple (寺) bell rings by the sun (日): time.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "時間",
+    "reading": "じかん",
+    "english": "time"
+   },
+   {
+    "word": "時々",
+    "reading": "ときどき",
+    "english": "sometimes"
+   },
+   {
+    "word": "時計",
+    "reading": "とけい",
+    "english": "watch, clock"
+   }
+  ]
+ },
+ {
+  "id": "kanji-行",
+  "kanji": "行",
+  "english": "to go",
+  "accept": [
+   "travel",
+   "going",
+   "journey",
+   "carry out",
+   "conduct",
+   "act",
+   "line",
+   "row",
+   "bank"
+  ],
+  "parts": [
+   {
+    "char": "彳",
+    "meaning": "left step"
+   },
+   {
+    "char": "亍",
+    "meaning": "right step"
+   }
+  ],
+  "tip": "A crossroads seen from above: go.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "行く",
+    "reading": "いく",
+    "english": "to go"
+   },
+   {
+    "word": "銀行",
+    "reading": "ぎんこう",
+    "english": "bank"
+   },
+   {
+    "word": "旅行",
+    "reading": "りょこう",
+    "english": "travel"
+   }
+  ]
+ },
+ {
+  "id": "kanji-見",
+  "kanji": "見",
+  "english": "to see",
+  "accept": [
+   "look",
+   "watch",
+   "hopes",
+   "chances",
+   "idea",
+   "opinion",
+   "look at",
+   "visible"
+  ],
+  "parts": [
+   {
+    "char": "目",
+    "meaning": "eye"
+   },
+   {
+    "char": "儿",
+    "meaning": "legs"
+   }
+  ],
+  "tip": "An eye (目) on legs (儿): seeing.",
+  "similar": "覚 (to remember) has 見 at the bottom.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "見る",
+    "reading": "みる",
+    "english": "to see, to watch"
+   },
+   {
+    "word": "見せる",
+    "reading": "みせる",
+    "english": "to show"
+   }
+  ]
+ },
+ {
+  "id": "kanji-月",
+  "kanji": "月",
+  "english": "moon, month",
+  "tip": "A crescent moon. A month is one moon.",
+  "similar": "It's on the right of 明 (bright) and 朝 (morning).",
+  "n5": true,
+  "examples": [
+   {
+    "word": "今月",
+    "reading": "こんげつ",
+    "english": "this month"
+   },
+   {
+    "word": "先月",
+    "reading": "せんげつ",
+    "english": "last month"
+   },
+   {
+    "word": "一月",
+    "reading": "ひとつき",
+    "english": "one month"
+   }
+  ]
+ },
+ {
+  "id": "kanji-分",
+  "kanji": "分",
+  "english": "part, minute, to understand",
+  "accept": [
+   "divide",
+   "minute of time",
+   "segment",
+   "share",
+   "degree",
+   "one's lot",
+   "duty",
+   "know",
+   "rate",
+   "chances"
+  ],
+  "parts": [
+   {
+    "char": "八",
+    "meaning": "split"
+   },
+   {
+    "char": "刀",
+    "meaning": "knife"
+   }
+  ],
+  "tip": "A knife (刀) splitting something in two (八): parts, minutes.",
+  "similar": "切 (to cut) also has 刀 knife.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "自分",
+    "reading": "じぶん",
+    "english": "oneself"
+   },
+   {
+    "word": "半分",
+    "reading": "はんぶん",
+    "english": "half minute"
+   },
+   {
+    "word": "分かる",
+    "reading": "わかる",
+    "english": "to be understood"
+   }
+  ]
+ },
+ {
+  "id": "kanji-後",
+  "kanji": "後",
+  "english": "after, behind",
+  "accept": [
+   "later",
+   "back"
+  ],
+  "parts": [
+   {
+    "char": "彳",
+    "meaning": "step"
+   },
+   {
+    "char": "幺",
+    "meaning": "thread"
+   },
+   {
+    "char": "夂",
+    "meaning": "dragging feet"
+   }
+  ],
+  "tip": "Walking (彳) with your feet tied by thread (幺): you fall behind.",
+  "similar": "御 also starts with 彳.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "後",
+    "reading": "あと",
+    "english": "afterwards"
+   },
+   {
+    "word": "後ろ",
+    "reading": "うしろ",
+    "english": "behind"
+   },
+   {
+    "word": "午後",
+    "reading": "ごご",
+    "english": "afternoon"
+   }
+  ]
+ },
+ {
+  "id": "kanji-前",
+  "kanji": "前",
+  "english": "before, front",
+  "accept": [
+   "in front",
+   "ago"
+  ],
+  "parts": [
+   {
+    "char": "丷",
+    "meaning": "horns"
+   },
+   {
+    "char": "一",
+    "meaning": "one"
+   },
+   {
+    "char": "月",
+    "meaning": "moon"
+   },
+   {
+    "char": "刂",
+    "meaning": "knife"
+   }
+  ],
+  "tip": "Cut (刂) the meat (月) before the meal: front, before.",
+  "similar": "後 (after) is its opposite.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "前",
+    "reading": "まえ",
+    "english": "before"
+   },
+   {
+    "word": "午前",
+    "reading": "ごぜん",
+    "english": "morning"
+   },
+   {
+    "word": "名前",
+    "reading": "なまえ",
+    "english": "name"
+   }
+  ]
+ },
+ {
+  "id": "kanji-生",
+  "kanji": "生",
+  "english": "life, birth",
+  "accept": [
+   "genuine"
+  ],
+  "tip": "A plant pushing up out of the ground: life, birth.",
+  "similar": "青 (blue) starts with a squashed form of it.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "学生",
+    "reading": "がくせい",
+    "english": "student"
+   },
+   {
+    "word": "生まれる",
+    "reading": "うまれる",
+    "english": "to be born"
+   },
+   {
+    "word": "生徒",
+    "reading": "せいと",
+    "english": "pupil"
+   }
+  ]
+ },
+ {
+  "id": "kanji-五",
+  "kanji": "五",
+  "english": "five",
+  "tip": "Like a 5 with a lid on top.",
+  "accept": [
+   "5"
+  ],
+  "n5": true,
+  "examples": [
+   {
+    "word": "五日",
+    "reading": "いつか",
+    "english": "five days, fifth day"
+   },
+   {
+    "word": "五つ",
+    "reading": "いつつ",
+    "english": "five"
+   },
+   {
+    "word": "五",
+    "reading": "ご",
+    "english": "five"
+   }
+  ]
+ },
+ {
+  "id": "kanji-間",
+  "kanji": "間",
+  "english": "interval, between",
+  "accept": [
+   "gap",
+   "space",
+   "room"
+  ],
+  "parts": [
+   {
+    "char": "門",
+    "meaning": "gate"
+   },
+   {
+    "char": "日",
+    "meaning": "sun"
+   }
+  ],
+  "tip": "Sun (日) shining through the gap in the gate (門): between.",
+  "similar": "開 (to open) and 聞 (to hear) have the same gate.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "時間",
+    "reading": "じかん",
+    "english": "time"
+   }
+  ]
+ },
+ {
+  "id": "kanji-上",
+  "kanji": "上",
+  "english": "up, above",
+  "accept": [
+   "on",
+   "top",
+   "over",
+   "on top"
+  ],
+  "tip": "A mark sitting above the line: up.",
+  "similar": "下 (down) is its mirror, with the mark below the line.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "上",
+    "reading": "うえ",
+    "english": "on top of"
+   },
+   {
+    "word": "上着",
+    "reading": "うわぎ",
+    "english": "jacket"
+   },
+   {
+    "word": "上げる",
+    "reading": "あげる",
+    "english": "to give"
+   }
+  ]
+ },
+ {
+  "id": "kanji-東",
+  "kanji": "東",
+  "english": "east",
+  "parts": [
+   {
+    "char": "木",
+    "meaning": "tree"
+   },
+   {
+    "char": "日",
+    "meaning": "sun"
+   }
+  ],
+  "tip": "The sun (日) rising behind a tree (木): east.",
+  "similar": "車 (car) has no slanting strokes at the bottom.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "東",
+    "reading": "ひがし",
+    "english": "east"
+   }
+  ]
+ },
+ {
+  "id": "kanji-四",
+  "kanji": "四",
+  "english": "four",
+  "accept": [
+   "4"
+  ],
+  "parts": [
+   {
+    "char": "囗",
+    "meaning": "enclosure"
+   },
+   {
+    "char": "儿",
+    "meaning": "legs"
+   }
+  ],
+  "tip": "Four walls (囗) with a pair of legs (儿) inside.",
+  "similar": "西 (west) has a line across the top and straight legs.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "四",
+    "reading": "し / よん",
+    "english": "four"
+   },
+   {
+    "word": "四日",
+    "reading": "よっか",
+    "english": "four days, fouth day of the month"
+   },
+   {
+    "word": "四つ",
+    "reading": "よっつ",
+    "english": "four"
+   }
+  ]
+ },
+ {
+  "id": "kanji-今",
+  "kanji": "今",
+  "english": "now",
+  "parts": [
+   {
+    "char": "人",
+    "meaning": "roof shape"
+   },
+   {
+    "char": "一",
+    "meaning": "one"
+   }
+  ],
+  "tip": "Under the roof, right at this moment: now.",
+  "similar": "会 (to meet) has the same roof, with 二 and 厶 underneath.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "今",
+    "reading": "いま",
+    "english": "now"
+   },
+   {
+    "word": "今日",
+    "reading": "きょう",
+    "english": "today"
+   },
+   {
+    "word": "今朝",
+    "reading": "けさ",
+    "english": "this morning"
+   }
+  ]
+ },
+ {
+  "id": "kanji-金",
+  "kanji": "金",
+  "english": "gold, money",
+  "accept": [
+   "metal"
+  ],
+  "tip": "Two nuggets buried in the earth (土) under a roof: gold.",
+  "similar": "On the left of another kanji it marks a metal, as in 銀 and 鉛.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "お金",
+    "reading": "おかね",
+    "english": "money"
+   },
+   {
+    "word": "金曜日",
+    "reading": "きんようび",
+    "english": "Friday"
+   }
+  ]
+ },
+ {
+  "id": "kanji-九",
+  "kanji": "九",
+  "english": "nine",
+  "tip": "A hooked stroke: nine.",
+  "similar": "力 (power), in 男 and 勢, hooks down to the left instead.",
+  "accept": [
+   "9"
+  ],
+  "n5": true,
+  "examples": [
+   {
+    "word": "九",
+    "reading": "きゅう / く",
+    "english": "nine"
+   },
+   {
+    "word": "九日",
+    "reading": "ここのか",
+    "english": "nine days, ninth day"
+   },
+   {
+    "word": "九つ",
+    "reading": "ここのつ",
+    "english": "nine"
+   }
+  ]
+ },
+ {
+  "id": "kanji-入",
+  "kanji": "入",
+  "english": "to enter",
+  "accept": [
+   "insert"
+  ],
+  "tip": "An arrow pointing in: enter.",
+  "similar": "人 (person) is the reverse: in 人 the left stroke is the long one.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "入口",
+    "reading": "いりぐち",
+    "english": "entrance"
+   },
+   {
+    "word": "入れる",
+    "reading": "いれる",
+    "english": "to put in"
+   },
+   {
+    "word": "入る",
+    "reading": "はいる",
+    "english": "to enter, to contain"
+   }
+  ]
+ },
+ {
+  "id": "kanji-学",
+  "kanji": "学",
+  "english": "to study",
+  "accept": [
+   "learn",
+   "learning",
+   "science"
+  ],
+  "parts": [
+   {
+    "char": "⺍",
+    "meaning": "sparks"
+   },
+   {
+    "char": "冖",
+    "meaning": "roof"
+   },
+   {
+    "char": "子",
+    "meaning": "child"
+   }
+  ],
+  "tip": "A child (子) under a roof with sparks of ideas (⺍): studying.",
+  "similar": "字 (character) has a plain 宀 roof. 覚 (remember) has the same top.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "学生",
+    "reading": "がくせい",
+    "english": "student"
+   },
+   {
+    "word": "学校",
+    "reading": "がっこう",
+    "english": "school"
+   },
+   {
+    "word": "大学",
+    "reading": "だいがく",
+    "english": "university"
+   }
+  ]
+ },
+ {
+  "id": "kanji-高",
+  "kanji": "高",
+  "english": "tall, expensive",
+  "accept": [
+   "high"
+  ],
+  "parts": [
+   {
+    "char": "亠",
+    "meaning": "lid"
+   },
+   {
+    "char": "口",
+    "meaning": "mouth"
+   },
+   {
+    "char": "冂",
+    "meaning": "enclosure"
+   }
+  ],
+  "tip": "A tall tower, floor on floor.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "高い",
+    "reading": "たかい",
+    "english": "tall, expensive"
+   }
+  ]
+ },
+ {
+  "id": "kanji-円",
+  "kanji": "円",
+  "english": "yen, circle",
+  "accept": [
+   "round"
+  ],
+  "parts": [
+   {
+    "char": "冂",
+    "meaning": "enclosure"
+   }
+  ],
+  "tip": "A coin purse with a divider inside: yen.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "円い",
+    "reading": "まるい",
+    "english": "round, circular"
+   }
+  ]
+ },
+ {
+  "id": "kanji-子",
+  "kanji": "子",
+  "english": "child",
+  "accept": [
+   "kid",
+   "children"
+  ],
+  "tip": "A baby with its arms out and legs wrapped up.",
+  "similar": "字 (character) is 子 under a roof.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "お菓子",
+    "reading": "おかし",
+    "english": "sweets, candy"
+   },
+   {
+    "word": "男の子",
+    "reading": "おとこのこ",
+    "english": "boy"
+   },
+   {
+    "word": "女の子",
+    "reading": "おんなのこ",
+    "english": "girl"
+   }
+  ]
+ },
+ {
+  "id": "kanji-外",
+  "kanji": "外",
+  "english": "outside",
+  "accept": [
+   "abroad",
+   "foreign"
+  ],
+  "parts": [
+   {
+    "char": "夕",
+    "meaning": "evening"
+   },
+   {
+    "char": "卜",
+    "meaning": "divination"
+   }
+  ],
+  "tip": "Fortune-telling (卜) in the evening (夕) was done outside.",
+  "similar": "多 (many) is two 夕.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "外国",
+    "reading": "がいこく",
+    "english": "foreign country"
+   },
+   {
+    "word": "外国人",
+    "reading": "がいこくじん",
+    "english": "foreigner"
+   },
+   {
+    "word": "外",
+    "reading": "そと",
+    "english": "outside"
+   }
+  ]
+ },
+ {
+  "id": "kanji-八",
+  "kanji": "八",
+  "english": "eight",
+  "accept": [
+   "8"
+  ],
+  "tip": "Two strokes spreading apart: eight.",
+  "similar": "人 (person) joins at the top. 入 (to enter) does too.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "八",
+    "reading": "はち",
+    "english": "eight"
+   },
+   {
+    "word": "八つ",
+    "reading": "やっつ",
+    "english": "eight"
+   },
+   {
+    "word": "八日",
+    "reading": "ようか",
+    "english": "eight days, eighth day of the month"
+   }
+  ]
+ },
+ {
+  "id": "kanji-六",
+  "kanji": "六",
+  "english": "six",
+  "accept": [
+   "6"
+  ],
+  "parts": [
+   {
+    "char": "亠",
+    "meaning": "lid"
+   },
+   {
+    "char": "八",
+    "meaning": "eight"
+   }
+  ],
+  "tip": "A lid (亠) on top of 八 (eight): six.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "六",
+    "reading": "ろく",
+    "english": "six"
+   },
+   {
+    "word": "六日",
+    "reading": "むいか",
+    "english": "six days, sixth day of the month"
+   },
+   {
+    "word": "六つ",
+    "reading": "むっつ",
+    "english": "six"
+   }
+  ]
+ },
+ {
+  "id": "kanji-下",
+  "kanji": "下",
+  "english": "below, down",
+  "accept": [
+   "under",
+   "beneath",
+   "low",
+   "descend",
+   "give",
+   "inferior"
+  ],
+  "tip": "A mark hanging below the line: down.",
+  "similar": "上 (up) is its mirror.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "靴下",
+    "reading": "くつした",
+    "english": "socks"
+   },
+   {
+    "word": "下",
+    "reading": "した",
+    "english": "below"
+   },
+   {
+    "word": "下手",
+    "reading": "へた",
+    "english": "unskillful"
+   }
+  ]
+ },
+ {
+  "id": "kanji-来",
+  "kanji": "来",
+  "english": "to come",
+  "accept": [
+   "arrive",
+   "due",
+   "next",
+   "cause",
+   "become"
+  ],
+  "tip": "A tree (木) with a crossbar and two marks: something coming.",
+  "similar": "木 (tree) is the same without the extra marks.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "来る",
+    "reading": "くる",
+    "english": "to come"
+   },
+   {
+    "word": "来月",
+    "reading": "らいげつ",
+    "english": "next month"
+   },
+   {
+    "word": "来週",
+    "reading": "らいしゅう",
+    "english": "next week"
+   }
+  ]
+ },
+ {
+  "id": "kanji-気",
+  "kanji": "気",
+  "english": "spirit, air",
+  "accept": [
+   "mind",
+   "feeling",
+   "energy",
+   "atmosphere",
+   "mood"
+  ],
+  "parts": [
+   {
+    "char": "气",
+    "meaning": "steam"
+   },
+   {
+    "char": "乂",
+    "meaning": "cross"
+   }
+  ],
+  "tip": "Steam (气) rising into the air: spirit, feeling.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "元気",
+    "reading": "げんき",
+    "english": "health, vitality"
+   },
+   {
+    "word": "天気",
+    "reading": "てんき",
+    "english": "weather"
+   },
+   {
+    "word": "電気",
+    "reading": "でんき",
+    "english": "electricity, electric light"
+   }
+  ]
+ },
+ {
+  "id": "kanji-小",
+  "kanji": "小",
+  "english": "small",
+  "accept": [
+   "little"
+  ],
+  "tip": "A little thing split into tiny bits.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "小さい",
+    "reading": "ちいさい",
+    "english": "little"
+   },
+   {
+    "word": "小さな",
+    "reading": "ちいさな",
+    "english": "little"
+   }
+  ]
+ },
+ {
+  "id": "kanji-七",
+  "kanji": "七",
+  "english": "seven",
+  "accept": [
+   "7"
+  ],
+  "tip": "Like an upside-down 7 with a bar across it.",
+  "similar": "It's the left side of 切 (to cut).",
+  "n5": true,
+  "examples": [
+   {
+    "word": "七",
+    "reading": "しち / なな",
+    "english": "seven"
+   },
+   {
+    "word": "七つ",
+    "reading": "ななつ",
+    "english": "seven"
+   },
+   {
+    "word": "七日",
+    "reading": "なのか",
+    "english": "seven days, the seventh day"
+   }
+  ]
+ },
+ {
+  "id": "kanji-山",
+  "kanji": "山",
+  "english": "mountain",
+  "tip": "Three peaks: a mountain.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "山",
+    "reading": "やま",
+    "english": "mountain"
+   }
+  ]
+ },
+ {
+  "id": "kanji-話",
+  "kanji": "話",
+  "english": "to talk",
+  "accept": [
+   "speak",
+   "story",
+   "tale"
+  ],
+  "parts": [
+   {
+    "char": "訁",
+    "meaning": "words"
+   },
+   {
+    "char": "舌",
+    "meaning": "tongue"
+   }
+  ],
+  "tip": "Words (訁) from the tongue (舌): talking.",
+  "similar": "語 (language) and 読 (to read) also have 訁 on the left.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "話",
+    "reading": "はなし",
+    "english": "talk, story"
+   },
+   {
+    "word": "電話",
+    "reading": "でんわ",
+    "english": "telephone"
+   },
+   {
+    "word": "話す",
+    "reading": "はなす",
+    "english": "to speak"
+   }
+  ]
+ },
+ {
+  "id": "kanji-女",
+  "kanji": "女",
+  "english": "woman",
+  "accept": [
+   "female",
+   "girl",
+   "lady"
+  ],
+  "tip": "A woman kneeling gracefully.",
+  "similar": "It's on the left of 姉, 妹 and 嫌.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "女",
+    "reading": "おんな",
+    "english": "woman"
+   },
+   {
+    "word": "女の子",
+    "reading": "おんなのこ",
+    "english": "girl"
+   }
+  ]
+ },
+ {
+  "id": "kanji-北",
+  "kanji": "北",
+  "english": "north",
+  "tip": "Two people sitting back to back, turning away from the cold north.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "北",
+    "reading": "きた",
+    "english": "north"
+   }
+  ]
+ },
+ {
+  "id": "kanji-午",
+  "kanji": "午",
+  "english": "noon",
+  "accept": [
+   "midday"
+  ],
+  "tip": "Like 牛 (cow) without the stroke poking through the top.",
+  "similar": "牛 (cow) has a stroke poking up through the top.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "午後",
+    "reading": "ごご",
+    "english": "afternoon"
+   },
+   {
+    "word": "午前",
+    "reading": "ごぜん",
+    "english": "morning"
+   }
+  ]
+ },
+ {
+  "id": "kanji-百",
+  "kanji": "百",
+  "english": "hundred",
+  "accept": [
+   "100"
+  ],
+  "parts": [
+   {
+    "char": "一",
+    "meaning": "one"
+   },
+   {
+    "char": "白",
+    "meaning": "white"
+   }
+  ],
+  "tip": "One (一) on top of white (白): a hundred.",
+  "similar": "白 (white) is the same without the top line.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "百",
+    "reading": "ひゃく",
+    "english": "hundred"
+   },
+   {
+    "word": "八百屋",
+    "reading": "やおや",
+    "english": "greengrocer"
+   }
+  ]
+ },
+ {
+  "id": "kanji-書",
+  "kanji": "書",
+  "english": "to write",
+  "accept": [
+   "book"
+  ],
+  "parts": [
+   {
+    "char": "聿",
+    "meaning": "brush"
+   },
+   {
+    "char": "日",
+    "meaning": "speaking mouth"
+   }
+  ],
+  "tip": "A brush (聿) above a speaking mouth (日): writing the words down.",
+  "similar": "筆 (writing brush) has the same 聿.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "書く",
+    "reading": "かく",
+    "english": "to write"
+   },
+   {
+    "word": "辞書",
+    "reading": "じしょ",
+    "english": "dictionary"
+   },
+   {
+    "word": "葉書",
+    "reading": "はがき",
+    "english": "postcard"
+   }
+  ]
+ },
+ {
+  "id": "kanji-先",
+  "kanji": "先",
+  "english": "ahead, previous",
+  "accept": [
+   "tip",
+   "future",
+   "first",
+   "before",
+   "precedence"
+  ],
+  "parts": [
+   {
+    "char": "儿",
+    "meaning": "legs"
+   },
+   {
+    "char": "土",
+    "meaning": "earth"
+   }
+  ],
+  "tip": "Legs (儿) striding ahead over the earth (土).",
+  "similar": "It's the right half of 洗 (to wash).",
+  "n5": true,
+  "examples": [
+   {
+    "word": "先",
+    "reading": "さき",
+    "english": "the future, previous"
+   },
+   {
+    "word": "先月",
+    "reading": "せんげつ",
+    "english": "last month"
+   },
+   {
+    "word": "先週",
+    "reading": "せんしゅう",
+    "english": "last week"
+   }
+  ]
+ },
+ {
+  "id": "kanji-名",
+  "kanji": "名",
+  "english": "name",
+  "accept": [
+   "noted",
+   "distinguished",
+   "reputation"
+  ],
+  "parts": [
+   {
+    "char": "夕",
+    "meaning": "evening"
+   },
+   {
+    "char": "口",
+    "meaning": "mouth"
+   }
+  ],
+  "tip": "In the evening (夕) dark you call out (口) your name.",
+  "similar": "多 (many) has two 夕 and no 口.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "名前",
+    "reading": "なまえ",
+    "english": "name"
+   },
+   {
+    "word": "有名",
+    "reading": "ゆうめい",
+    "english": "famous"
+   }
+  ]
+ },
+ {
+  "id": "kanji-川",
+  "kanji": "川",
+  "english": "river",
+  "accept": [
+   "stream"
+  ],
+  "tip": "Three lines of flowing water.",
+  "similar": "河 is also a river, written with 氵 water.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "川/河",
+    "reading": "かわ",
+    "english": "river"
+   }
+  ]
+ },
+ {
+  "id": "kanji-千",
+  "kanji": "千",
+  "english": "thousand",
+  "accept": [
+   "1000",
+   "1,000"
+  ],
+  "parts": [
+   {
+    "char": "丿",
+    "meaning": "slanting stroke"
+   },
+   {
+    "char": "十",
+    "meaning": "ten"
+   }
+  ],
+  "tip": "十 (ten) with a stroke on top: a thousand.",
+  "similar": "十 (ten) has no stroke on top.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "千",
+    "reading": "せん",
+    "english": "thousand"
+   }
+  ]
+ },
+ {
+  "id": "kanji-水",
+  "kanji": "水",
+  "english": "water",
+  "accept": [
+   "wednesday"
+  ],
+  "tip": "Water flowing, with splashes either side.",
+  "similar": "On the left of a kanji it becomes 氵, as in 池 and 海.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "水",
+    "reading": "みず",
+    "english": "water"
+   },
+   {
+    "word": "水曜日",
+    "reading": "すいようび",
+    "english": "Wednesday"
+   }
+  ]
+ },
+ {
+  "id": "kanji-半",
+  "kanji": "半",
+  "english": "half",
+  "accept": [
+   "middle",
+   "odd number",
+   "semi-",
+   "part-"
+  ],
+  "parts": [
+   {
+    "char": "丷",
+    "meaning": "horns"
+   },
+   {
+    "char": "二",
+    "meaning": "two"
+   },
+   {
+    "char": "丨",
+    "meaning": "line"
+   }
+  ],
+  "tip": "A line running down the middle cuts it in half.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "半",
+    "reading": "はん",
+    "english": "half"
+   },
+   {
+    "word": "半分",
+    "reading": "はんぶん",
+    "english": "half minute"
+   }
+  ]
+ },
+ {
+  "id": "kanji-男",
+  "kanji": "男",
+  "english": "man",
+  "accept": [
+   "male",
+   "boy"
+  ],
+  "parts": [
+   {
+    "char": "田",
+    "meaning": "field"
+   },
+   {
+    "char": "力",
+    "meaning": "power"
+   }
+  ],
+  "tip": "Power (力) in the field (田): man.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "男",
+    "reading": "おとこ",
+    "english": "man"
+   },
+   {
+    "word": "男の子",
+    "reading": "おとこのこ",
+    "english": "boy"
+   }
+  ]
+ },
+ {
+  "id": "kanji-西",
+  "kanji": "西",
+  "english": "west",
+  "tip": "A bird settling into its nest at sunset: west.",
+  "similar": "四 (four) is a closed box.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "西",
+    "reading": "にし",
+    "english": "west"
+   }
+  ]
+ },
+ {
+  "id": "kanji-電",
+  "kanji": "電",
+  "english": "electricity",
+  "accept": [
+   "electric",
+   "lightning"
+  ],
+  "parts": [
+   {
+    "char": "雨",
+    "meaning": "rain"
+   }
+  ],
+  "tip": "Lightning striking down from the rain clouds (雨).",
+  "similar": "雨 (rain) is its top.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "電気",
+    "reading": "でんき",
+    "english": "electricity, electric light"
+   },
+   {
+    "word": "電車",
+    "reading": "でんしゃ",
+    "english": "electric train"
+   },
+   {
+    "word": "電話",
+    "reading": "でんわ",
+    "english": "telephone"
+   }
+  ]
+ },
+ {
+  "id": "kanji-校",
+  "kanji": "校",
+  "english": "school",
+  "accept": [
+   "schoolhouse",
+   "exam",
+   "printing",
+   "proof",
+   "correction"
+  ],
+  "parts": [
+   {
+    "char": "木",
+    "meaning": "wood"
+   },
+   {
+    "char": "交",
+    "meaning": "mix"
+   }
+  ],
+  "tip": "A wooden (木) building where people mix (交): school.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "学校",
+    "reading": "がっこう",
+    "english": "school"
+   }
+  ]
+ },
+ {
+  "id": "kanji-語",
+  "kanji": "語",
+  "english": "language, word",
+  "accept": [
+   "speak",
+   "tell",
+   "speech"
+  ],
+  "parts": [
+   {
+    "char": "訁",
+    "meaning": "words"
+   },
+   {
+    "char": "五",
+    "meaning": "five"
+   },
+   {
+    "char": "口",
+    "meaning": "mouth"
+   }
+  ],
+  "tip": "Words (訁) from five (五) mouths (口): a language.",
+  "similar": "訁 is 言 (to say) squashed onto the left.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "英語",
+    "reading": "えいご",
+    "english": "English language"
+   }
+  ]
+ },
+ {
+  "id": "kanji-土",
+  "kanji": "土",
+  "english": "earth, soil",
+  "accept": [
+   "ground",
+   "saturday"
+  ],
+  "tip": "A sprout pushing up from the ground: earth.",
+  "similar": "士 (samurai), at the top of 売, has the longer line on top.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "土曜日",
+    "reading": "どようび",
+    "english": "Saturday"
+   }
+  ]
+ },
+ {
+  "id": "kanji-木",
+  "kanji": "木",
+  "english": "tree, wood",
+  "tip": "A tree with branches and roots.",
+  "similar": "未 (not yet), in 妹 and 味, has an extra short line.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "木",
+    "reading": "き",
+    "english": "tree, wood"
+   },
+   {
+    "word": "木曜日",
+    "reading": "もくようび",
+    "english": "Thursday"
+   }
+  ]
+ },
+ {
+  "id": "kanji-聞",
+  "kanji": "聞",
+  "english": "to hear",
+  "accept": [
+   "listen",
+   "ask"
+  ],
+  "parts": [
+   {
+    "char": "門",
+    "meaning": "gate"
+   },
+   {
+    "char": "耳",
+    "meaning": "ear"
+   }
+  ],
+  "tip": "An ear (耳) pressed to the gate (門): listening.",
+  "similar": "開 (to open) is the same gate with a bar and two hands inside.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "聞く",
+    "reading": "きく",
+    "english": "to hear, to listen to, to ask"
+   },
+   {
+    "word": "新聞",
+    "reading": "しんぶん",
+    "english": "newspaper"
+   }
+  ]
+ },
+ {
+  "id": "kanji-食",
+  "kanji": "食",
+  "english": "to eat, food",
+  "accept": [
+   "meal"
+  ],
+  "parts": [
+   {
+    "char": "人",
+    "meaning": "roof shape"
+   },
+   {
+    "char": "良",
+    "meaning": "good"
+   }
+  ],
+  "tip": "Something good (良) under a lid: food.",
+  "similar": "On the left of a kanji it becomes 飠, as in 飯 and 飴.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "食堂",
+    "reading": "しょくどう",
+    "english": "dining hall"
+   },
+   {
+    "word": "食べ物",
+    "reading": "たべもの",
+    "english": "food"
+   },
+   {
+    "word": "食べる",
+    "reading": "たべる",
+    "english": "to eat"
+   }
+  ]
+ },
+ {
+  "id": "kanji-車",
+  "kanji": "車",
+  "english": "car, vehicle",
+  "accept": [
+   "wheel"
+  ],
+  "tip": "A cart seen from above: the axle through two wheels.",
+  "similar": "重 (heavy) has an extra slanting stroke on top.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "車",
+    "reading": "くるま",
+    "english": "car, vehicle"
+   },
+   {
+    "word": "電車",
+    "reading": "でんしゃ",
+    "english": "electric train"
+   },
+   {
+    "word": "自転車",
+    "reading": "じてんしゃ",
+    "english": "bicycle"
+   }
+  ]
+ },
+ {
+  "id": "kanji-何",
+  "kanji": "何",
+  "english": "what",
+  "parts": [
+   {
+    "char": "亻",
+    "meaning": "person"
+   },
+   {
+    "char": "可",
+    "meaning": "can"
+   }
+  ],
+  "tip": "A person (亻) asking: what can (可) it be?",
+  "n5": true,
+  "examples": [
+   {
+    "word": "何",
+    "reading": "なん/なに",
+    "english": "what"
+   }
+  ]
+ },
+ {
+  "id": "kanji-南",
+  "kanji": "南",
+  "english": "south",
+  "parts": [
+   {
+    "char": "十",
+    "meaning": "ten"
+   },
+   {
+    "char": "冂",
+    "meaning": "enclosure"
+   },
+   {
+    "char": "干",
+    "meaning": "dry"
+   }
+  ],
+  "tip": "A tent (冂) with a cross (十) on top, facing the warm south.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "南",
+    "reading": "みなみ",
+    "english": "south"
+   }
+  ]
+ },
+ {
+  "id": "kanji-万",
+  "kanji": "万",
+  "english": "ten thousand",
+  "accept": [
+   "10000",
+   "10,000"
+  ],
+  "tip": "Like 方 (direction) without the dot on top.",
+  "similar": "方 (direction) has a dot on top.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "万",
+    "reading": "まん",
+    "english": "ten thousand"
+   },
+   {
+    "word": "万年筆",
+    "reading": "まんねんひつ",
+    "english": "fountain pen"
+   }
+  ]
+ },
+ {
+  "id": "kanji-毎",
+  "kanji": "毎",
+  "english": "every",
+  "accept": [
+   "each"
+  ],
+  "parts": [
+   {
+    "char": "母",
+    "meaning": "mother"
+   }
+  ],
+  "tip": "Mother (母) in her hat, the same every day.",
+  "similar": "母 (mother) has no hat. 海 (sea) contains 毎.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "毎朝",
+    "reading": "まいあさ",
+    "english": "every morning"
+   },
+   {
+    "word": "毎月",
+    "reading": "まいげつ/まいつき",
+    "english": "every month"
+   },
+   {
+    "word": "毎週",
+    "reading": "まいしゅう",
+    "english": "every week"
+   }
+  ]
+ },
+ {
+  "id": "kanji-白",
+  "kanji": "白",
+  "english": "white",
+  "parts": [
+   {
+    "char": "丿",
+    "meaning": "ray"
+   },
+   {
+    "char": "日",
+    "meaning": "sun"
+   }
+  ],
+  "tip": "The sun (日) with a ray of light: white.",
+  "similar": "百 (hundred) adds 一 on top. 日 has no ray.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "白",
+    "reading": "しろ",
+    "english": "white"
+   },
+   {
+    "word": "白い",
+    "reading": "しろい",
+    "english": "white"
+   }
+  ]
+ },
+ {
+  "id": "kanji-天",
+  "kanji": "天",
+  "english": "heaven, sky",
+  "accept": [
+   "heavens",
+   "weather",
+   "imperial"
+  ],
+  "parts": [
+   {
+    "char": "一",
+    "meaning": "one"
+   },
+   {
+    "char": "大",
+    "meaning": "big"
+   }
+  ],
+  "tip": "The line above a big (大) person: the sky.",
+  "similar": "大 (big) has no line on top.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "天気",
+    "reading": "てんき",
+    "english": "weather"
+   }
+  ]
+ },
+ {
+  "id": "kanji-母",
+  "kanji": "母",
+  "english": "mother",
+  "tip": "A woman with two dots inside: mother.",
+  "similar": "毎 (in 海, sea) looks like 母 with a hat.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "お母さん",
+    "reading": "おかあさん",
+    "english": "(honorable) mother"
+   },
+   {
+    "word": "伯母さん/叔母さん",
+    "reading": "おばさん",
+    "english": "aunt"
+   }
+  ]
+ },
+ {
+  "id": "kanji-火",
+  "kanji": "火",
+  "english": "fire",
+  "tip": "Flames rising from a fire.",
+  "similar": "At the bottom of a kanji it becomes 灬, as in 熱 and 黒.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "火曜日",
+    "reading": "かようび",
+    "english": "Tuesday"
+   }
+  ]
+ },
+ {
+  "id": "kanji-右",
+  "kanji": "右",
+  "english": "right",
+  "parts": [
+   {
+    "char": "ナ",
+    "meaning": "hand"
+   },
+   {
+    "char": "口",
+    "meaning": "mouth"
+   }
+  ],
+  "tip": "The hand (ナ) you eat with (口): right.",
+  "similar": "左 (left) has 工 instead of 口.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "右",
+    "reading": "みぎ",
+    "english": "right side"
+   }
+  ]
+ },
+ {
+  "id": "kanji-読",
+  "kanji": "読",
+  "english": "to read",
+  "parts": [
+   {
+    "char": "訁",
+    "meaning": "words"
+   },
+   {
+    "char": "売",
+    "meaning": "sell"
+   }
+  ],
+  "tip": "Words (訁) for sale (売): read them.",
+  "similar": "売 (to sell) is its right half.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "読む",
+    "reading": "よむ",
+    "english": "to read"
+   }
+  ]
+ },
+ {
+  "id": "kanji-友",
+  "kanji": "友",
+  "english": "friend",
+  "parts": [
+   {
+    "char": "ナ",
+    "meaning": "hand"
+   },
+   {
+    "char": "又",
+    "meaning": "hand"
+   }
+  ],
+  "tip": "Two hands (ナ and 又) clasped together: friends.",
+  "similar": "右 and 左 share the same ナ.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "友達",
+    "reading": "ともだち",
+    "english": "friend"
+   }
+  ]
+ },
+ {
+  "id": "kanji-左",
+  "kanji": "左",
+  "english": "left",
+  "parts": [
+   {
+    "char": "ナ",
+    "meaning": "hand"
+   },
+   {
+    "char": "工",
+    "meaning": "tool"
+   }
+  ],
+  "tip": "The hand (ナ) that holds the tool (工) steady: left.",
+  "similar": "右 (right) has 口 instead of 工.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "左",
+    "reading": "ひだり",
+    "english": "left hand side"
+   }
+  ]
+ },
+ {
+  "id": "kanji-休",
+  "kanji": "休",
+  "english": "to rest",
+  "accept": [
+   "holiday",
+   "day off",
+   "retire",
+   "sleep"
+  ],
+  "parts": [
+   {
+    "char": "亻",
+    "meaning": "person"
+   },
+   {
+    "char": "木",
+    "meaning": "tree"
+   }
+  ],
+  "tip": "A person (亻) leaning on a tree (木): resting.",
+  "similar": "体 (body) has an extra line under 木.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "休み",
+    "reading": "やすみ",
+    "english": "rest, holiday"
+   },
+   {
+    "word": "休む",
+    "reading": "やすむ",
+    "english": "to rest"
+   },
+   {
+    "word": "夏休み",
+    "reading": "なつやすみ",
+    "english": "summer holiday"
+   }
+  ]
+ },
+ {
+  "id": "kanji-父",
+  "kanji": "父",
+  "english": "father",
+  "tip": "Two crossed strokes, like a father's hand holding a tool.",
+  "n5": true,
+  "examples": [
+   {
+    "word": "お父さん",
+    "reading": "おとうさん",
+    "english": "(honorable) father"
+   },
+   {
+    "word": "お祖父さん",
+    "reading": "おじいさん",
+    "english": "grandfather, male senior citizen"
+   },
+   {
+    "word": "伯父さん/叔父さん",
+    "reading": "おじさん",
+    "english": "uncle, middle aged gentleman"
+   }
+  ]
+ },
+ {
+  "id": "kanji-雨",
+  "kanji": "雨",
+  "english": "rain",
+  "tip": "Raindrops falling under the sky.",
+  "similar": "It sits on top of 雲 (cloud), which you'll find in 曇 (cloudy).",
+  "n5": true,
+  "examples": [
+   {
+    "word": "雨",
+    "reading": "あめ",
+    "english": "rain"
+   }
+  ]
+ },
+ {
   "id": "kanji-会",
   "kanji": "会",
   "english": "to meet, meeting",
@@ -112,19 +2507,6 @@
   "similar": "聞 (to hear) is the same gate with 耳 ear inside."
  },
  {
-  "id": "kanji-上",
-  "kanji": "上",
-  "english": "up, above",
-  "accept": [
-   "on",
-   "top",
-   "over",
-   "on top"
-  ],
-  "tip": "A mark sitting above the line: up.",
-  "similar": "下 (down) is its mirror, with the mark below the line."
- },
- {
   "id": "kanji-朝",
   "kanji": "朝",
   "english": "morning",
@@ -198,8 +2580,7 @@
   "english": "foot, leg",
   "accept": [
    "enough",
-   "be sufficient",
-   "counter for pairs of footwear"
+   "be sufficient"
   ],
   "parts": [
    {
@@ -212,17 +2593,6 @@
    }
   ],
   "tip": "A kneecap above a foot planted on the ground."
- },
- {
-  "id": "kanji-日",
-  "kanji": "日",
-  "english": "day, sun",
-  "accept": [
-   "Japan",
-   "counter for days"
-  ],
-  "tip": "A picture of the sun. A day is one sun.",
-  "similar": "目 (eye) is taller, with two lines inside instead of one."
  },
  {
   "id": "kanji-遊",
@@ -272,9 +2642,6 @@
   "id": "kanji-頭",
   "kanji": "頭",
   "english": "head",
-  "accept": [
-   "counter for large animals"
-  ],
   "parts": [
    {
     "char": "豆",
@@ -381,31 +2748,6 @@
   "tip": "Layer on layer piled under a cliff (厂): thick."
  },
  {
-  "id": "kanji-後",
-  "kanji": "後",
-  "english": "after, behind",
-  "accept": [
-   "later",
-   "back"
-  ],
-  "parts": [
-   {
-    "char": "彳",
-    "meaning": "step"
-   },
-   {
-    "char": "幺",
-    "meaning": "thread"
-   },
-   {
-    "char": "夂",
-    "meaning": "dragging feet"
-   }
-  ],
-  "tip": "Walking (彳) with your feet tied by thread (幺): you fall behind.",
-  "similar": "御 also starts with 彳."
- },
- {
   "id": "kanji-兄",
   "kanji": "兄",
   "english": "older brother",
@@ -484,13 +2826,6 @@
   "tip": "A mouth holding a sweet on the tongue (the line inside)."
  },
  {
-  "id": "kanji-雨",
-  "kanji": "雨",
-  "english": "rain",
-  "tip": "Raindrops falling under the sky.",
-  "similar": "It sits on top of 雲 (cloud), which you'll find in 曇 (cloudy)."
- },
- {
   "id": "kanji-飴",
   "kanji": "飴",
   "english": "candy",
@@ -538,9 +2873,6 @@
   "id": "kanji-歩",
   "kanji": "歩",
   "english": "to walk",
-  "accept": [
-   "counter for steps"
-  ],
   "parts": [
    {
     "char": "止",
@@ -586,33 +2918,6 @@
   ],
   "tip": "A pig (豕) under a roof (宀): a farmhouse home.",
   "similar": "字 (character) and 室 (room) also have the 宀 roof."
- },
- {
-  "id": "kanji-行",
-  "kanji": "行",
-  "english": "to go",
-  "accept": [
-   "travel",
-   "going",
-   "journey",
-   "carry out",
-   "conduct",
-   "act",
-   "line",
-   "row",
-   "bank"
-  ],
-  "parts": [
-   {
-    "char": "彳",
-    "meaning": "left step"
-   },
-   {
-    "char": "亍",
-    "meaning": "right step"
-   }
-  ],
-  "tip": "A crossroads seen from above: go."
  },
  {
   "id": "kanji-池",
@@ -718,21 +3023,6 @@
   "tip": "疒 is the sickness radical: something hurts."
  },
  {
-  "id": "kanji-一",
-  "kanji": "一",
-  "english": "one",
-  "accept": [
-   "one radical"
-  ],
-  "tip": "One stroke for one."
- },
- {
-  "id": "kanji-五",
-  "kanji": "五",
-  "english": "five",
-  "tip": "Like a 5 with a lid on top."
- },
- {
   "id": "kanji-緒",
   "kanji": "緒",
   "english": "cord, strap",
@@ -773,23 +3063,6 @@
   ],
   "tip": "A big (大) animal with a dot for its ear: dog.",
   "similar": "大 (big) has no dot."
- },
- {
-  "id": "kanji-今",
-  "kanji": "今",
-  "english": "now",
-  "parts": [
-   {
-    "char": "人",
-    "meaning": "roof shape"
-   },
-   {
-    "char": "一",
-    "meaning": "one"
-   }
-  ],
-  "tip": "Under the roof, right at this moment: now.",
-  "similar": "会 (to meet) has the same roof, with 二 and 厶 underneath."
  },
  {
   "id": "kanji-意",
@@ -876,16 +3149,6 @@
    }
   ],
   "tip": "A woman (女) made to combine (兼) two jobs: she hates it."
- },
- {
-  "id": "kanji-入",
-  "kanji": "入",
-  "english": "to enter",
-  "accept": [
-   "insert"
-  ],
-  "tip": "An arrow pointing in: enter.",
-  "similar": "人 (person) is the reverse: in 人 the left stroke is the long one."
  },
  {
   "id": "kanji-口",
@@ -1006,16 +3269,6 @@
   "tip": "欠 is a person with an open mouth. 可可 is the \"la-la\" being sung."
  },
  {
-  "id": "kanji-生",
-  "kanji": "生",
-  "english": "life, birth",
-  "accept": [
-   "genuine"
-  ],
-  "tip": "A plant pushing up out of the ground: life, birth.",
-  "similar": "青 (blue) starts with a squashed form of it."
- },
- {
   "id": "kanji-海",
   "kanji": "海",
   "english": "sea",
@@ -1089,8 +3342,7 @@
   "accept": [
    "put on",
    "clothes",
-   "don",
-   "counter for suits of clothing"
+   "don"
   ],
   "parts": [
    {
@@ -1220,32 +3472,6 @@
   "similar": "映 also has 央."
  },
  {
-  "id": "kanji-語",
-  "kanji": "語",
-  "english": "language, word",
-  "accept": [
-   "speak",
-   "tell",
-   "speech"
-  ],
-  "parts": [
-   {
-    "char": "訁",
-    "meaning": "words"
-   },
-   {
-    "char": "五",
-    "meaning": "five"
-   },
-   {
-    "char": "口",
-    "meaning": "mouth"
-   }
-  ],
-  "tip": "Words (訁) from five (五) mouths (口): a language.",
-  "similar": "訁 is 言 (to say) squashed onto the left."
- },
- {
   "id": "kanji-駅",
   "kanji": "駅",
   "english": "station",
@@ -1322,16 +3548,6 @@
   "similar": "外 (outside) has a single 夕."
  },
  {
-  "id": "kanji-大",
-  "kanji": "大",
-  "english": "big",
-  "accept": [
-   "large"
-  ],
-  "tip": "A person stretching their arms out wide: big.",
-  "similar": "犬 (dog) adds a dot. 人 (person) has no crossbar."
- },
- {
   "id": "kanji-勢",
   "kanji": "勢",
   "english": "force, power",
@@ -1352,13 +3568,6 @@
   ],
   "tip": "力 strength at the bottom, as in 大勢 (a great crowd of people).",
   "similar": "熱 (heat) has the same top, with 灬 fire below."
- },
- {
-  "id": "kanji-母",
-  "kanji": "母",
-  "english": "mother",
-  "tip": "A woman with two dots inside: mother.",
-  "similar": "毎 (in 海, sea) looks like 母 with a hat."
  },
  {
   "id": "kanji-菓",
@@ -1382,30 +3591,6 @@
   ],
   "tip": "Plants (艹) and fruit (果) cooked into sweets.",
   "similar": "果 (fruit) is its bottom half."
- },
- {
-  "id": "kanji-子",
-  "kanji": "子",
-  "english": "child",
-  "accept": [
-   "kid",
-   "children",
-   "sign of the rat",
-   "11PM-1AM",
-   "first sign of Chinese zodiac"
-  ],
-  "tip": "A baby with its arms out and legs wrapped up.",
-  "similar": "字 (character) is 子 under a roof."
- },
- {
-  "id": "kanji-金",
-  "kanji": "金",
-  "english": "gold, money",
-  "accept": [
-   "metal"
-  ],
-  "tip": "Two nuggets buried in the earth (土) under a roof: gold.",
-  "similar": "On the left of another kanji it marks a metal, as in 銀 and 鉛."
  },
  {
   "id": "kanji-起",
@@ -1530,12 +3715,6 @@
   ],
   "tip": "An altar (礻) with a stacked memorial tablet (且): honouring ancestors.",
   "similar": "社 (shrine) also has 礻 altar."
- },
- {
-  "id": "kanji-父",
-  "kanji": "父",
-  "english": "father",
-  "tip": "Two crossed strokes, like a father's hand holding a tool."
  },
  {
   "id": "kanji-教",
@@ -1696,26 +3875,6 @@
   "tip": "A cord wound round a stick, turn by turn: next in line, the younger brother."
  },
  {
-  "id": "kanji-男",
-  "kanji": "男",
-  "english": "man",
-  "accept": [
-   "male",
-   "boy"
-  ],
-  "parts": [
-   {
-    "char": "田",
-    "meaning": "field"
-   },
-   {
-    "char": "力",
-    "meaning": "power"
-   }
-  ],
-  "tip": "Power (力) in the field (田): man."
- },
- {
   "id": "kanji-昨",
   "kanji": "昨",
   "english": "yesterday, previous",
@@ -1733,27 +3892,6 @@
    }
   ],
   "tip": "The day (日) that's suddenly gone: 昨日 (yesterday)."
- },
- {
-  "id": "kanji-年",
-  "kanji": "年",
-  "english": "year",
-  "accept": [
-   "age",
-   "counter for years"
-  ],
-  "tip": "A farmer carrying a sheaf of grain: one harvest a year."
- },
- {
-  "id": "kanji-人",
-  "kanji": "人",
-  "english": "person",
-  "accept": [
-   "human",
-   "people"
-  ],
-  "tip": "Two legs walking.",
-  "similar": "入 (to enter) is the reverse: in 入 the right stroke is the long one."
  },
  {
   "id": "kanji-同",
@@ -2016,58 +4154,6 @@
   "similar": "薬 (medicine) is 楽 with 艹 plants on top."
  },
  {
-  "id": "kanji-女",
-  "kanji": "女",
-  "english": "woman",
-  "accept": [
-   "female",
-   "girl",
-   "lady"
-  ],
-  "tip": "A woman kneeling gracefully.",
-  "similar": "It's on the left of 姉, 妹 and 嫌."
- },
- {
-  "id": "kanji-外",
-  "kanji": "外",
-  "english": "outside",
-  "accept": [
-   "abroad",
-   "foreign"
-  ],
-  "parts": [
-   {
-    "char": "夕",
-    "meaning": "evening"
-   },
-   {
-    "char": "卜",
-    "meaning": "divination"
-   }
-  ],
-  "tip": "Fortune-telling (卜) in the evening (夕) was done outside.",
-  "similar": "多 (many) is two 夕."
- },
- {
-  "id": "kanji-国",
-  "kanji": "国",
-  "english": "country",
-  "accept": [
-   "nation"
-  ],
-  "parts": [
-   {
-    "char": "囗",
-    "meaning": "border"
-   },
-   {
-    "char": "玉",
-    "meaning": "jewel"
-   }
-  ],
-  "tip": "The king's jewel (玉) inside the borders (囗): a country."
- },
- {
   "id": "kanji-社",
   "kanji": "社",
   "english": "company, shrine",
@@ -2097,8 +4183,7 @@
   "accept": [
    "stairs",
    "level",
-   "stair",
-   "counter for storeys of a building"
+   "stair"
   ],
   "parts": [
    {
@@ -2216,52 +4301,6 @@
   "tip": "Return home and pick up the broom (帚)."
  },
  {
-  "id": "kanji-書",
-  "kanji": "書",
-  "english": "to write",
-  "accept": [
-   "book"
-  ],
-  "parts": [
-   {
-    "char": "聿",
-    "meaning": "brush"
-   },
-   {
-    "char": "日",
-    "meaning": "speaking mouth"
-   }
-  ],
-  "tip": "A brush (聿) above a speaking mouth (日): writing the words down.",
-  "similar": "筆 (writing brush) has the same 聿."
- },
- {
-  "id": "kanji-学",
-  "kanji": "学",
-  "english": "to study",
-  "accept": [
-   "learn",
-   "learning",
-   "science"
-  ],
-  "parts": [
-   {
-    "char": "⺍",
-    "meaning": "sparks"
-   },
-   {
-    "char": "冖",
-    "meaning": "roof"
-   },
-   {
-    "char": "子",
-    "meaning": "child"
-   }
-  ],
-  "tip": "A child (子) under a roof with sparks of ideas (⺍): studying.",
-  "similar": "字 (character) has a plain 宀 roof. 覚 (remember) has the same top."
- },
- {
   "id": "kanji-傘",
   "kanji": "傘",
   "english": "umbrella",
@@ -2338,29 +4377,6 @@
    "alternative"
   ],
   "tip": "A signpost pointing a direction. Politely, あの方 means \"that person\"."
- },
- {
-  "id": "kanji-校",
-  "kanji": "校",
-  "english": "school",
-  "accept": [
-   "schoolhouse",
-   "exam",
-   "printing",
-   "proof",
-   "correction"
-  ],
-  "parts": [
-   {
-    "char": "木",
-    "meaning": "wood"
-   },
-   {
-    "char": "交",
-    "meaning": "mix"
-   }
-  ],
-  "tip": "A wooden (木) building where people mix (交): school."
  },
  {
   "id": "kanji-庭",
@@ -2452,13 +4468,6 @@
   "similar": "終, 絵 and 緒 also have 糸 thread on the left."
  },
  {
-  "id": "kanji-火",
-  "kanji": "火",
-  "english": "fire",
-  "tip": "Flames rising from a fire.",
-  "similar": "At the bottom of a kanji it becomes 灬, as in 熱 and 黒."
- },
- {
   "id": "kanji-曜",
   "kanji": "曜",
   "english": "day of the week",
@@ -2498,8 +4507,7 @@
   "accept": [
    "substance",
    "object",
-   "reality",
-   "counter for images"
+   "reality"
   ],
   "parts": [
    {
@@ -2554,17 +4562,6 @@
    }
   ],
   "tip": "車 on the left: a light cart that's easy to pull."
- },
- {
-  "id": "kanji-川",
-  "kanji": "川",
-  "english": "river",
-  "accept": [
-   "stream",
-   "river or three-stroke river radical"
-  ],
-  "tip": "Three lines of flowing water.",
-  "similar": "河 is also a river, written with 氵 water."
  },
  {
   "id": "kanji-河",
@@ -2622,13 +4619,6 @@
   "similar": "学 (to study) has ⺍ sparks over the roof."
  },
  {
-  "id": "kanji-木",
-  "kanji": "木",
-  "english": "tree, wood",
-  "tip": "A tree with branches and roots.",
-  "similar": "未 (not yet), in 妹 and 味, has an extra short line."
- },
- {
   "id": "kanji-黄",
   "kanji": "黄",
   "english": "yellow",
@@ -2667,33 +4657,6 @@
    }
   ],
   "tip": "Water (氵) puts the fire out: it disappears."
- },
- {
-  "id": "kanji-聞",
-  "kanji": "聞",
-  "english": "to hear",
-  "accept": [
-   "listen",
-   "ask"
-  ],
-  "parts": [
-   {
-    "char": "門",
-    "meaning": "gate"
-   },
-   {
-    "char": "耳",
-    "meaning": "ear"
-   }
-  ],
-  "tip": "An ear (耳) pressed to the gate (門): listening.",
-  "similar": "開 (to open) is the same gate with a bar and two hands inside."
- },
- {
-  "id": "kanji-北",
-  "kanji": "北",
-  "english": "north",
-  "tip": "Two people sitting back to back, turning away from the cold north."
  },
  {
   "id": "kanji-汚",
@@ -2799,13 +4762,6 @@
   ],
   "tip": "A bamboo (⺮) tag attached (付) to you: a ticket, as in 切符.",
   "similar": "筆 also has ⺮ bamboo."
- },
- {
-  "id": "kanji-九",
-  "kanji": "九",
-  "english": "nine",
-  "tip": "A hooked stroke: nine.",
-  "similar": "力 (power), in 男 and 勢, hooks down to the left instead."
  },
  {
   "id": "kanji-牛",
@@ -2980,21 +4936,6 @@
   "similar": "花 (flower) also has 化."
  },
  {
-  "id": "kanji-下",
-  "kanji": "下",
-  "english": "below, down",
-  "accept": [
-   "under",
-   "beneath",
-   "low",
-   "descend",
-   "give",
-   "inferior"
-  ],
-  "tip": "A mark hanging below the line: down.",
-  "similar": "上 (up) is its mirror."
- },
- {
   "id": "kanji-曇",
   "kanji": "曇",
   "english": "cloudy",
@@ -3039,30 +4980,6 @@
   ],
   "tip": "The sun (日) is gone and only sounds (音) are left: dark.",
   "similar": "暖 (warm) also has 日 on the left."
- },
- {
-  "id": "kanji-来",
-  "kanji": "来",
-  "english": "to come",
-  "accept": [
-   "arrive",
-   "due",
-   "next",
-   "cause",
-   "become"
-  ],
-  "tip": "A tree (木) with a crossbar and two marks: something coming.",
-  "similar": "木 (tree) is the same without the extra marks."
- },
- {
-  "id": "kanji-車",
-  "kanji": "車",
-  "english": "car, vehicle",
-  "accept": [
-   "wheel"
-  ],
-  "tip": "A cart seen from above: the axle through two wheels.",
-  "similar": "重 (heavy) has an extra slanting stroke on top."
  },
  {
   "id": "kanji-黒",

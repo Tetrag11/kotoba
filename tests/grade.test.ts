@@ -1,7 +1,10 @@
 import { describe, expect, it } from "vitest";
 import { acceptedAnswers, grade, normalize } from "../lib/grade";
 import { allCardIds, decks } from "../lib/decks";
-import { kanji } from "../lib/kanji";
+import { kanji, n5Kanji } from "../lib/kanji";
+
+const N5 =
+  "日一国人年大十二本中長出三時行見月分後前生五間上東四今金九入学高円子外八六下来気小七山話女北午百書先名川千水半男西電校語土木聞食車何南万毎白天母火右読友左休父雨";
 import { words } from "../lib/words";
 
 const byKana = (kana: string, kanji = "") =>
@@ -97,10 +100,19 @@ describe("word list", () => {
 describe("kanji list", () => {
   const byChar = (char: string) => kanji.find((k) => k.kanji === char)!;
 
-  it("has every kanji in the word list, and only those", () => {
-    const inWords = new Set(words.flatMap((w) => Array.from(w.kanji)).filter((c) => /\p{sc=Han}/u.test(c)));
-    expect(new Set(kanji.map((k) => k.kanji))).toEqual(inWords);
-    expect(kanji).toHaveLength(inWords.size);
+  it("knows every kanji in the word list and every N5 kanji, once each", () => {
+    const inWords = words.flatMap((w) => Array.from(w.kanji)).filter((c) => /\p{sc=Han}/u.test(c));
+    const known = new Set(kanji.map((k) => k.kanji));
+    expect(known.size).toBe(kanji.length);
+    for (const c of inWords) expect(known.has(c), c).toBe(true);
+    for (const c of N5) expect(known.has(c), c).toBe(true);
+  });
+  it("quizzes exactly the 80 N5 kanji in Kanji mode", () => {
+    expect(n5Kanji.map((k) => k.kanji).join("")).toBe(N5);
+    expect(decks.kanji.cards.map((c) => c.prompt).join("")).toBe(N5);
+  });
+  it("keeps the ids of kanji that were already being studied, so progress carries over", () => {
+    expect(decks.kanji.cards.find((c) => c.prompt === "雨")!.id).toBe("kanji-雨");
   });
   it("accepts its own displayed meaning", () => {
     for (const k of kanji) expect(grade(k, k.english), k.kanji).toBe("correct");
@@ -116,13 +128,17 @@ describe("kanji list", () => {
     expect(grade(byChar("貸"), "to borrow")).toBe("wrong");
     expect(grade(byChar("赤"), "blue")).toBe("wrong");
   });
-  it("gives every kanji a word from the list as an example", () => {
-    for (const c of decks.kanji.cards) expect(c.examples?.length, c.prompt).toBeGreaterThan(0);
-    const lend = decks.kanji.cards.find((c) => c.prompt === "貸")!;
-    expect(lend.examples?.[0].word).toBe("貸す");
+  it("gives every N5 kanji an example word, using it, from the N5 list", () => {
+    for (const c of decks.kanji.cards) {
+      expect(c.examples?.length, c.prompt).toBeGreaterThan(0);
+      for (const e of c.examples!) expect(e.word, c.prompt).toContain(c.prompt);
+    }
+    // Words from the pages being studied come first.
+    expect(decks.kanji.cards.find((c) => c.prompt === "車")!.examples![0].word).toBe("車");
+    expect(decks.kanji.cards.find((c) => c.prompt === "見")!.examples![0].word).toBe("見る");
   });
   it("shares no ids between decks", () => {
-    expect(allCardIds.size).toBe(words.length + kanji.length);
+    expect(allCardIds.size).toBe(words.length + n5Kanji.length);
   });
   it("gives every kanji a memory tip", () => {
     for (const k of kanji) expect(k.tip.length, k.kanji).toBeGreaterThan(10);
@@ -143,5 +159,12 @@ describe("kanji list", () => {
     expect(card("伯父さん/叔父さん").kanjiMeanings?.map((p) => p.char)).toEqual(["伯", "父", "叔"]);
     expect(card("雨").kanjiMeanings).toBeUndefined();
     expect(card("あさって").kanjiMeanings).toBeUndefined();
+  });
+  it("accepts numbers for number kanji", () => {
+    const k = (c: string) => kanji.find((x) => x.kanji === c)!;
+    expect(grade(k("八"), "8")).toBe("correct");
+    expect(grade(k("千"), "1,000")).toBe("correct");
+    expect(grade(k("万"), "10000")).toBe("correct");
+    expect(grade(k("五"), "5")).toBe("correct");
   });
 });
